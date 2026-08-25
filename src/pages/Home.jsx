@@ -458,7 +458,7 @@ function Home() {
           <div className="footer-left">
 
             <h2>
-              🌾 Aalaporan Thamizhan
+              🌾 DEEP CODE
             </h2>
 
 
@@ -529,7 +529,7 @@ function Home() {
 
               >
 
-                👨‍💻 Know More DEEPAK
+                👨‍💻 More about DEEPAK
 
               </button>
 
