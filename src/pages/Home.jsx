@@ -567,7 +567,7 @@ function Home() {
 
         <p className="copyright">
 
-          © 2026 DEEP CODE • Designed & Developed by Deepak
+          © 2026 DEEP CODE • Designed & Developed by DEEPAK L
 
         </p>
 
