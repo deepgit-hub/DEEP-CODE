@@ -360,9 +360,7 @@ const progress =
 
                 <strong>
 
-                  {student
-                    ? student.completedTopics.length
-                    : 0}
+                  {completedCount}
 
                 </strong>
 
@@ -385,11 +383,9 @@ const progress =
 
               <p className="progress-message">
 
-                {student && topics.length > 0
-
-                  ? `🚀 Keep going! You've completed ${student.completedTopics.length} of ${topics.length} topics.`
-
-                  : "Loading your progress..."}
+              {student && topics.length > 0
+  ? `🚀 Keep going! You've completed ${completedCount} of ${topics.length} topics.`
+  : "Loading your progress..."}
 
               </p>
 
@@ -413,9 +409,7 @@ const progress =
 
                 title={topic.title}
 
-                completed={
-                  student?.completedTopics?.includes(topic.id)
-                }
+                completed={currentLanguageTopics.includes(topic.id)}
 
                 onClick={() =>
                   navigate(
