@@ -56,42 +56,52 @@ const isCompleted = currentLanguageTopics.includes(
 );
 const handleMarkAsLearned = async () => {
   try {
+    if (!student) {
+      alert("❌ Student information not found.");
+      navigate("/");
+      return;
+    }
+
+    const completedTopicsByLanguage = {
+      ...(student.completedTopicsByLanguage || {}),
+    };
+
+    const currentLanguageTopics =
+      completedTopicsByLanguage[languageId] || [];
 
     let updatedTopics;
 
-    if (isCompleted) {
-
+    if (currentLanguageTopics.includes(Number(topicId))) {
       // Mark as Unread
-      updatedTopics = student.completedTopics.filter(
+      updatedTopics = currentLanguageTopics.filter(
         (id) => id !== Number(topicId)
       );
-
     } else {
-
       // Mark as Learned
       updatedTopics = [
-        ...student.completedTopics,
+        ...currentLanguageTopics,
         Number(topicId),
       ];
-
     }
 
-    const updatedTotal = updatedTopics.length;
+    completedTopicsByLanguage[languageId] = updatedTopics;
 
     await updateDoc(
       doc(db, "students", student.username),
       {
-        completedTopics: updatedTopics,
-        totalCompleted: updatedTotal,
+        [`completedTopicsByLanguage.${languageId}`]:
+          updatedTopics,
       }
     );
 
-    student.completedTopics = updatedTopics;
-    student.totalCompleted = updatedTotal;
+    const updatedStudent = {
+      ...student,
+      completedTopicsByLanguage,
+    };
 
     localStorage.setItem(
       "student",
-      JSON.stringify(student)
+      JSON.stringify(updatedStudent)
     );
 
     alert(
@@ -101,7 +111,6 @@ const handleMarkAsLearned = async () => {
     );
 
     window.location.reload();
-
   } catch (error) {
     console.error(error);
     alert("❌ Failed to update progress.");
