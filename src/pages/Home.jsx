@@ -113,16 +113,22 @@ function Home() {
   );
 
 
-  /* ================= PROGRESS ================= */
+  /* ================= LANGUAGE-SPECIFIC PROGRESS ================= */
 
-  const progress =
-    student && topics.length > 0
-      ? Math.round(
-          (student.completedTopics.length /
-            topics.length) *
-            100
-        )
-      : 0;
+const completedTopicsByLanguage =
+  student?.completedTopicsByLanguage || {};
+
+const currentLanguageTopics =
+  completedTopicsByLanguage[languageId] || [];
+
+const completedCount = currentLanguageTopics.length;
+
+const progress =
+  topics.length > 0
+    ? Math.round(
+        (completedCount / topics.length) * 100
+      )
+    : 0;
 
 
   return (
