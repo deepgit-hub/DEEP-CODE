@@ -27,7 +27,7 @@ function Welcome() {
 
         <h1>DEEP CODE</h1>
 
-        <h2>Welcome Back 👋</h2>
+        <h2>Welcome Junior 👋</h2>
 
         <h3>{student.name}</h3>
 
@@ -49,7 +49,7 @@ function Welcome() {
 
         <div className="language-card">
 
-          <span>📚 Assigned Language</span>
+          <span>📚 Choosen Language</span>
 
           <h2>
   {student.language === "java" && "☕ JAVA"}
