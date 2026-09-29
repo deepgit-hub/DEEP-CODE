@@ -269,21 +269,25 @@ function Home() {
 
 
 
-          {/* ================= THINGS TO REMEMBER BUTTON ================= */}
+          {/* ================= LEARNING HUB ACTIONS ================= */}
 
-          <div className="remember-button-container">
+<div className="remember-button-container">
 
-            <button
-              className="remember-btn"
-              onClick={() => setShowRemember(true)}
-            >
+  <button
+    className="remember-btn"
+    onClick={() => setShowRemember(true)}
+  >
+    📌 Things to Remember
+  </button>
 
-              📌 Things to Remember
+  <button
+    className="remember-btn"
+    onClick={() => navigate("/choose-language")}
+  >
+    🌐 Switch Language
+  </button>
 
-            </button>
-
-          </div>
-
+</div>
 
 
           {/* ================= SEARCH ================= */}
