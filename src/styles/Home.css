@@ -874,3 +874,84 @@ body{
     }
 
 }
+/* ================= LEARNING HUB ACTION BUTTONS ================= */
+
+.remember-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin: 28px 0;
+}
+
+.remember-button-container .remember-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+  padding: 13px 24px;
+  min-height: 46px;
+
+  border: none;
+  border-radius: 12px;
+
+  background: #f59e0b;
+  color: #ffffff;
+
+  font-size: 15px;
+  font-weight: 600;
+  font-family: inherit;
+
+  cursor: pointer;
+
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.10);
+
+  transition:
+    background 0.2s ease,
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+/* Things to Remember */
+.remember-button-container .remember-btn:first-child {
+  background: linear-gradient(135deg, #f59e0b, #ea8a04);
+}
+
+/* Switch Language */
+.remember-button-container .remember-btn:last-child {
+  background: linear-gradient(135deg, #3b82f6, #2563eb);
+}
+
+/* Hover effect */
+.remember-button-container .remember-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.16);
+}
+
+.remember-button-container .remember-btn:first-child:hover {
+  background: #d97706;
+}
+
+.remember-button-container .remember-btn:last-child:hover {
+  background: #1d4ed8;
+}
+
+/* Keyboard accessibility */
+.remember-button-container .remember-btn:focus-visible {
+  outline: 3px solid #93c5fd;
+  outline-offset: 4px;
+}
+
+/* Mobile screens */
+@media (max-width: 480px) {
+  .remember-button-container {
+    gap: 10px;
+  }
+
+  .remember-button-container .remember-btn {
+    padding: 12px 16px;
+    font-size: 14px;
+  }
+}
