@@ -45,7 +45,13 @@ const student = JSON.parse(
 if (!topic) {
   return <h2>Loading...</h2>;
 }
-const isCompleted = student.completedTopics.includes(
+const completedTopicsByLanguage =
+  student?.completedTopicsByLanguage || {};
+
+const currentLanguageTopics =
+  completedTopicsByLanguage[languageId] || [];
+
+const isCompleted = currentLanguageTopics.includes(
   Number(topicId)
 );
 const handleMarkAsLearned = async () => {
