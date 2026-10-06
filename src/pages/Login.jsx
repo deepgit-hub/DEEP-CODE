@@ -41,13 +41,7 @@ console.log("Typed password:", password);
       // Login Successful
 alert(`🎉 Welcome ${student.name}`);
 
-if (!student.language) {
-  // New student → choose language
-  navigate("/choose-language");
-} else {
-  // Existing student → continue normally
-  navigate("/welcome");
-}
+navigate("/deep");
 
     } catch (error) {
       console.error(error);
