@@ -1,4 +1,8 @@
+import { useNavigate } from "react-router-dom";
+
 function DeepLearn() {
+  const navigate = useNavigate();
+
   return (
     <div>
       <h1>🎓 DEEP LEARN</h1>
@@ -9,11 +13,47 @@ function DeepLearn() {
       </p>
 
       <div>
-        <button>🗣️ Communication Skills</button>
-        <button>🎤 Interview Skills</button>
-        <button>💼 Workplace Skills</button>
-        <button>💻 Professional Skills</button>
-        <button>🧠 Personal Skills</button>
+
+        <button
+          onClick={() =>
+            navigate("/deep-learn/communication")
+          }
+        >
+          🗣️ Communication Skills
+        </button>
+
+        <button
+          onClick={() =>
+            navigate("/deep-learn/interview")
+          }
+        >
+          🎤 Interview Skills
+        </button>
+
+        <button
+          onClick={() =>
+            navigate("/deep-learn/workplace")
+          }
+        >
+          💼 Workplace Skills
+        </button>
+
+        <button
+          onClick={() =>
+            navigate("/deep-learn/professional")
+          }
+        >
+          💻 Professional Skills
+        </button>
+
+        <button
+          onClick={() =>
+            navigate("/deep-learn/personal")
+          }
+        >
+          🧠 Personal Skills
+        </button>
+
       </div>
     </div>
   );
