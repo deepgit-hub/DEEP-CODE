@@ -11,6 +11,7 @@ import ChooseLanguage from "./pages/ChooseLanguage";
 import Deep from "./pages/Deep";
 import DeepLearn from "./pages/DeepLearn";
 import DeepLearnCategory from "./pages/DeepLearnCategory";
+import DeepLearnConcept from "./pages/DeepLearnConcept";
 
 function App() {
   return (
