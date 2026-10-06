@@ -1,13 +1,11 @@
 import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
-import {collection,getDocs,} from "firebase/firestore";
+import { useNavigate, useParams } from "react-router-dom";
+import { collection, getDocs } from "firebase/firestore";
 import { db } from "../firebase";
-import { useNavigate } from "react-router-dom";
 
 function DeepLearnCategory() {
-const { categoryId } = useParams();
-const navigate = useNavigate();
-
+  const { categoryId } = useParams();
+  const navigate = useNavigate();
 
   const [concepts, setConcepts] = useState([]);
 
@@ -43,27 +41,28 @@ const navigate = useNavigate();
     <div>
       <h1>🎓 DEEP LEARN</h1>
 
-      <h2>
-        {categoryId?.toUpperCase()}
-      </h2>
+      <h2>{categoryId?.toUpperCase()}</h2>
 
       {concepts.map((concept) => (
-  <div
-    key={concept.id}
-    onClick={() =>
-      navigate(
-        `/deep-learn/${categoryId}/${concept.id}`
-      )
-    }
-    style={{ cursor: "pointer" }}
-  >
-    <h3>{concept.title}</h3>
+        <div
+          key={concept.id}
+          onClick={() =>
+            navigate(
+              `/deep-learn/${categoryId}/${concept.id}`
+            )
+          }
+          style={{
+            cursor: "pointer",
+            border: "1px solid #ccc",
+            padding: "15px",
+            margin: "10px 0",
+          }}
+        >
+          <h3>{concept.title}</h3>
 
-    <p>
-      {concept.englishExplanation}
-    </p>
-  </div>
-))}
+          <p>{concept.englishExplanation}</p>
+        </div>
+      ))}
     </div>
   );
 }
