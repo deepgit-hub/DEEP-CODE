@@ -10,6 +10,7 @@ import Welcome from "./pages/Welcome";
 import ChooseLanguage from "./pages/ChooseLanguage";
 import Deep from "./pages/Deep";
 import DeepLearn from "./pages/DeepLearn";
+import DeepLearnCategory from "./pages/DeepLearnCategory";
 
 function App() {
   return (
