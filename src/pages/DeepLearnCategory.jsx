@@ -48,18 +48,22 @@ const navigate = useNavigate();
       </h2>
 
       {concepts.map((concept) => (
-        <div key={concept.id}>
-          <h3>{concept.title}</h3>
+  <div
+    key={concept.id}
+    onClick={() =>
+      navigate(
+        `/deep-learn/${categoryId}/${concept.id}`
+      )
+    }
+    style={{ cursor: "pointer" }}
+  >
+    <h3>{concept.title}</h3>
 
-          <p>
-            🇬🇧 {concept.englishExplanation}
-          </p>
-
-          <p>
-            🇮🇳 {concept.tamilExplanation}
-          </p>
-        </div>
-      ))}
+    <p>
+      {concept.englishExplanation}
+    </p>
+  </div>
+))}
     </div>
   );
 }
