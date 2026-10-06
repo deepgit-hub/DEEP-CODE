@@ -8,6 +8,7 @@ import QuestionDetails from "./pages/QuestionDetails";
 import Login from "./pages/Login";
 import Welcome from "./pages/Welcome";
 import ChooseLanguage from "./pages/ChooseLanguage";
+import Deep from "./pages/Deep";
 
 function App() {
   return (
