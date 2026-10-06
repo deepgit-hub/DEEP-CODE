@@ -18,7 +18,7 @@ function App() {
         path="/"
         element={<Login />}
       />
-
+<Route path="/deep" element={<Deep />} />
       {/* Choose Language */}
       <Route
         path="/choose-language"
