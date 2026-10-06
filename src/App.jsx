@@ -9,6 +9,7 @@ import Login from "./pages/Login";
 import Welcome from "./pages/Welcome";
 import ChooseLanguage from "./pages/ChooseLanguage";
 import Deep from "./pages/Deep";
+import DeepLearn from "./pages/DeepLearn";
 
 function App() {
   return (
