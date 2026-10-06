@@ -1,10 +1,8 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import {
-  collection,
-  getDocs,
-} from "firebase/firestore";
+import {collection,getDocs,} from "firebase/firestore";
 import { db } from "../firebase";
+import { useNavigate } from "react-router-dom";
 
 function DeepLearnCategory() {
   const { categoryId } = useParams();
