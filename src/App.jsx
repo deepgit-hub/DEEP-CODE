@@ -24,6 +24,10 @@ function App() {
         path="/deep" 
         element={<Deep />} 
       />
+      <Route
+  path="/deep-learn"
+  element={<DeepLearn />}
+/>
       {/* Choose Language */}
       <Route
         path="/choose-language"
