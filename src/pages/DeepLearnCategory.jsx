@@ -5,7 +5,9 @@ import { db } from "../firebase";
 import { useNavigate } from "react-router-dom";
 
 function DeepLearnCategory() {
-  const { categoryId } = useParams();
+const { categoryId } = useParams();
+const navigate = useNavigate();
+
 
   const [concepts, setConcepts] = useState([]);
 
