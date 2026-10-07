@@ -684,6 +684,69 @@ const concepts = [
       "அடுத்த முறை ஒரு teacher அல்லது friend-உடன் பேசும்போது, அவர்கள் பேசுவதை கேட்கும் நேரத்தில் இயல்பான eye contact-ஐ practice செய்யுங்கள். இது conversation-ல் அதிக கவனம் செலுத்த உதவுகிறதா என்பதை கவனியுங்கள்."
   }
 },
+{
+  conceptId: 12,
+  title: "Tone of Voice",
+
+  understand: {
+    english:
+      "Tone of voice is the way your voice sounds when you communicate. The same words can create different impressions depending on your tone. A calm, respectful, and appropriate tone can make communication more effective.",
+
+    tamil:
+      "Tone of Voice என்பது நாம் பேசும்போது நம்முடைய குரல் எப்படி ஒலிக்கிறது என்பதாகும். ஒரே வார்த்தைகளை வெவ்வேறு tone-ல் பேசும்போது வெவ்வேறு impressions உருவாகலாம். Calm, respectful மற்றும் situation-க்கு ஏற்ற tone communication-ஐ சிறப்பாக மாற்றும்."
+  },
+
+  seeTheSituation: {
+    english:
+      "Imagine that your teammate makes a small mistake in a project. You could say, 'You made a mistake' in an angry tone, or you could calmly explain what went wrong and discuss how to fix it. The words may be similar, but the tone changes how the message is received.",
+
+    tamil:
+      "உங்கள் teammate ஒரு project-ல் ஒரு சிறிய தவறு செய்கிறார் என்று நினைத்துக் கொள்ளுங்கள். கோபமான tone-ல் 'You made a mistake' என்று சொல்லலாம், அல்லது அமைதியாக என்ன தவறு நடந்தது என்பதை விளக்கி அதை எப்படி சரி செய்வது என்று பேசலாம். வார்த்தைகள் ஒரே மாதிரியாக இருந்தாலும், tone மாறும்போது message-ஐ மற்றவர் எடுத்துக்கொள்ளும் விதமும் மாறுகிறது."
+  },
+
+  commonMistake: {
+    english:
+      "A common mistake is using an angry, impatient, or sarcastic tone when the situation does not require it. People may misunderstand your intention even when your words are correct.",
+
+    tamil:
+      "Situation-க்கு தேவையில்லாமல் angry, impatient அல்லது sarcastic tone-ஐ பயன்படுத்துவது பொதுவான தவறு. உங்கள் words சரியாக இருந்தாலும், உங்கள் intention-ஐ மற்றவர்கள் தவறாக புரிந்து கொள்ளலாம்."
+  },
+
+  betterApproach: {
+    english:
+      "Think about the situation and the person you are speaking with. Keep your tone calm and respectful, especially when discussing mistakes, disagreements, or sensitive topics.",
+
+    tamil:
+      "Situation மற்றும் நீங்கள் பேசும் நபரை கருத்தில் கொள்ளுங்கள். குறிப்பாக mistakes, disagreements அல்லது sensitive topics பற்றி பேசும்போது உங்கள் tone-ஐ calm மற்றும் respectful-ஆக வைத்துக் கொள்ளுங்கள்."
+  },
+
+  usefulExpressions: [
+    {
+      english: "I understand your point.",
+      tamil: "உங்கள் கருத்து எனக்கு புரிகிறது."
+    },
+    {
+      english: "Let's look at the problem together.",
+      tamil: "இந்த problem-ஐ ஒன்றாக பார்க்கலாம்."
+    },
+    {
+      english: "I think we can improve this.",
+      tamil: "இதை நாம் இன்னும் improve செய்யலாம் என்று நினைக்கிறேன்."
+    },
+    {
+      english: "I understand, but I have a different opinion.",
+      tamil: "எனக்கு புரிகிறது, ஆனால் எனக்கு வேறுபட்ட கருத்து உள்ளது."
+    }
+  ],
+
+  tryYourself: {
+    english:
+      "Imagine that a teammate makes a mistake that affects your work. How would you explain the problem using a calm and respectful tone?",
+
+    tamil:
+      "ஒரு teammate செய்யும் தவறு உங்கள் வேலையை பாதிக்கிறது என்று நினைத்துக் கொள்ளுங்கள். Calm மற்றும் respectful tone-ல் அந்த problem-ஐ எப்படி explain செய்வீர்கள்?"
+  }
+}
 ];
 
 export default concepts;
