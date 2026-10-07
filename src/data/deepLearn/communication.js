@@ -188,7 +188,69 @@ const concepts = [
       "உங்கள் teacher உங்கள் college project-ஐ ஒரு நிமிடத்தில் விளக்கச் சொல்கிறார் என்று நினைத்துக் கொள்ளுங்கள். தேவையில்லாத விவரங்களை சொல்லாமல், உங்கள் project-ஐ தெளிவாக எப்படி விளக்குவீர்கள்?"
   }
 },
+{
+  conceptId: 4,
+  title: "Building Confidence While Speaking",
 
+  understand: {
+    english:
+      "Speaking confidence means being able to express your thoughts without being overly afraid of making mistakes or being judged. Confidence does not mean speaking perfectly. It means being willing to speak, share your ideas, and improve through practice.",
+
+    tamil:
+      "Speaking confidence என்பது தவறு செய்வோம் அல்லது மற்றவர்கள் நம்மை மதிப்பிடுவார்கள் என்ற அதிக பயம் இல்லாமல் நம்முடைய எண்ணங்களை வெளிப்படுத்தும் திறன். Confidence என்றால் perfect-ஆக பேசுவது என்று அர்த்தம் இல்லை. பேசுவதற்கு முயற்சி செய்வதும், நம்முடைய கருத்துகளை பகிர்வதும், practice மூலம் முன்னேறுவதும் தான்."
+  },
+
+  seeTheSituation: {
+    english:
+      "Imagine that your teacher asks you to explain your project in front of the class. You feel nervous, but you take a breath, organize your thoughts, and start speaking. Even if you make a small mistake, you continue instead of stopping completely.",
+
+    tamil:
+      "உங்கள் teacher class-ல் உங்கள் project-ஐ அனைவருக்கும் முன்பாக explain செய்யச் சொல்கிறார் என்று நினைத்துக் கொள்ளுங்கள். உங்களுக்கு nervous-ஆக இருந்தாலும், ஒரு ஆழமான மூச்சை எடுத்துக் கொண்டு, உங்கள் கருத்துகளை ஒழுங்குபடுத்தி பேசத் தொடங்குகிறீர்கள். சிறிய தவறு ஏற்பட்டாலும் முழுவதுமாக நிறுத்தாமல் தொடர்ந்து பேசுகிறீர்கள்."
+  },
+
+  commonMistake: {
+    english:
+      "A common mistake is waiting until you can speak perfectly before speaking. Overthinking mistakes, comparing yourself with fluent speakers, and avoiding opportunities to speak can reduce confidence.",
+
+    tamil:
+      "Perfect-ஆக பேச தெரிந்த பிறகுதான் பேச வேண்டும் என்று நினைப்பது ஒரு பொதுவான தவறு. தவறுகளைப் பற்றி அதிகமாக யோசிப்பது, fluent-ஆக பேசுபவர்களுடன் நம்மை ஒப்பிடுவது மற்றும் பேசும் வாய்ப்புகளை தவிர்ப்பது confidence-ஐ குறைக்கலாம்."
+  },
+
+  betterApproach: {
+    english:
+      "Start with simple sentences and focus on communicating your idea rather than speaking perfectly. Practice regularly, learn from mistakes, and gradually take part in more conversations and discussions.",
+
+    tamil:
+      "எளிய sentences-ல் தொடங்கி, perfect-ஆக பேசுவதில் கவனம் செலுத்துவதற்குப் பதிலாக உங்கள் கருத்தை communicate செய்வதில் கவனம் செலுத்துங்கள். தொடர்ந்து practice செய்யுங்கள், தவறுகளில் இருந்து கற்றுக்கொள்ளுங்கள், மேலும் படிப்படியாக அதிக conversations மற்றும் discussions-ல் கலந்து கொள்ளுங்கள்."
+  },
+
+  usefulExpressions: [
+    {
+      english: "I would like to share my idea.",
+      tamil: "என்னுடைய கருத்தை பகிர விரும்புகிறேன்."
+    },
+    {
+      english: "In my opinion...",
+      tamil: "என்னுடைய கருத்துப்படி..."
+    },
+    {
+      english: "Let me try to explain.",
+      tamil: "நான் விளக்க முயற்சி செய்கிறேன்."
+    },
+    {
+      english: "I may not be completely sure, but I think...",
+      tamil: "எனக்கு முழுமையாக உறுதியாக தெரியவில்லை, ஆனால் நான் நினைப்பது..."
+    }
+  ],
+
+  tryYourself: {
+    english:
+      "Imagine that you have to introduce yourself to a group of new students. How would you introduce yourself confidently in a few sentences?",
+
+    tamil:
+      "நீங்கள் ஒரு group of new students முன் உங்களை அறிமுகப்படுத்த வேண்டும் என்று நினைத்துக் கொள்ளுங்கள். சில sentences-ல் உங்களை எப்படி confidence-ஆக அறிமுகப்படுத்துவீர்கள்?"
+  }
+},
 ];
 
 export default concepts;
