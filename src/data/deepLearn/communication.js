@@ -1192,7 +1192,73 @@ const concepts = [
       "நீங்கள் ஒரு group discussion-ல் கலந்து கொள்கிறீர்கள். மற்றொரு student ஒரு opinion சொல்கிறார், அதில் நீங்கள் ஓரளவு agree செய்கிறீர்கள். அவருடைய point-ஐ acknowledge செய்து உங்கள் own point-ஐ எப்படி add செய்வீர்கள்?"
   }
 },
+{
+  conceptId: 20,
+  title: "Professional Communication Basics",
 
+  understand: {
+    english:
+      "Professional communication is the way people communicate in workplaces and other professional environments. It involves being clear, respectful, responsible, and appropriate when speaking, writing messages, participating in meetings, or communicating with colleagues and managers.",
+
+    tamil:
+      "Professional Communication என்பது workplace மற்றும் பிற professional environments-ல் நாம் மற்றவர்களுடன் communicate செய்யும் முறையாகும். பேசும்போதும், messages எழுதும்போதும், meetings-ல் கலந்து கொள்ளும்போதும், colleagues மற்றும் managers-உடன் பேசும்போதும் தெளிவாகவும், மரியாதையாகவும், பொறுப்புடனும், situation-க்கு ஏற்ற வகையிலும் இருப்பது இதில் அடங்கும்."
+  },
+
+  seeTheSituation: {
+    english:
+      "Imagine that you need to tell your manager that you may miss a deadline. Instead of waiting until the last minute or sending a casual message like 'I can't finish it', you explain the situation early, mention the reason briefly, and tell them when you expect to complete the work.",
+
+    tamil:
+      "நீங்கள் ஒரு deadline-ஐ meet செய்ய முடியாமல் போகலாம் என்பதை உங்கள் manager-க்கு தெரிவிக்க வேண்டும் என்று நினைத்துக் கொள்ளுங்கள். Last minute வரை காத்திருப்பதற்குப் பதிலாக அல்லது 'I can't finish it' போன்ற casual message அனுப்புவதற்குப் பதிலாக, situation-ஐ முன்கூட்டியே explain செய்து, காரணத்தை சுருக்கமாக சொல்லி, எப்போது work-ஐ complete செய்ய முடியும் என்பதை தெரிவிக்கிறீர்கள்."
+  },
+
+  commonMistake: {
+    english:
+      "Common mistakes include using overly casual language, sending unclear messages, ignoring important messages, communicating too late, or being disrespectful when discussing problems or disagreements.",
+
+    tamil:
+      "மிகவும் casual language பயன்படுத்துவது, unclear messages அனுப்புவது, important messages-ஐ ignore செய்வது, மிகவும் late-ஆக communicate செய்வது அல்லது problems மற்றும் disagreements பற்றி பேசும்போது disrespectful-ஆக இருப்பது பொதுவான தவறுகள்."
+  },
+
+  betterApproach: {
+    english:
+      "Before communicating professionally, think about what you need to say, who needs the information, and how urgently they need it. Keep your message clear and concise, use a respectful tone, and communicate important information early.",
+
+    tamil:
+      "Professional-ஆக communicate செய்வதற்கு முன், நீங்கள் என்ன சொல்ல வேண்டும், யாருக்கு அந்த information தேவை, எவ்வளவு விரைவாக அவர்களுக்கு அது தேவை என்பதை யோசிக்கவும். உங்கள் message-ஐ clear மற்றும் concise-ஆக வைத்துக் கொண்டு, respectful tone-ஐ பயன்படுத்தி, important information-ஐ முன்கூட்டியே communicate செய்யுங்கள்."
+  },
+
+  usefulExpressions: [
+    {
+      english: "I would like to inform you that...",
+      tamil: "ஒரு விஷயத்தை உங்களுக்கு தெரிவிக்க விரும்புகிறேன்..."
+    },
+    {
+      english: "I apologize for the delay.",
+      tamil: "தாமதத்திற்கு மன்னிக்கவும்."
+    },
+    {
+      english: "I will complete this by tomorrow.",
+      tamil: "இதை நாளைக்குள் complete செய்கிறேன்."
+    },
+    {
+      english: "Please let me know if you need any further information.",
+      tamil: "மேலும் ஏதாவது information தேவைப்பட்டால் தயவுசெய்து தெரியப்படுத்துங்கள்."
+    },
+    {
+      english: "Thank you for your understanding.",
+      tamil: "உங்கள் புரிதலுக்கு நன்றி."
+    }
+  ],
+
+  tryYourself: {
+    english:
+      "Imagine that you are working on an important task and realize that you need one extra day to complete it. How would you communicate this professionally to your manager?",
+
+    tamil:
+      "நீங்கள் ஒரு important task-ல் வேலை செய்து கொண்டிருக்கிறீர்கள். அதை complete செய்ய இன்னும் ஒரு நாள் தேவைப்படும் என்பதை புரிந்து கொள்கிறீர்கள். இதை உங்கள் manager-க்கு எப்படி professionally communicate செய்வீர்கள்?"
+  }
+}
 ];
 
 export default concepts;
