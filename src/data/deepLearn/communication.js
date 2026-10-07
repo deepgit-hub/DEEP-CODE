@@ -439,7 +439,70 @@ const concepts = [
     tamil:
       "ஒரு college event-ல் நீங்கள் ஒரு புதிய student-ஐ சந்திக்கிறீர்கள் என்று நினைத்துக் கொள்ளுங்கள். அவருடன் ஒரு friendly conversation-ஐ எப்படி தொடங்குவீர்கள்?"
   }
-}
+},
+{
+  conceptId: 8,
+  title: "Introducing Yourself",
+
+  understand: {
+    english:
+      "Introducing yourself means briefly telling someone who you are and sharing relevant information such as your name, education, role, interests, or purpose. A good introduction should be simple, relevant, and appropriate for the situation.",
+
+    tamil:
+      "Introducing Yourself என்பது நீங்கள் யார் என்பதை மற்றொருவரிடம் சுருக்கமாக அறிமுகப்படுத்தி, உங்கள் பெயர், education, role, interests அல்லது அந்த situation-க்கு தேவையான தகவல்களை பகிர்வதாகும். ஒரு நல்ல introduction எளிமையாகவும், சம்பந்தப்பட்டதாகவும், situation-க்கு ஏற்றதாகவும் இருக்க வேண்டும்."
+  },
+
+  seeTheSituation: {
+    english:
+      "Imagine that you are attending your first day at a company. Your manager asks you to introduce yourself to the team. You mention your name, educational background, and a little about your role or interests.",
+
+    tamil:
+      "நீங்கள் ஒரு company-யில் முதல் நாள் வேலைக்கு செல்கிறீர்கள் என்று நினைத்துக் கொள்ளுங்கள். உங்கள் manager உங்களை team-க்கு introduce செய்யச் சொல்கிறார். நீங்கள் உங்கள் பெயர், educational background மற்றும் உங்கள் role அல்லது interests பற்றி சிறிது பகிர்கிறீர்கள்."
+  },
+
+  commonMistake: {
+    english:
+      "A common mistake is giving too much personal information, speaking for too long, or memorizing a complicated introduction without considering the situation.",
+
+    tamil:
+      "அதிகமான personal information-ஐ பகிர்வது, மிகவும் நீண்ட நேரம் பேசுவது அல்லது situation-ஐ கருத்தில் கொள்ளாமல் ஒரு complicated introduction-ஐ மனப்பாடம் செய்து பேசுவது பொதுவான தவறுகள்."
+  },
+
+  betterApproach: {
+    english:
+      "Keep your introduction short and relevant. Start with your name, mention your education or role, and add one or two details that are useful for the situation. Speak naturally instead of trying to sound perfect.",
+
+    tamil:
+      "உங்கள் introduction-ஐ short மற்றும் relevant-ஆக வைத்துக் கொள்ளுங்கள். உங்கள் பெயரில் தொடங்கி, education அல்லது role பற்றி சொல்லி, situation-க்கு useful-ஆக இருக்கும் ஒன்று அல்லது இரண்டு details-ஐ சேர்க்கலாம். Perfect-ஆக பேச முயற்சி செய்வதற்குப் பதிலாக இயல்பாக பேசுங்கள்."
+  },
+
+  usefulExpressions: [
+    {
+      english: "Hi, I'm Deepak. Nice to meet you.",
+      tamil: "Hi, நான் Deepak. உங்களை சந்தித்ததில் மகிழ்ச்சி."
+    },
+    {
+      english: "I am currently pursuing my degree in Computer Science.",
+      tamil: "நான் தற்போது Computer Science-ல் என் degree-ஐ படித்து வருகிறேன்."
+    },
+    {
+      english: "I am interested in technology and software development.",
+      tamil: "எனக்கு technology மற்றும் software development-ல் ஆர்வம் உள்ளது."
+    },
+    {
+      english: "I look forward to working with you.",
+      tamil: "உங்களுடன் சேர்ந்து வேலை செய்வதை எதிர்பார்க்கிறேன்."
+    }
+  ],
+
+  tryYourself: {
+    english:
+      "Imagine that you are attending your first day at a company and your manager asks you to introduce yourself to your team. Prepare a short introduction of about 30 seconds.",
+
+    tamil:
+      "நீங்கள் ஒரு company-யில் முதல் நாள் வேலைக்கு செல்கிறீர்கள். உங்கள் manager உங்களை team-க்கு introduce செய்யச் சொல்கிறார் என்று நினைத்துக் கொள்ளுங்கள். சுமார் 30 seconds-ல் உங்களை அறிமுகப்படுத்தும் ஒரு short introduction-ஐ தயார் செய்யுங்கள்."
+  }
+},
 ];
 
 export default concepts;
