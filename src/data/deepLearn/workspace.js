@@ -791,7 +791,270 @@ const concepts = [
         "ஒரு task-ஐ எப்படி complete செய்வது என்பதில் teammate-உடன் disagree செய்கிறீர்கள் என்று நினைத்துக்கொள்ளுங்கள். உங்கள் opinion-ஐ respectfully explain செய்து, இருவரின் approaches-ஐயும் discuss செய்ய teammate-ஐ கேட்பதை practice செய்யுங்கள்."
     }
   },
-  
+    {
+    conceptId: 16,
+    title: "Participating in Meetings",
+    understand: {
+      english:
+        "Participating in meetings means listening, sharing relevant ideas, asking questions, and contributing to the discussion when appropriate. A good meeting participant does not need to speak constantly. The goal is to contribute meaningfully and help the team move forward.",
+      tamil:
+        "Meetings-ல் participate செய்வது கவனமாக listen செய்வது, relevant ideas share செய்வது, questions கேட்பது மற்றும் appropriate நேரத்தில் discussion-ல் contribute செய்வது. நல்ல meeting participant தொடர்ந்து பேச வேண்டிய அவசியமில்லை. Meaningful contribution செய்து team முன்னேற உதவுவதே முக்கியம்."
+    },
+    seeTheSituation: {
+      english:
+        "Imagine your team is discussing how to improve a project. You listen to the discussion and then share one practical idea that could solve the problem. You also listen to other people's responses and adjust your idea when necessary.",
+      tamil:
+        "உங்கள் team ஒரு project-ஐ எப்படி improve செய்வது என்று discuss செய்கிறது என்று நினைத்துக்கொள்ளுங்கள். Discussion-ஐ கவனமாக கேட்டு, problem-ஐ solve செய்யக்கூடிய ஒரு practical idea-ஐ share செய்கிறீர்கள். மற்றவர்களின் responses-ஐயும் listen செய்து, தேவைப்பட்டால் உங்கள் idea-ஐ adjust செய்கிறீர்கள்."
+    },
+    commonMistake: {
+      english:
+        "Common mistakes include interrupting people, talking about unrelated topics, staying distracted, speaking without listening, or remaining completely silent even when you have useful information to contribute.",
+      tamil:
+        "மற்றவர்கள் பேசும்போது interrupt செய்வது, unrelated topics பற்றி பேசுவது, distracted-ஆக இருப்பது, listen செய்யாமல் பேசுவது அல்லது useful information இருந்தும் completely silent-ஆக இருப்பது common mistakes."
+    },
+    betterApproach: {
+      english:
+        "Review the meeting topic beforehand when possible. Listen carefully, take notes, wait for the appropriate moment to speak, and keep your contribution clear and relevant. If you disagree, explain your reasoning respectfully.",
+      tamil:
+        "முடிந்தால் meeting topic-ஐ முன்பே review செய்யுங்கள். கவனமாக listen செய்து, notes எடுத்துக்கொண்டு, பேசுவதற்கான சரியான நேரத்திற்காக wait செய்து, உங்கள் contribution-ஐ clear மற்றும் relevant-ஆக வைத்துக்கொள்ளுங்கள். Disagree செய்தால் உங்கள் reasoning-ஐ respectfully explain செய்யுங்கள்."
+    },
+    usefulExpressions: [
+      {
+        english: "I would like to add something to that point.",
+        tamil: "அந்த point-க்கு நான் ஒரு விஷயத்தை add செய்ய விரும்புகிறேன்."
+      },
+      {
+        english: "I have a suggestion.",
+        tamil: "என்னிடம் ஒரு suggestion இருக்கிறது."
+      },
+      {
+        english: "Could you please clarify that point?",
+        tamil: "அந்த point-ஐ தயவுசெய்து clarify செய்ய முடியுமா?"
+      },
+      {
+        english: "I agree with that approach.",
+        tamil: "அந்த approach-ஐ நான் agree செய்கிறேன்."
+      }
+    ],
+    tryYourself: {
+      english:
+        "Imagine you are attending a team meeting about improving a project. Prepare one useful suggestion and practice sharing it clearly in two or three sentences.",
+      tamil:
+        "ஒரு project-ஐ improve செய்வது பற்றி team meeting நடக்கிறது என்று நினைத்துக்கொள்ளுங்கள். ஒரு useful suggestion-ஐ தயார் செய்து, அதை இரண்டு அல்லது மூன்று sentences-ல் clear-ஆக சொல்லிப் practice செய்யுங்கள்."
+    }
+  },
+
+  {
+    conceptId: 17,
+    title: "Writing Professional Messages",
+    understand: {
+      english:
+        "Professional messages are short written communications used to share information, ask questions, give updates, or coordinate work. They should be clear, respectful, and appropriate for the person and situation.",
+      tamil:
+        "Professional messages என்பது information share செய்ய, questions கேட்க, updates கொடுக்க அல்லது work coordinate செய்ய பயன்படுத்தப்படும் short written communication. அவை clear, respectful மற்றும் அந்த person மற்றும் situation-க்கு appropriate-ஆக இருக்க வேண்டும்."
+    },
+    seeTheSituation: {
+      english:
+        "Suppose you need to tell your teammate that you have completed your part of a project. Instead of sending only \"Done,\" you can write a short message explaining what you completed and what they can do next.",
+      tamil:
+        "உங்கள் project-ல் உங்கள் part-ஐ complete செய்துவிட்டீர்கள் என்பதை teammate-க்கு சொல்ல வேண்டும் என்று நினைத்துக்கொள்ளுங்கள். \"Done\" என்று மட்டும் அனுப்புவதற்கு பதிலாக, என்ன complete செய்தீர்கள் மற்றும் அடுத்து அவர்கள் என்ன செய்யலாம் என்பதை short message-ல் explain செய்யலாம்."
+    },
+    commonMistake: {
+      english:
+        "Common mistakes include sending messages without enough context, using overly casual language, writing unclear sentences, sending too many unnecessary messages, or forgetting to mention important details.",
+      tamil:
+        "Enough context இல்லாமல் messages அனுப்புவது, மிகவும் casual language பயன்படுத்துவது, unclear sentences எழுதுவது, தேவையில்லாமல் அதிக messages அனுப்புவது அல்லது important details-ஐ mention செய்யாமல் இருப்பது common mistakes."
+    },
+    betterApproach: {
+      english:
+        "Start with an appropriate greeting when needed. State the purpose of the message clearly, include the important details, and end politely. Before sending, quickly check whether the message is understandable.",
+      tamil:
+        "தேவையான இடத்தில் appropriate greeting-உடன் start செய்யுங்கள். Message-ன் purpose-ஐ clearly சொல்லி, important details-ஐ include செய்து, politely end செய்யுங்கள். Send செய்வதற்கு முன் message புரிகிறதா என்று ஒரு quick check செய்யுங்கள்."
+    },
+    usefulExpressions: [
+      {
+        english: "Hi, I wanted to give you a quick update.",
+        tamil: "Hi, உங்களுக்கு ஒரு quick update கொடுக்க விரும்பினேன்."
+      },
+      {
+        english: "Could you please share the file when you have time?",
+        tamil: "உங்களுக்கு time கிடைக்கும்போது அந்த file-ஐ share செய்ய முடியுமா?"
+      },
+      {
+        english: "Please let me know if you need anything from my side.",
+        tamil: "என்னுடைய side-ல் இருந்து ஏதாவது தேவைப்பட்டால் தயவுசெய்து சொல்லுங்கள்."
+      },
+      {
+        english: "Thank you.",
+        tamil: "நன்றி."
+      }
+    ],
+    tryYourself: {
+      english:
+        "Write a short professional message to a teammate explaining that you have completed your part of a task and asking them to review it.",
+      tamil:
+        "ஒரு task-ன் உங்கள் part-ஐ complete செய்துவிட்டீர்கள் என்பதை teammate-க்கு தெரிவித்து, அதை review செய்யச் சொல்லும் ஒரு short professional message எழுதிப் பாருங்கள்."
+    }
+  },
+
+  {
+    conceptId: 18,
+    title: "Professional Email Basics",
+    understand: {
+      english:
+        "A professional email is a formal written communication used in workplaces for important information, requests, updates, documents, and official communication. A good email should have a clear subject, appropriate greeting, simple message, and professional closing.",
+      tamil:
+        "Professional email என்பது workplace-ல் important information, requests, updates, documents மற்றும் official communication-க்காக பயன்படுத்தப்படும் formal written communication. நல்ல email-ல் clear subject, appropriate greeting, simple message மற்றும் professional closing இருக்க வேண்டும்."
+    },
+    seeTheSituation: {
+      english:
+        "Imagine you need to send your project report to your manager. Your email can have a subject such as \"Project Report Submission,\" a polite greeting, a short explanation that the report is attached, and a professional closing.",
+      tamil:
+        "உங்கள் project report-ஐ manager-க்கு அனுப்ப வேண்டும் என்று நினைத்துக்கொள்ளுங்கள். Email-க்கு \"Project Report Submission\" போன்ற subject வைத்து, polite greeting, report attached என்று short explanation மற்றும் professional closing கொடுக்கலாம்."
+    },
+    commonMistake: {
+      english:
+        "Common mistakes include leaving the subject empty, using informal greetings, writing very long messages without structure, forgetting attachments, or sending an email without checking for obvious mistakes.",
+      tamil:
+        "Subject இல்லாமல் email அனுப்புவது, informal greetings பயன்படுத்துவது, structure இல்லாமல் மிகவும் நீளமாக எழுதுவது, attachment சேர்க்க மறப்பது அல்லது obvious mistakes இருக்கிறதா என்று check செய்யாமல் email அனுப்புவது common mistakes."
+    },
+    betterApproach: {
+      english:
+        "Use a clear subject that tells the reader what the email is about. Keep the message concise, mention attachments when included, and use a professional greeting and closing. Check the recipient and attachment before sending.",
+      tamil:
+        "Email எதைப் பற்றியது என்பதை சொல்லும் clear subject பயன்படுத்துங்கள். Message-ஐ concise-ஆக வைத்துக்கொள்ளுங்கள். Attachment இருந்தால் அதை mention செய்யுங்கள். Professional greeting மற்றும் closing பயன்படுத்துங்கள். Send செய்வதற்கு முன் recipient மற்றும் attachment-ஐ check செய்யுங்கள்."
+    },
+    usefulExpressions: [
+      {
+        english: "Dear Sir/Madam,",
+        tamil: "மதிப்பிற்குரிய Sir/Madam,"
+      },
+      {
+        english: "I am writing to share the requested document.",
+        tamil: "கேட்கப்பட்ட document-ஐ share செய்வதற்காக இந்த email-ஐ அனுப்புகிறேன்."
+      },
+      {
+        english: "Please find the attached document.",
+        tamil: "Attached-ஆக document-ஐ இணைத்துள்ளேன்."
+      },
+      {
+        english: "Thank you for your time and consideration.",
+        tamil: "உங்கள் நேரத்திற்கும் consideration-க்கும் நன்றி."
+      }
+    ],
+    tryYourself: {
+      english:
+        "Write a professional email to your manager submitting a project report. Include a clear subject, greeting, short message, mention of the attachment, and professional closing.",
+      tamil:
+        "Project report-ஐ manager-க்கு submit செய்யும் ஒரு professional email எழுதிப் பாருங்கள். Clear subject, greeting, short message, attachment பற்றிய mention மற்றும் professional closing ஆகியவற்றை include செய்யுங்கள்."
+    }
+  },
+
+  {
+    conceptId: 19,
+    title: "Workplace Adaptability",
+    understand: {
+      english:
+        "Adaptability means being able to adjust when work, tools, responsibilities, teams, or situations change. Workplaces can change frequently, so being willing to learn and adjust helps you remain effective.",
+      tamil:
+        "Adaptability என்பது work, tools, responsibilities, teams அல்லது situations change ஆகும்போது அதற்கேற்ப adjust செய்யும் ability. Workplace-ல் changes அடிக்கடி நடக்கலாம். அதனால் learn செய்து adjust செய்யும் mindset உங்களை effective-ஆக வைத்திருக்க உதவும்."
+    },
+    seeTheSituation: {
+      english:
+        "Imagine your company changes the software tool used by your team. Instead of refusing to use the new tool because you are comfortable with the old one, you learn the new tool and gradually adapt to the new workflow.",
+      tamil:
+        "உங்கள் company team பயன்படுத்தும் software tool-ஐ change செய்கிறது என்று நினைத்துக்கொள்ளுங்கள். பழைய tool-ல் comfortable-ஆக இருப்பதால் புதிய tool-ஐ use செய்ய மறுப்பதற்கு பதிலாக, புதிய tool-ஐ கற்றுக்கொண்டு புதிய workflow-க்கு gradually adapt செய்யலாம்."
+    },
+    commonMistake: {
+      english:
+        "A common mistake is immediately resisting every change. Another mistake is complaining about a change without first trying to understand why it was introduced or how it can be handled.",
+      tamil:
+        "ஒவ்வொரு change-ஐயும் உடனடியாக resist செய்வது ஒரு common mistake. ஏன் அந்த change கொண்டு வரப்பட்டது அல்லது அதை எப்படி handle செய்வது என்பதை புரிந்துகொள்ளாமல் complaint செய்வதும் தவறு."
+    },
+    betterApproach: {
+      english:
+        "Understand the reason for the change, identify what you need to learn, and give yourself time to adjust. If the change creates a genuine problem, communicate it professionally and suggest a possible solution.",
+      tamil:
+        "Change-க்கான reason-ஐ புரிந்துகொள்ளுங்கள், நீங்கள் என்ன learn செய்ய வேண்டும் என்பதை identify செய்யுங்கள், adjust ஆக உங்களுக்கு time கொடுங்கள். Change உண்மையான problem ஒன்றை create செய்தால் அதை professionally communicate செய்து possible solution ஒன்றை suggest செய்யுங்கள்."
+    },
+    usefulExpressions: [
+      {
+        english: "I am willing to learn the new process.",
+        tamil: "புதிய process-ஐ கற்றுக்கொள்ள நான் தயாராக இருக்கிறேன்."
+      },
+      {
+        english: "Could you explain what has changed?",
+        tamil: "என்ன change ஆகியுள்ளது என்பதை explain செய்ய முடியுமா?"
+      },
+      {
+        english: "I will take some time to get familiar with the new tool.",
+        tamil: "புதிய tool-ல் familiar ஆக எனக்கு கொஞ்சம் time தேவைப்படும்."
+      },
+      {
+        english: "I am adjusting to the new process.",
+        tamil: "புதிய process-க்கு நான் adjust ஆகிக்கொண்டிருக்கிறேன்."
+      }
+    ],
+    tryYourself: {
+      english:
+        "Think about a time when you had to learn a new tool, subject, or process. Explain what changed, how you adapted, and what you learned from the experience.",
+      tamil:
+        "நீங்கள் ஒரு புதிய tool, subject அல்லது process-ஐ கற்றுக்கொள்ள வேண்டிய ஒரு situation பற்றி யோசிக்கவும். என்ன change ஆனது, நீங்கள் எப்படி adapt ஆனீர்கள், அந்த experience-ல் இருந்து என்ன learn செய்தீர்கள் என்பதை explain செய்யுங்கள்."
+    }
+  },
+
+  {
+    conceptId: 20,
+    title: "Building Good Relationships at Work",
+    understand: {
+      english:
+        "Good workplace relationships are built through respect, trust, communication, cooperation, and consistency. You do not need to become close friends with everyone. A healthy professional relationship means being respectful, dependable, and easy to work with.",
+      tamil:
+        "Good workplace relationships என்பது respect, trust, communication, cooperation மற்றும் consistency மூலம் உருவாகும். எல்லோருடனும் close friends ஆக வேண்டிய அவசியமில்லை. Healthy professional relationship என்பது respectful, dependable மற்றும் easy to work with ஆக இருப்பது."
+    },
+    seeTheSituation: {
+      english:
+        "Imagine you join a new team. You greet your colleagues, listen to them, offer help when appropriate, keep your commitments, and communicate respectfully even when you disagree. Over time, these small behaviors help build trust.",
+      tamil:
+        "நீங்கள் ஒரு புதிய team-ல் join செய்கிறீர்கள் என்று நினைத்துக்கொள்ளுங்கள். Colleagues-ஐ greet செய்து, அவர்கள் சொல்வதை listen செய்து, தேவையான போது help செய்து, உங்கள் commitments-ஐ keep செய்து, disagree செய்தாலும் respectfully communicate செய்கிறீர்கள். காலப்போக்கில் இந்த small behaviors trust-ஐ build செய்யும்."
+    },
+    commonMistake: {
+      english:
+        "Common mistakes include gossiping about colleagues, making promises that you cannot keep, being disrespectful when you disagree, ignoring teammates, or trying too hard to impress people instead of being genuine.",
+      tamil:
+        "Colleagues பற்றி gossip செய்வது, நிறைவேற்ற முடியாத promises கொடுப்பது, disagree செய்யும்போது disrespectful-ஆக நடந்து கொள்வது, teammates-ஐ ignore செய்வது அல்லது genuine-ஆக இருப்பதை விட மற்றவர்களை impress செய்ய அதிகமாக முயற்சி செய்வது common mistakes."
+    },
+    betterApproach: {
+      english:
+        "Be friendly but professional. Respect different personalities and opinions, keep your commitments, appreciate other people's contributions, and communicate openly. Trust is usually built through small consistent actions over time.",
+      tamil:
+        "Friendly-ஆகவும் professional-ஆகவும் இருங்கள். Different personalities மற்றும் opinions-ஐ respect செய்யுங்கள், commitments-ஐ keep செய்யுங்கள், மற்றவர்களின் contributions-ஐ appreciate செய்யுங்கள், openly communicate செய்யுங்கள். Trust பொதுவாக காலப்போக்கில் consistent-ஆக செய்யப்படும் small actions மூலம் உருவாகும்."
+    },
+    usefulExpressions: [
+      {
+        english: "It is nice to work with you.",
+        tamil: "உங்களுடன் work செய்வதில் மகிழ்ச்சி."
+      },
+      {
+        english: "Thank you for your help.",
+        tamil: "உங்கள் உதவிக்கு நன்றி."
+      },
+      {
+        english: "I appreciate your support.",
+        tamil: "உங்கள் support-ஐ நான் appreciate செய்கிறேன்."
+      },
+      {
+        english: "Let's work together to solve this.",
+        tamil: "இதை solve செய்ய நாம் together work செய்வோம்."
+      }
+    ],
+    tryYourself: {
+      english:
+        "Imagine you are joining a new team. List five actions you can take during your first month to build respectful and positive professional relationships.",
+      tamil:
+        "நீங்கள் ஒரு புதிய team-ல் join செய்கிறீர்கள் என்று நினைத்துக்கொள்ளுங்கள். First month-ல் respectful மற்றும் positive professional relationships build செய்ய நீங்கள் செய்யக்கூடிய ஐந்து actions-ஐ எழுதுங்கள்."
+    }
+  }
 ];
 
 export default concepts;
