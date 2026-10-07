@@ -62,6 +62,69 @@ const concepts = [
       "நீங்கள் உங்கள் முதல் job interview-க்கு செல்கிறீர்கள் என்று நினைத்துக் கொள்ளுங்கள். உங்கள் technical knowledge-ஐ தவிர interviewer உங்களைப் பற்றி வேறு என்ன விஷயங்களை தெரிந்து கொள்ள விரும்புவார் என்று நினைக்கிறீர்கள்?"
   }
 },
+{
+  conceptId: 2,
+  title: "Preparing for an Interview",
+
+  understand: {
+    english:
+      "Interview preparation means getting yourself ready for the role, organization, questions, and situations you may face during an interview. Good preparation helps you communicate with more confidence and reduces unnecessary nervousness.",
+
+    tamil:
+      "Interview preparation என்பது நீங்கள் apply செய்யும் role, organization, கேட்கப்படக்கூடிய questions மற்றும் interview-ல் எதிர்கொள்ளக்கூடிய situations-க்கு உங்களை தயார்படுத்திக் கொள்வதாகும். நல்ல preparation confidence-உடன் communicate செய்யவும் தேவையற்ற nervousness-ஐ குறைக்கவும் உதவும்."
+  },
+
+  seeTheSituation: {
+    english:
+      "Imagine that you have an interview next week. You review the job description, learn about the company, revise important technical concepts, prepare questions, and practice introducing yourself. On the interview day, you have a clearer idea of what to expect.",
+
+    tamil:
+      "அடுத்த வாரம் உங்களுக்கு ஒரு interview இருப்பதாக நினைத்துக் கொள்ளுங்கள். நீங்கள் job description-ஐ review செய்து, company பற்றி தெரிந்து கொண்டு, முக்கியமான technical concepts-ஐ revise செய்து, கேட்க வேண்டிய questions-ஐ தயார் செய்து, உங்களை அறிமுகப்படுத்துவதை practice செய்கிறீர்கள். Interview நாளில் என்ன எதிர்பார்க்கலாம் என்பது உங்களுக்கு தெளிவாக இருக்கும்."
+  },
+
+  commonMistake: {
+    english:
+      "A common mistake is preparing only on the day before the interview or memorizing answers without understanding them. Ignoring the job description and company information can also leave you unprepared.",
+
+    tamil:
+      "Interview-க்கு முந்தைய நாளில் மட்டும் preparation செய்வது அல்லது answers-ஐ புரிந்து கொள்ளாமல் memorize செய்வது பொதுவான தவறுகள். Job description மற்றும் company information-ஐ ignore செய்வதும் preparation இல்லாத நிலையை உருவாக்கலாம்."
+  },
+
+  betterApproach: {
+    english:
+      "Start preparing early. Understand the role, research the organization, review relevant skills, prepare examples from your experience, and practice speaking your answers naturally.",
+
+    tamil:
+      "Preparation-ஐ முன்கூட்டியே தொடங்குங்கள். Role-ஐ புரிந்து கொண்டு, organization பற்றி research செய்து, relevant skills-ஐ review செய்து, உங்கள் experience-ல் இருந்து examples-ஐ தயார் செய்து, answers-ஐ இயல்பாக பேச practice செய்யுங்கள்."
+  },
+
+  usefulExpressions: [
+    {
+      english: "I have prepared examples from my project experience.",
+      tamil: "என்னுடைய project experience-ல் இருந்து சில examples-ஐ நான் தயார் செய்துள்ளேன்."
+    },
+    {
+      english: "I would like to understand more about this role.",
+      tamil: "இந்த role பற்றி இன்னும் அதிகமாக தெரிந்து கொள்ள விரும்புகிறேன்."
+    },
+    {
+      english: "I have reviewed the requirements for this position.",
+      tamil: "இந்த position-க்கான requirements-ஐ நான் review செய்துள்ளேன்."
+    },
+    {
+      english: "I am ready to discuss my experience.",
+      tamil: "என்னுடைய experience பற்றி discuss செய்ய நான் தயாராக இருக்கிறேன்."
+    }
+  ],
+
+  tryYourself: {
+    english:
+      "You have an interview in three days. Create a simple preparation plan with at least three things you would do before the interview.",
+
+    tamil:
+      "உங்களுக்கு இன்னும் மூன்று நாட்களில் interview உள்ளது. Interview-க்கு முன்பு நீங்கள் செய்ய வேண்டிய குறைந்தது மூன்று விஷயங்களைக் கொண்ட ஒரு simple preparation plan-ஐ உருவாக்குங்கள்."
+  }
+}
 ];
 
 export default concepts;
