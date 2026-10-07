@@ -570,7 +570,69 @@ const concepts = [
       "நீங்கள் விரும்பும் job-க்கு relevant-ஆக இருக்கும் ஒரு strength-ஐ தேர்வு செய்யுங்கள். அந்த strength உங்களிடம் இருப்பதை prove செய்யும் ஒரு real example-ஐ கொடுங்கள்."
   }
 },
+{
+  conceptId: 10,
+  title: "Talking About Weaknesses",
 
+  understand: {
+    english:
+      "Talking about weaknesses in an interview means honestly identifying an area where you can improve and explaining what you are doing to work on it. The purpose is to show self-awareness and a willingness to improve, not to present yourself negatively.",
+
+    tamil:
+      "Interview-ல் weaknesses பற்றி பேசுவது என்பது உங்களிடம் improvement தேவைப்படும் ஒரு area-ஐ honest-ஆக identify செய்து, அதை improve செய்ய நீங்கள் என்ன செய்கிறீர்கள் என்பதை explain செய்வதாகும். உங்களை negative-ஆக காட்டுவது நோக்கம் அல்ல; self-awareness மற்றும் improvement-க்கான willingness-ஐ காட்டுவதே நோக்கம்."
+  },
+
+  seeTheSituation: {
+    english:
+      "Imagine that you sometimes feel nervous when speaking in front of a large group. Instead of simply saying 'Public speaking is my weakness,' you explain that you have started practicing presentations and participating more in discussions to improve.",
+
+    tamil:
+      "ஒரு பெரிய group முன்பு பேசும்போது சில நேரங்களில் nervous-ஆக இருப்பதாக நினைத்துக் கொள்ளுங்கள். 'Public speaking is my weakness' என்று மட்டும் சொல்வதற்குப் பதிலாக, presentations practice செய்வதும் discussions-ல் அதிகமாக கலந்து கொள்வதும் மூலம் அதை improve செய்து வருகிறீர்கள் என்று explain செய்கிறீர்கள்."
+  },
+
+  commonMistake: {
+    english:
+      "A common mistake is saying that you have no weaknesses, giving a weakness that is clearly not genuine, or mentioning a serious weakness without explaining any effort to improve it.",
+
+    tamil:
+      "என்னிடம் எந்த weaknesses-உம் இல்லை என்று சொல்வது, உண்மையாக இல்லாத ஒரு weakness-ஐ சொல்வது அல்லது ஒரு serious weakness-ஐ சொல்லிவிட்டு அதை improve செய்ய எந்த effort-உம் இல்லாமல் இருப்பது பொதுவான தவறுகள்."
+  },
+
+  betterApproach: {
+    english:
+      "Choose a genuine weakness that you are actively working to improve. Explain what you have learned about yourself and describe the specific steps you are taking to get better.",
+
+    tamil:
+      "உண்மையானதும், நீங்கள் actively improve செய்து கொண்டிருப்பதுமான ஒரு weakness-ஐ தேர்வு செய்யுங்கள். உங்களைப் பற்றி நீங்கள் என்ன கற்றுக்கொண்டீர்கள் என்பதை explain செய்து, improve ஆக நீங்கள் எடுத்து வரும் specific steps-ஐ சொல்லுங்கள்."
+  },
+
+  usefulExpressions: [
+    {
+      english: "One area I am currently working to improve is...",
+      tamil: "நான் தற்போது improve செய்ய முயற்சி செய்து கொண்டிருக்கும் ஒரு area..."
+    },
+    {
+      english: "I noticed that I need to improve...",
+      tamil: "நான் ...-ஐ improve செய்ய வேண்டும் என்பதை கவனித்தேன்."
+    },
+    {
+      english: "To improve this, I have started...",
+      tamil: "இதை improve செய்வதற்காக நான் ... தொடங்கியுள்ளேன்."
+    },
+    {
+      english: "I have already seen improvement in this area.",
+      tamil: "இந்த area-ல் ஏற்கனவே improvement இருப்பதை நான் கவனித்துள்ளேன்."
+    }
+  ],
+
+  tryYourself: {
+    english:
+      "Think of one genuine area you want to improve. Explain the weakness, why you want to improve it, and one or two actions you are taking to become better.",
+
+    tamil:
+      "நீங்கள் உண்மையாக improve செய்ய விரும்பும் ஒரு area-ஐ யோசியுங்கள். அந்த weakness என்ன, அதை ஏன் improve செய்ய விரும்புகிறீர்கள், அதை improve செய்ய நீங்கள் எடுத்து வரும் ஒன்று அல்லது இரண்டு actions என்ன என்பதை explain செய்யுங்கள்."
+  }
+}
 ];
 
 export default concepts;
