@@ -124,7 +124,70 @@ const concepts = [
     tamil:
       "உங்களுக்கு இன்னும் மூன்று நாட்களில் interview உள்ளது. Interview-க்கு முன்பு நீங்கள் செய்ய வேண்டிய குறைந்தது மூன்று விஷயங்களைக் கொண்ட ஒரு simple preparation plan-ஐ உருவாக்குங்கள்."
   }
-}
+},
+{
+  conceptId: 3,
+  title: "Researching the Company",
+
+  understand: {
+    english:
+      "Company research means learning about an organization before attending an interview. You can learn about its products or services, industry, values, work, recent developments, and the role you are applying for. This helps you understand where you may be working and why the role interests you.",
+
+    tamil:
+      "Company research என்பது interview-க்கு செல்வதற்கு முன்பு அந்த organization பற்றி தெரிந்து கொள்வதாகும். அதன் products அல்லது services, industry, values, work, recent developments மற்றும் நீங்கள் apply செய்யும் role பற்றி தெரிந்து கொள்ளலாம். இதன் மூலம் நீங்கள் எங்கு வேலை செய்யப் போகிறீர்கள் என்பதையும், அந்த role-ல் ஏன் interest உள்ளது என்பதையும் நன்றாக புரிந்து கொள்ள முடியும்."
+  },
+
+  seeTheSituation: {
+    english:
+      "Imagine that you are applying for a software developer role. Before the interview, you visit the company's official website, understand what products or services it provides, look at the job description, and learn about the technologies mentioned in the role.",
+
+    tamil:
+      "நீங்கள் ஒரு software developer role-க்கு apply செய்கிறீர்கள் என்று நினைத்துக் கொள்ளுங்கள். Interview-க்கு முன்பு company-ன் official website-ஐ பார்த்து, அது என்ன products அல்லது services வழங்குகிறது என்பதை தெரிந்து கொண்டு, job description-ஐ படித்து, role-ல் குறிப்பிடப்பட்டுள்ள technologies பற்றி தெரிந்து கொள்கிறீர்கள்."
+  },
+
+  commonMistake: {
+    english:
+      "A common mistake is knowing only the company's name and a few basic facts. Another mistake is researching information without connecting it to the role you are applying for.",
+
+    tamil:
+      "Company-ன் பெயர் மற்றும் சில basic facts மட்டும் தெரிந்து வைத்திருப்பது ஒரு பொதுவான தவறு. Research செய்த information-ஐ நீங்கள் apply செய்யும் role-உடன் connect செய்யாமல் இருப்பதும் மற்றொரு தவறு."
+  },
+
+  betterApproach: {
+    english:
+      "Research information that is relevant to the role. Understand what the company does, what the position involves, and why your skills or interests match the opportunity. Focus on reliable and current information.",
+
+    tamil:
+      "நீங்கள் apply செய்யும் role-க்கு relevant-ஆக இருக்கும் information-ஐ research செய்யுங்கள். Company என்ன செய்கிறது, position-ல் என்ன responsibilities இருக்கலாம், உங்கள் skills அல்லது interests அந்த opportunity-க்கு எப்படி match ஆகின்றன என்பதை புரிந்து கொள்ளுங்கள். Reliable மற்றும் current information-க்கு முக்கியத்துவம் கொடுங்கள்."
+  },
+
+  usefulExpressions: [
+    {
+      english: "I was interested to learn about your company's work in...",
+      tamil: "உங்கள் company-ன் ... தொடர்பான work பற்றி தெரிந்து கொள்வதில் எனக்கு interest ஏற்பட்டது."
+    },
+    {
+      english: "I learned that your company focuses on...",
+      tamil: "உங்கள் company ... மீது focus செய்கிறது என்பதை நான் தெரிந்து கொண்டேன்."
+    },
+    {
+      english: "I am particularly interested in this role because...",
+      tamil: "இந்த role-ல் எனக்கு குறிப்பாக interest இருப்பதற்கான காரணம்..."
+    },
+    {
+      english: "I would like to learn more about the team.",
+      tamil: "இந்த team பற்றி இன்னும் தெரிந்து கொள்ள விரும்புகிறேன்."
+    }
+  ],
+
+  tryYourself: {
+    english:
+      "Choose a company where you would like to work. Find three useful things you should know about the company before attending its interview.",
+
+    tamil:
+      "நீங்கள் வேலை செய்ய விரும்பும் ஒரு company-ஐ தேர்வு செய்யுங்கள். அந்த company-ன் interview-க்கு செல்வதற்கு முன்பு நீங்கள் தெரிந்து கொள்ள வேண்டிய மூன்று முக்கியமான விஷயங்களை கண்டுபிடியுங்கள்."
+  }
+},
 ];
 
 export default concepts;
