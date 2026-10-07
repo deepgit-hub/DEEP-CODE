@@ -625,6 +625,65 @@ const concepts = [
       "நீங்கள் ஒரு interviewer-உடன் பேசுகிறீர்கள் என்று நினைத்துக் கொள்ளுங்கள். நீங்கள் எப்படி உட்காருவீர்கள், எங்கே பார்ப்பீர்கள், கேள்விகளுக்கு பதில் சொல்லும்போது உங்கள் கைகளை எப்படி பயன்படுத்துவீர்கள் என்று யோசித்துப் பாருங்கள்."
   }
 },
+{
+  conceptId: 11,
+  title: "Eye Contact",
+
+  understand: {
+    english:
+      "Eye contact means looking at the person you are speaking with or listening to in a natural and comfortable way. Appropriate eye contact can show attention, confidence, and respect.",
+
+    tamil:
+      "Eye Contact என்பது நாம் பேசும் அல்லது கேட்கும் நபரை இயல்பாகவும் comfortable-ஆகவும் பார்ப்பதாகும். சரியான eye contact கவனம், confidence மற்றும் respect-ஐ வெளிப்படுத்த உதவும்."
+  },
+
+  seeTheSituation: {
+    english:
+      "Imagine that you are explaining your project to a teacher. While speaking, you look at your teacher naturally instead of continuously looking at your notes or the floor. When you need to think, it is also normal to briefly look away and then return your attention.",
+
+    tamil:
+      "நீங்கள் உங்கள் project-ஐ ஒரு teacher-க்கு explain செய்கிறீர்கள் என்று நினைத்துக் கொள்ளுங்கள். பேசும்போது தொடர்ந்து notes அல்லது தரையை பார்ப்பதற்குப் பதிலாக, உங்கள் teacher-ஐ இயல்பாக பார்க்கிறீர்கள். யோசிக்க வேண்டிய நேரத்தில் சிறிது நேரம் வேறு பக்கம் பார்ப்பதும் இயல்பானது; பின்னர் மீண்டும் அவரிடம் கவனம் செலுத்தலாம்."
+  },
+
+  commonMistake: {
+    english:
+      "A common mistake is either avoiding eye contact completely or staring at someone continuously. Both can make the interaction uncomfortable.",
+
+    tamil:
+      "Eye contact-ஐ முழுமையாக தவிர்ப்பது அல்லது ஒருவரை தொடர்ந்து உற்றுப் பார்ப்பது இரண்டும் பொதுவான தவறுகள். இவை conversation-ஐ uncomfortable-ஆக மாற்றலாம்."
+  },
+
+  betterApproach: {
+    english:
+      "Maintain natural eye contact while speaking and listening, but allow your gaze to move naturally. Focus on the conversation instead of trying to force constant eye contact.",
+
+    tamil:
+      "பேசும்போதும் கேட்கும்போதும் இயல்பான eye contact-ஐ வைத்துக் கொள்ளுங்கள். ஆனால் உங்கள் பார்வை இயல்பாக மாறுவதற்கு இடமளியுங்கள். தொடர்ந்து eye contact வைத்திருக்க வேண்டும் என்று force செய்வதற்குப் பதிலாக conversation-ல் கவனம் செலுத்துங்கள்."
+  },
+
+  usefulExpressions: [
+    {
+      english: "I understand what you mean.",
+      tamil: "நீங்கள் என்ன சொல்ல வருகிறீர்கள் என்பது எனக்கு புரிகிறது."
+    },
+    {
+      english: "Could you please repeat that?",
+      tamil: "அதை மீண்டும் சொல்ல முடியுமா?"
+    },
+    {
+      english: "Thank you for explaining.",
+      tamil: "விளக்கியதற்கு நன்றி."
+    }
+  ],
+
+  tryYourself: {
+    english:
+      "During your next conversation with a teacher or friend, practice maintaining natural eye contact while listening. Notice whether it helps you stay more focused on the conversation.",
+
+    tamil:
+      "அடுத்த முறை ஒரு teacher அல்லது friend-உடன் பேசும்போது, அவர்கள் பேசுவதை கேட்கும் நேரத்தில் இயல்பான eye contact-ஐ practice செய்யுங்கள். இது conversation-ல் அதிக கவனம் செலுத்த உதவுகிறதா என்பதை கவனியுங்கள்."
+  }
+},
 ];
 
 export default concepts;
