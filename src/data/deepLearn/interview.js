@@ -439,7 +439,75 @@ const concepts = [
     tamil:
       "உங்களிடம் இருக்கும் ஒரு technical அல்லது soft skill-ஐ தேர்வு செய்யுங்கள். அந்த skill என்ன, அதை எங்கு பயன்படுத்தினீர்கள், அதை பயன்படுத்தியதன் மூலம் என்ன கற்றுக்கொண்டீர்கள் என்பதை explain செய்யுங்கள்."
   }
-}
+},
+{
+  conceptId: 8,
+  title: "Talking About Your Projects",
+
+  understand: {
+    english:
+      "Talking about a project in an interview means explaining what you built or worked on, why you built it, what your role was, the technologies or skills you used, and what you learned from the experience.",
+
+    tamil:
+      "Interview-ல் ஒரு project பற்றி பேசுவது என்பது நீங்கள் என்ன build அல்லது work செய்தீர்கள், ஏன் அந்த project-ஐ செய்தீர்கள், அதில் உங்கள் role என்ன, எந்த technologies அல்லது skills-ஐ பயன்படுத்தினீர்கள், அந்த experience மூலம் என்ன கற்றுக்கொண்டீர்கள் என்பதை explain செய்வதாகும்."
+  },
+
+  seeTheSituation: {
+    english:
+      "Imagine that the interviewer asks you about your final-year project. You explain the problem your project solves, the main features, the technologies you used, your contribution, and one challenge you faced while building it.",
+
+    tamil:
+      "Interviewer உங்கள் final-year project பற்றி கேட்கிறார் என்று நினைத்துக் கொள்ளுங்கள். உங்கள் project solve செய்யும் problem, முக்கியமான features, பயன்படுத்திய technologies, உங்கள் contribution மற்றும் project build செய்யும்போது சந்தித்த ஒரு challenge பற்றி explain செய்கிறீர்கள்."
+  },
+
+  commonMistake: {
+    english:
+      "A common mistake is only listing the project's features or technologies without explaining the problem, your contribution, or what you learned. Another mistake is claiming work that you did not actually do.",
+
+    tamil:
+      "Project-ன் features அல்லது technologies-ஐ மட்டும் list செய்து, problem, உங்கள் contribution அல்லது நீங்கள் கற்றுக்கொண்டதை explain செய்யாமல் இருப்பது பொதுவான தவறு. நீங்கள் உண்மையில் செய்யாத work-ஐ செய்ததாக claim செய்வதும் மற்றொரு தவறு."
+  },
+
+  betterApproach: {
+    english:
+      "Explain the project in a simple structure: problem, solution, your role, technology, challenge, and learning. Be honest about your contribution and be prepared to explain important technical decisions.",
+
+    tamil:
+      "Project-ஐ ஒரு simple structure-ல் explain செய்யுங்கள்: problem, solution, உங்கள் role, technology, challenge மற்றும் learning. உங்கள் contribution பற்றி honest-ஆக இருங்கள் மற்றும் முக்கியமான technical decisions பற்றி explain செய்ய தயாராக இருங்கள்."
+  },
+
+  usefulExpressions: [
+    {
+      english: "The main problem we wanted to solve was...",
+      tamil: "நாங்கள் solve செய்ய விரும்பிய முக்கியமான problem..."
+    },
+    {
+      english: "My main responsibility in the project was...",
+      tamil: "Project-ல் என்னுடைய முக்கியமான responsibility..."
+    },
+    {
+      english: "We used ... because...",
+      tamil: "நாங்கள் ...-ஐ பயன்படுத்தியதற்கான காரணம்..."
+    },
+    {
+      english: "One challenge we faced was...",
+      tamil: "நாங்கள் சந்தித்த ஒரு challenge..."
+    },
+    {
+      english: "Through this project, I learned...",
+      tamil: "இந்த project மூலம் நான் கற்றுக்கொண்டது..."
+    }
+  ],
+
+  tryYourself: {
+    english:
+      "Choose one project you have worked on. Explain it in 60–90 seconds using this structure: problem → solution → your role → technology → challenge → learning.",
+
+    tamil:
+      "நீங்கள் வேலை செய்த ஒரு project-ஐ தேர்வு செய்யுங்கள். இந்த structure-ஐ பயன்படுத்தி 60–90 seconds-ல் explain செய்யுங்கள்: problem → solution → உங்கள் role → technology → challenge → learning."
+  }
+},
+
 ];
 
 export default concepts;
