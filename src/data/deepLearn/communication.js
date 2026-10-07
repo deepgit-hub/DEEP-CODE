@@ -936,7 +936,69 @@ const concepts = [
       "உங்கள் teammate அவருடைய presentation பற்றி feedback கேட்கிறார். அவர் நன்றாக செய்த ஒரு விஷயத்தையும், அவர் improve செய்யக்கூடிய ஒரு specific விஷயத்தையும் சொல்லுங்கள்."
   }
 },
+{
+  conceptId: 16,
+  title: "Handling Misunderstandings",
 
+  understand: {
+    english:
+      "A misunderstanding happens when two people understand the same message differently. Handling misunderstandings well means staying calm, identifying where the confusion happened, and clarifying the intended meaning.",
+
+    tamil:
+      "இரண்டு பேர் ஒரே message-ஐ வெவ்வேறு விதமாக புரிந்து கொள்ளும்போது misunderstanding ஏற்படுகிறது. Misunderstanding-ஐ சரியாக handle செய்வது என்பது அமைதியாக இருந்து, confusion எங்கு ஏற்பட்டது என்பதை கண்டுபிடித்து, உண்மையான meaning-ஐ தெளிவுபடுத்துவதாகும்."
+  },
+
+  seeTheSituation: {
+    english:
+      "Imagine that your teammate thought you asked them to finish a task today, but you actually meant tomorrow. Instead of blaming them, you explain what you intended, listen to their understanding, and agree on the correct deadline.",
+
+    tamil:
+      "உங்கள் teammate ஒரு task-ஐ இன்று முடிக்க வேண்டும் என்று நீங்கள் சொன்னதாக நினைத்துள்ளார். ஆனால் நீங்கள் உண்மையில் நாளை என்று சொல்லியிருந்தீர்கள் என்று நினைத்துக் கொள்ளுங்கள். அவரை blame செய்வதற்குப் பதிலாக, நீங்கள் என்ன சொல்ல நினைத்தீர்கள் என்பதை explain செய்து, அவர் எப்படி புரிந்து கொண்டார் என்பதை கேட்டு, சரியான deadline-ஐ இருவரும் agree செய்கிறீர்கள்."
+  },
+
+  commonMistake: {
+    english:
+      "A common mistake is immediately blaming the other person or becoming angry when a misunderstanding happens. Assuming that the other person intentionally misunderstood you can make the situation worse.",
+
+    tamil:
+      "Misunderstanding ஏற்பட்டவுடன் உடனடியாக மற்றவரை blame செய்வது அல்லது கோபப்படுவது பொதுவான தவறு. மற்றவர் வேண்டுமென்றே நம்மை தவறாக புரிந்து கொண்டார் என்று assume செய்வது situation-ஐ இன்னும் மோசமாக்கலாம்."
+  },
+
+  betterApproach: {
+    english:
+      "Stay calm and explain your meaning clearly. Ask the other person what they understood, identify the difference, and agree on what should happen next.",
+
+    tamil:
+      "அமைதியாக இருந்து, நீங்கள் சொல்ல வந்ததை தெளிவாக explain செய்யுங்கள். மற்றவர் என்ன புரிந்து கொண்டார் என்று கேட்டு, இருவருடைய understanding-ல் உள்ள difference-ஐ கண்டுபிடித்து, அடுத்து என்ன செய்ய வேண்டும் என்பதை agree செய்யுங்கள்."
+  },
+
+  usefulExpressions: [
+    {
+      english: "I think there has been a misunderstanding.",
+      tamil: "இங்கே ஒரு misunderstanding ஏற்பட்டிருக்கிறது என்று நினைக்கிறேன்."
+    },
+    {
+      english: "Let me clarify what I meant.",
+      tamil: "நான் என்ன சொல்ல வந்தேன் என்பதை தெளிவுபடுத்துகிறேன்."
+    },
+    {
+      english: "What did you understand from my message?",
+      tamil: "என்னுடைய message-ல் இருந்து நீங்கள் என்ன புரிந்து கொண்டீர்கள்?"
+    },
+    {
+      english: "Let's make sure we are on the same page.",
+      tamil: "நாம் இருவரும் ஒரே விஷயத்தை புரிந்து கொண்டிருக்கிறோமா என்பதை உறுதி செய்து கொள்வோம்."
+    }
+  ],
+
+  tryYourself: {
+    english:
+      "Your teammate misunderstood an important instruction and completed the task differently from what you expected. How would you explain the misunderstanding without blaming them?",
+
+    tamil:
+      "உங்கள் teammate ஒரு முக்கியமான instruction-ஐ தவறாக புரிந்து கொண்டு, நீங்கள் எதிர்பார்த்த விதத்தில் இல்லாமல் task-ஐ செய்துள்ளார். அவரை blame செய்யாமல் அந்த misunderstanding-ஐ எப்படி explain செய்வீர்கள்?"
+  }
+},
 ];
 
 export default concepts;
