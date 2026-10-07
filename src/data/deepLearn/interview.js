@@ -507,6 +507,69 @@ const concepts = [
       "நீங்கள் வேலை செய்த ஒரு project-ஐ தேர்வு செய்யுங்கள். இந்த structure-ஐ பயன்படுத்தி 60–90 seconds-ல் explain செய்யுங்கள்: problem → solution → உங்கள் role → technology → challenge → learning."
   }
 },
+{
+  conceptId: 9,
+  title: "Explaining Your Strengths",
+
+  understand: {
+    english:
+      "Your strengths are qualities, skills, or habits that help you perform well. In an interview, explaining a strength is more effective when you support it with a real example instead of simply naming a positive quality.",
+
+    tamil:
+      "Strengths என்பது நீங்கள் நன்றாக perform செய்ய உதவும் qualities, skills அல்லது habits ஆகும். Interview-ல் ஒரு strength-ஐ வெறும் பெயராக சொல்வதைவிட, அதை support செய்யும் ஒரு real example-ஐ கொடுத்து explain செய்வது மிகவும் effective-ஆக இருக்கும்."
+  },
+
+  seeTheSituation: {
+    english:
+      "Imagine that you consider problem-solving one of your strengths. Instead of saying only 'I am good at problem-solving,' you describe a project where you faced a technical problem, investigated it, and found a solution.",
+
+    tamil:
+      "Problem-solving உங்களுடைய strength என்று நீங்கள் நினைக்கிறீர்கள் என்று வைத்துக் கொள்ளுங்கள். 'I am good at problem-solving' என்று மட்டும் சொல்வதற்குப் பதிலாக, ஒரு project-ல் technical problem-ஐ எதிர்கொண்டு, அதை investigate செய்து, solution கண்டுபிடித்த ஒரு example-ஐ explain செய்கிறீர்கள்."
+  },
+
+  commonMistake: {
+    english:
+      "A common mistake is giving generic strengths such as 'I am hardworking' without providing evidence. Listing too many strengths can also make the answer less focused.",
+
+    tamil:
+      "'I am hardworking' போன்ற generic strengths-ஐ எந்த evidence-உம் இல்லாமல் சொல்வது ஒரு பொதுவான தவறு. அதிகமான strengths-ஐ list செய்வதும் answer-ஐ less focused-ஆக மாற்றலாம்."
+  },
+
+  betterApproach: {
+    english:
+      "Choose one or two strengths that are relevant to the role and support each with a specific example. Explain how the strength helped you achieve a result or handle a situation.",
+
+    tamil:
+      "Role-க்கு relevant-ஆக இருக்கும் ஒன்று அல்லது இரண்டு strengths-ஐ தேர்வு செய்து, ஒவ்வொன்றையும் ஒரு specific example மூலம் support செய்யுங்கள். அந்த strength ஒரு result-ஐ achieve செய்ய அல்லது ஒரு situation-ஐ handle செய்ய எப்படி உதவியது என்பதை explain செய்யுங்கள்."
+  },
+
+  usefulExpressions: [
+    {
+      english: "One of my strengths is problem-solving.",
+      tamil: "என்னுடைய strengths-ல் ஒன்று problem-solving."
+    },
+    {
+      english: "A good example of this was when...",
+      tamil: "இதற்கு ஒரு நல்ல example..."
+    },
+    {
+      english: "This helped me to...",
+      tamil: "இது எனக்கு ... செய்ய உதவியது."
+    },
+    {
+      english: "I developed this strength through...",
+      tamil: "இந்த strength-ஐ நான் ... மூலம் develop செய்தேன்."
+    }
+  ],
+
+  tryYourself: {
+    english:
+      "Choose one strength that is relevant to the job you want. Give one real example that proves you have that strength.",
+
+    tamil:
+      "நீங்கள் விரும்பும் job-க்கு relevant-ஆக இருக்கும் ஒரு strength-ஐ தேர்வு செய்யுங்கள். அந்த strength உங்களிடம் இருப்பதை prove செய்யும் ஒரு real example-ஐ கொடுங்கள்."
+  }
+},
 
 ];
 
