@@ -897,6 +897,270 @@ const concepts = [
         "இரண்டு நிமிடங்கள் interview position-ல் உட்கார்ந்து practice செய்யுங்கள். Comfortable posture, natural eye contact, calm facial expression மற்றும் attentive listening ஆகியவற்றை practice செய்யுங்கள்."
     }
   },
+    {
+    conceptId: 16,
+    title: "Handling Nervousness",
+    understand: {
+      english:
+        "Feeling nervous before or during an interview is normal, especially when it is your first interview. Nervousness does not mean that you are not capable. The goal is not to remove nervousness completely, but to manage it so you can communicate clearly.",
+      tamil:
+        "Interview-க்கு முன்போ அல்லது interview-ன் போதோ nervous-ஆக இருப்பது சாதாரணமானது, குறிப்பாக இது உங்கள் first interview என்றால். Nervous-ஆக இருப்பது உங்களுக்கு திறமை இல்லை என்று அர்த்தமல்ல. Nervousness-ஐ முழுமையாக remove செய்வதை விட அதை manage செய்து தெளிவாக பேசுவதே முக்கியம்."
+    },
+    seeTheSituation: {
+      english:
+        "Imagine you enter an interview room and your heart starts beating faster. Instead of panicking, take a slow breath, sit comfortably, listen carefully to the question, and take a few seconds to organize your thoughts before answering.",
+      tamil:
+        "நீங்கள் interview room-க்குள் சென்றவுடன் உங்கள் heart வேகமாக beat ஆகிறது என்று நினைத்துக்கொள்ளுங்கள். Panic ஆகாமல், மெதுவாக ஒரு breath எடுத்துக்கொண்டு, comfortable-ஆக உட்கார்ந்து, question-ஐ கவனமாக கேட்டு, answer சொல்லும் முன் சில seconds உங்கள் thoughts-ஐ organize செய்யுங்கள்."
+    },
+    commonMistake: {
+      english:
+        "A common mistake is trying to answer too quickly because of nervousness. Some students also memorize every answer word by word, which can make them more nervous if the interviewer asks the question differently.",
+      tamil:
+        "Nervousness காரணமாக question கேட்டவுடன் மிகவும் வேகமாக answer செய்வது ஒரு common mistake. சில students answers-ஐ word by word memorize செய்வார்கள். Interviewer question-ஐ வேறு விதமாக கேட்டால் இது இன்னும் nervous ஆகச் செய்யலாம்."
+    },
+    betterApproach: {
+      english:
+        "Prepare well before the interview and practice speaking instead of memorizing exact sentences. During the interview, breathe slowly, listen completely, pause when needed, and answer one point at a time.",
+      tamil:
+        "Interview-க்கு முன் நன்றாக prepare செய்து, exact sentences-ஐ memorize செய்வதை விட பேசிப் practice செய்யுங்கள். Interview-ன் போது மெதுவாக breathe செய்து, question-ஐ முழுமையாக கேட்டு, தேவைப்பட்டால் சிறிது pause செய்து, ஒரு point-க்கு பிறகு மற்றொரு point என்று answer செய்யுங்கள்."
+    },
+    usefulExpressions: [
+      {
+        english: "Let me think about that for a moment.",
+        tamil: "அதைப் பற்றி ஒரு நிமிடம் யோசிக்கிறேன்."
+      },
+      {
+        english: "Could you please repeat the question?",
+        tamil: "தயவுசெய்து அந்த question-ஐ மீண்டும் சொல்ல முடியுமா?"
+      },
+      {
+        english: "Let me explain that clearly.",
+        tamil: "அதை தெளிவாக explain செய்கிறேன்."
+      },
+      {
+        english: "I would like to explain it with an example.",
+        tamil: "ஒரு example மூலம் அதை explain செய்ய விரும்புகிறேன்."
+      }
+    ],
+    tryYourself: {
+      english:
+        "Choose three common interview questions. Answer each question aloud while sitting in front of a mirror or recording yourself. Focus on speaking calmly instead of trying to give a perfect answer.",
+      tamil:
+        "மூன்று common interview questions-ஐ தேர்வு செய்யுங்கள். Mirror முன்பாக அல்லது உங்களை record செய்துகொண்டு ஒவ்வொரு question-க்கும் சத்தமாக answer செய்யுங்கள். Perfect answer கொடுப்பதை விட calm-ஆக பேசுவதில் கவனம் செலுத்துங்கள்."
+    }
+  },
+
+  {
+    conceptId: 17,
+    title: "Online / Video Interviews",
+    understand: {
+      english:
+        "Online interviews are interviews conducted through video meeting platforms. They require the same professional preparation as an in-person interview, along with some additional technical preparation such as checking your internet connection, camera, microphone, and surroundings.",
+      tamil:
+        "Online interview என்பது video meeting platform மூலம் நடத்தப்படும் interview. இது direct interview போலவே professional preparation தேவைப்படும். அதோடு internet connection, camera, microphone மற்றும் உங்கள் surroundings ஆகியவற்றையும் முன்கூட்டியே check செய்ய வேண்டும்."
+    },
+    seeTheSituation: {
+      english:
+        "Imagine you have an online interview at 10 AM. You join five minutes early, check your microphone and camera, sit in a quiet place, keep your resume nearby, and make sure your background is clean and professional.",
+      tamil:
+        "உங்களுக்கு காலை 10 மணிக்கு online interview உள்ளது என்று நினைத்துக்கொள்ளுங்கள். நீங்கள் five minutes முன்பே join செய்து microphone மற்றும் camera-ஐ check செய்து, அமைதியான இடத்தில் உட்கார்ந்து, resume-ஐ அருகில் வைத்துக்கொண்டு, background clean மற்றும் professional-ஆக இருப்பதை உறுதி செய்கிறீர்கள்."
+    },
+    commonMistake: {
+      english:
+        "Common mistakes include joining at the last minute, having a poor internet connection, sitting in a noisy location, looking at your phone during the interview, or not checking the microphone and camera beforehand.",
+      tamil:
+        "Last minute-ல் join செய்வது, poor internet connection இருப்பது, அதிக சத்தம் உள்ள இடத்தில் உட்கார்வது, interview-ன் போது phone பார்ப்பது அல்லது microphone மற்றும் camera-ஐ முன்பே check செய்யாமல் இருப்பது போன்றவை common mistakes."
+    },
+    betterApproach: {
+      english:
+        "Test your device and internet before the interview. Join a few minutes early, keep your camera at a comfortable level, maintain natural eye contact by looking toward the camera when speaking, and keep important documents ready.",
+      tamil:
+        "Interview-க்கு முன்பே device மற்றும் internet-ஐ test செய்யுங்கள். சில minutes முன்பே join செய்யுங்கள். Camera-ஐ comfortable level-ல் வைத்துக்கொள்ளுங்கள். பேசும்போது camera-வை நோக்கி natural eye contact maintain செய்யுங்கள். தேவையான documents-ஐ ready-ஆக வைத்துக்கொள்ளுங்கள்."
+    },
+    usefulExpressions: [
+      {
+        english: "Good morning. Can you hear me clearly?",
+        tamil: "காலை வணக்கம். என் voice உங்களுக்கு தெளிவாக கேட்கிறதா?"
+      },
+      {
+        english: "I apologize for the technical issue.",
+        tamil: "Technical issue-க்கு மன்னிக்கவும்."
+      },
+      {
+        english: "Could you please repeat that? The connection was interrupted.",
+        tamil: "தயவுசெய்து அதை மீண்டும் சொல்ல முடியுமா? Connection-ல் interruption ஏற்பட்டது."
+      },
+      {
+        english: "Thank you for your patience.",
+        tamil: "உங்கள் பொறுமைக்கு நன்றி."
+      }
+    ],
+    tryYourself: {
+      english:
+        "Set up a short mock video interview. Check your camera, microphone, lighting, background, and internet connection. Then answer three interview questions while looking at the camera.",
+      tamil:
+        "ஒரு short mock video interview setup செய்யுங்கள். Camera, microphone, lighting, background மற்றும் internet connection ஆகியவற்றை check செய்யுங்கள். பிறகு camera-வை பார்த்துக்கொண்டு மூன்று interview questions-க்கு answer செய்யுங்கள்."
+    }
+  },
+
+  {
+    conceptId: 18,
+    title: "HR Interview Basics",
+    understand: {
+      english:
+        "An HR interview usually focuses on your communication, attitude, personality, career goals, work preferences, and how you may fit into the organization. HR questions are not always about technical knowledge. They help the company understand you as a person and future employee.",
+      tamil:
+        "HR interview பொதுவாக உங்கள் communication, attitude, personality, career goals, work preferences மற்றும் organization-க்கு நீங்கள் எப்படி fit ஆகிறீர்கள் என்பதில் கவனம் செலுத்தும். HR questions அனைத்தும் technical knowledge பற்றியதாக இருக்காது. ஒரு person மற்றும் future employee-ஆக உங்களை company புரிந்துகொள்ள இது உதவும்."
+    },
+    seeTheSituation: {
+      english:
+        "An HR interviewer may ask questions such as \"Tell me about yourself,\" \"What are your career goals?\" or \"How do you handle challenges?\" These questions help them understand your attitude, communication, and professional goals.",
+      tamil:
+        "HR interviewer, \"Tell me about yourself,\" \"What are your career goals?\" அல்லது \"How do you handle challenges?\" போன்ற questions கேட்கலாம். இந்த questions மூலம் உங்கள் attitude, communication மற்றும் professional goals பற்றி அவர்கள் புரிந்துகொள்வார்கள்."
+    },
+    commonMistake: {
+      english:
+        "A common mistake is treating every HR question like a technical question and giving very short answers. Another mistake is giving answers that are not honest or saying things only because you think the interviewer wants to hear them.",
+      tamil:
+        "ஒவ்வொரு HR question-ஐயும் technical question போல நினைத்து மிகவும் short answers கொடுப்பது ஒரு common mistake. Honest இல்லாத answers கொடுப்பதும், interviewer கேட்க விரும்புவார் என்று நினைத்து உண்மையில்லாத விஷயங்களை சொல்வதும் தவறு."
+    },
+    betterApproach: {
+      english:
+        "Understand what the question is trying to learn about you. Give honest, structured answers and support your points with simple examples from your education, projects, teamwork, or experiences.",
+      tamil:
+        "Question மூலம் interviewer உங்களைப் பற்றி என்ன தெரிந்துகொள்ள முயற்சிக்கிறார் என்பதை புரிந்துகொள்ளுங்கள். Honest மற்றும் structured answers கொடுங்கள். உங்கள் education, projects, teamwork அல்லது experiences-ல் இருந்து simple examples கொடுத்து உங்கள் points-ஐ support செய்யுங்கள்."
+    },
+    usefulExpressions: [
+      {
+        english: "My short-term goal is to improve my professional skills.",
+        tamil: "என்னுடைய short-term goal என்னுடைய professional skills-ஐ improve செய்வது."
+      },
+      {
+        english: "My long-term goal is to grow in my chosen field.",
+        tamil: "என்னுடைய long-term goal நான் தேர்வு செய்த field-ல் வளர்வது."
+      },
+      {
+        english: "I am comfortable working both independently and as part of a team.",
+        tamil: "தனியாகவும் team-ன் ஒரு பகுதியாகவும் work செய்வதில் நான் comfortable-ஆக இருக்கிறேன்."
+      },
+      {
+        english: "I see challenges as opportunities to learn.",
+        tamil: "Challenges-ஐ கற்றுக்கொள்ளும் opportunities-ஆக நான் பார்க்கிறேன்."
+      }
+    ],
+    tryYourself: {
+      english:
+        "Practice answering these three HR questions: \"What are your career goals?\", \"How do you handle challenges?\", and \"Why do you want to join our company?\"",
+      tamil:
+        "இந்த மூன்று HR questions-க்கு practice செய்யுங்கள்: \"What are your career goals?\", \"How do you handle challenges?\" மற்றும் \"Why do you want to join our company?\""
+    }
+  },
+
+  {
+    conceptId: 19,
+    title: "Technical Interview Communication",
+    understand: {
+      english:
+        "In a technical interview, knowing the answer is important, but explaining your thinking is also important. Interviewers may want to understand how you approach a problem, why you choose a particular solution, and how clearly you can explain technical ideas.",
+      tamil:
+        "Technical interview-ல் answer தெரிந்திருப்பது மட்டும் முக்கியம் அல்ல. நீங்கள் எப்படி think செய்கிறீர்கள் என்பதையும் explain செய்வது முக்கியம். ஒரு problem-ஐ எப்படி approach செய்கிறீர்கள், ஏன் ஒரு particular solution-ஐ choose செய்கிறீர்கள், technical ideas-ஐ எவ்வளவு clear-ஆக explain செய்கிறீர்கள் என்பதையும் interviewer பார்க்கலாம்."
+    },
+    seeTheSituation: {
+      english:
+        "Suppose an interviewer gives you a programming problem. Instead of immediately writing code silently, you can first explain your understanding of the problem, describe your approach, and then start solving it.",
+      tamil:
+        "Interviewer உங்களுக்கு ஒரு programming problem கொடுக்கிறார் என்று நினைத்துக்கொள்ளுங்கள். உடனே silent-ஆக code எழுதுவதற்கு பதிலாக, முதலில் problem-ஐ எப்படி புரிந்துகொண்டீர்கள் என்பதை சொல்லி, உங்கள் approach-ஐ explain செய்த பிறகு solve செய்ய ஆரம்பிக்கலாம்."
+    },
+    commonMistake: {
+      english:
+        "A common mistake is staying completely silent while solving a problem. Another mistake is using complicated technical words without being able to explain them clearly. It is also risky to pretend that you understand a question when you do not.",
+      tamil:
+        "Problem solve செய்யும்போது completely silent-ஆக இருப்பது ஒரு common mistake. Explain செய்ய முடியாமல் complicated technical words பயன்படுத்துவதும் தவறு. Question புரியவில்லை என்றாலும் புரிந்தது போல நடிப்பதும் risky."
+    },
+    betterApproach: {
+      english:
+        "Think aloud in a simple and organized way. First understand the problem, then explain your approach, solve it step by step, and discuss the result. If you need clarification, ask for it.",
+      tamil:
+        "Simple மற்றும் organized way-ல் உங்கள் thinking-ஐ explain செய்யுங்கள். முதலில் problem-ஐ புரிந்துகொண்டு, பிறகு approach-ஐ explain செய்து, step by step solve செய்து, result பற்றி discuss செய்யுங்கள். Clarification தேவைப்பட்டால் கேளுங்கள்."
+    },
+    usefulExpressions: [
+      {
+        english: "Let me first explain how I understand the problem.",
+        tamil: "முதலில் இந்த problem-ஐ நான் எப்படி புரிந்துகொண்டேன் என்பதை explain செய்கிறேன்."
+      },
+      {
+        english: "My approach would be to...",
+        tamil: "என்னுடைய approach..."
+      },
+      {
+        english: "I would solve this step by step.",
+        tamil: "இதை step by step solve செய்வேன்."
+      },
+      {
+        english: "Could you clarify this part of the question?",
+        tamil: "இந்த question-ன் இந்த பகுதியை clarify செய்ய முடியுமா?"
+      }
+    ],
+    tryYourself: {
+      english:
+        "Choose a simple programming problem you already know. Explain the problem, your approach, and your solution aloud as if an interviewer were sitting in front of you.",
+      tamil:
+        "உங்களுக்கு ஏற்கனவே தெரிந்த ஒரு simple programming problem-ஐ தேர்வு செய்யுங்கள். Interviewer உங்கள் முன் இருப்பது போல problem, approach மற்றும் solution ஆகியவற்றை சத்தமாக explain செய்யுங்கள்."
+    }
+  },
+
+  {
+    conceptId: 20,
+    title: "Interview Follow-Up and Professional Etiquette",
+    understand: {
+      english:
+        "Professional behavior does not end when the interview finishes. Thanking the interviewer, responding professionally to communication, and being patient about the result are all part of interview etiquette. A good follow-up should be polite and should not pressure the company for an immediate decision.",
+      tamil:
+        "Interview முடிந்தவுடன் professional behavior முடிந்துவிடாது. Interviewer-க்கு நன்றி தெரிவிப்பது, company communication-க்கு professional-ஆக reply செய்வது மற்றும் result-க்காக patient-ஆக இருப்பது interview etiquette-ன் ஒரு பகுதிகள். Follow-up polite-ஆக இருக்க வேண்டும்; உடனடி decision கேட்டு company-க்கு pressure கொடுக்கக்கூடாது."
+    },
+    seeTheSituation: {
+      english:
+        "Imagine you completed an interview and the interviewer said they would contact you later. After the expected time has passed, you can send a short and polite message asking whether there is an update about the interview process.",
+      tamil:
+        "நீங்கள் interview முடித்துவிட்டீர்கள், பின்னர் contact செய்வதாக interviewer சொல்கிறார் என்று நினைத்துக்கொள்ளுங்கள். அவர்கள் சொன்ன expected time கடந்த பிறகு, interview process பற்றி ஏதாவது update இருக்கிறதா என்று short மற்றும் polite message அனுப்பலாம்."
+    },
+    commonMistake: {
+      english:
+        "Common mistakes include sending repeated messages, demanding an immediate result, sending informal messages, or becoming rude when there is a delay. Another mistake is failing to thank the interviewer after the interview.",
+      tamil:
+        "Repeated messages அனுப்புவது, உடனடி result கேட்டு demand செய்வது, informal messages அனுப்புவது அல்லது delay ஏற்பட்டால் rude-ஆக நடந்து கொள்வது common mistakes. Interview முடிந்த பிறகு interviewer-க்கு thank you சொல்லாமல் இருப்பதும் நல்ல practice அல்ல."
+    },
+    betterApproach: {
+      english:
+        "Thank the interviewer for their time and opportunity. If you need to follow up, wait for a reasonable period and send one concise, professional message. Regardless of the result, remain respectful.",
+      tamil:
+        "Interviewer-ன் time மற்றும் opportunity-க்கு நன்றி தெரிவியுங்கள். Follow-up தேவைப்பட்டால் reasonable period காத்திருந்து ஒரு concise மற்றும் professional message அனுப்புங்கள். Result எதுவாக இருந்தாலும் respectful-ஆக இருங்கள்."
+    },
+    usefulExpressions: [
+      {
+        english: "Thank you for taking the time to interview me.",
+        tamil: "என்னை interview செய்ததற்கு உங்கள் நேரத்தை ஒதுக்கியதற்கு நன்றி."
+      },
+      {
+        english: "I appreciate the opportunity to discuss the role with you.",
+        tamil: "இந்த role பற்றி உங்களுடன் discuss செய்ய கிடைத்த opportunity-ஐ நான் மதிக்கிறேன்."
+      },
+      {
+        english: "I am writing to follow up on my interview.",
+        tamil: "என்னுடைய interview தொடர்பாக follow up செய்ய இந்த message-ஐ அனுப்புகிறேன்."
+      },
+      {
+        english: "Could you please let me know if there is any update regarding the next steps?",
+        tamil: "Next steps தொடர்பாக ஏதாவது update இருந்தால் தயவுசெய்து தெரிவிக்க முடியுமா?"
+      }
+    ],
+    tryYourself: {
+      english:
+        "Imagine you completed an interview one week ago and have not received an update. Practice saying a short, polite follow-up message asking about the status of your application.",
+      tamil:
+        "நீங்கள் ஒரு வாரத்திற்கு முன்பு interview முடித்துவிட்டீர்கள், ஆனால் இன்னும் update வரவில்லை என்று நினைத்துக்கொள்ளுங்கள். உங்கள் application status பற்றி கேட்கும் ஒரு short மற்றும் polite follow-up message-ஐ practice செய்யுங்கள்."
+    }
+  }
 ];
 
 export default concepts;
