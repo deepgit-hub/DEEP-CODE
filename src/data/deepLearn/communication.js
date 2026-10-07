@@ -314,6 +314,69 @@ const concepts = [
       "உங்கள் manager ஒரு புதிய task கொடுக்கிறார். ஆனால் அதில் ஒரு முக்கியமான requirement உங்களுக்கு புரியவில்லை. நீங்களாக ஒரு assumption செய்வதற்குப் பதிலாக என்ன கேள்வி கேட்பீர்கள்?"
   }
 },
+{
+  conceptId: 6,
+  title: "Giving Clear Answers",
+
+  understand: {
+    english:
+      "Giving clear answers means responding to a question in a direct, understandable, and relevant way. A good answer should address what was asked without unnecessary information.",
+
+    tamil:
+      "Giving Clear Answers என்பது கேட்கப்பட்ட கேள்விக்கு நேரடியாகவும், தெளிவாகவும், புரியும் வகையிலும் பதிலளிப்பதாகும். ஒரு நல்ல பதில் கேட்கப்பட்ட விஷயத்தை சரியாக address செய்ய வேண்டும்; தேவையில்லாத தகவல்களை சேர்க்கக் கூடாது."
+  },
+
+  seeTheSituation: {
+    english:
+      "During an interview, the interviewer asks you why you chose Computer Science. Instead of talking about unrelated personal details, you briefly explain your interest in technology and how your studies developed that interest.",
+
+    tamil:
+      "ஒரு interview-ல் interviewer ஏன் Computer Science-ஐ தேர்வு செய்தீர்கள் என்று கேட்கிறார் என்று நினைத்துக் கொள்ளுங்கள். சம்பந்தமில்லாத personal details-ஐ சொல்வதற்குப் பதிலாக, technology மீது உங்களுக்கு இருந்த interest மற்றும் உங்கள் studies அந்த interest-ஐ எப்படி வளர்த்தது என்பதை சுருக்கமாக விளக்குகிறீர்கள்."
+  },
+
+  commonMistake: {
+    english:
+      "A common mistake is giving very long answers, moving away from the question, or giving information that does not help answer what was asked.",
+
+    tamil:
+      "மிக நீண்ட பதில்களை கொடுப்பது, கேள்வியிலிருந்து வேறு விஷயத்திற்கு செல்வது அல்லது கேட்கப்பட்ட கேள்விக்கு உதவாத தகவல்களை சொல்வது பொதுவான தவறுகள்."
+  },
+
+  betterApproach: {
+    english:
+      "Listen carefully to the question, think about the main point, and answer it directly. If more explanation is needed, add relevant details after giving the main answer.",
+
+    tamil:
+      "கேள்வியை கவனமாக கேளுங்கள், முக்கியமான point என்ன என்பதை யோசித்து, அதற்கு நேரடியாக பதில் சொல்லுங்கள். கூடுதல் explanation தேவைப்பட்டால், main answer-க்கு பிறகு சம்பந்தப்பட்ட விவரங்களை சேர்க்கலாம்."
+  },
+
+  usefulExpressions: [
+    {
+      english: "The main reason is...",
+      tamil: "முக்கியமான காரணம்..."
+    },
+    {
+      english: "In short...",
+      tamil: "சுருக்கமாக சொல்வதானால்..."
+    },
+    {
+      english: "The answer is...",
+      tamil: "பதில்..."
+    },
+    {
+      english: "For example...",
+      tamil: "உதாரணமாக..."
+    }
+  ],
+
+  tryYourself: {
+    english:
+      "Someone asks you, 'What did you learn from your college project?' Give a short answer with one clear main point and one supporting example.",
+
+    tamil:
+      "யாராவது உங்களிடம், 'உங்கள் college project-ல் இருந்து என்ன கற்றுக்கொண்டீர்கள்?' என்று கேட்கிறார்கள். ஒரு முக்கியமான point மற்றும் அதற்கு ஒரு supporting example வைத்து சுருக்கமாக எப்படி பதிலளிப்பீர்கள்?"
+  }
+},
 ];
 
 export default concepts;
