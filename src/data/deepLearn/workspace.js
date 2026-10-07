@@ -791,6 +791,7 @@ const concepts = [
         "ஒரு task-ஐ எப்படி complete செய்வது என்பதில் teammate-உடன் disagree செய்கிறீர்கள் என்று நினைத்துக்கொள்ளுங்கள். உங்கள் opinion-ஐ respectfully explain செய்து, இருவரின் approaches-ஐயும் discuss செய்ய teammate-ஐ கேட்பதை practice செய்யுங்கள்."
     }
   },
+  
 ];
 
 export default concepts;
