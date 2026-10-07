@@ -377,6 +377,69 @@ const concepts = [
       "ஒரு interviewer, 'உங்கள் educational background பற்றி சொல்ல முடியுமா?' என்று கேட்கிறார் என்று நினைத்துக் கொள்ளுங்கள். ஒரு short answer கொடுத்து, உங்கள் education-ன் ஒரு பகுதியை ஒரு skill அல்லது project-உடன் connect செய்யுங்கள்."
   }
 },
+{
+  conceptId: 7,
+  title: "Explaining Your Skills",
+
+  understand: {
+    english:
+      "Explaining your skills means describing what you can do and supporting those skills with examples from your projects, studies, internships, or other experiences. Simply naming a skill is less convincing than showing how you have used it.",
+
+    tamil:
+      "உங்கள் skills-ஐ explain செய்வது என்பது நீங்கள் என்ன செய்ய முடியும் என்பதை describe செய்து, அந்த skills-ஐ projects, studies, internships அல்லது பிற experiences மூலம் எப்படி பயன்படுத்தியுள்ளீர்கள் என்பதை examples-உடன் சொல்வதாகும். ஒரு skill-ன் பெயரை மட்டும் சொல்வதைவிட, அதை எப்படி பயன்படுத்தியுள்ளீர்கள் என்பதை காட்டுவது நம்பகமானதாக இருக்கும்."
+  },
+
+  seeTheSituation: {
+    english:
+      "Imagine that an interviewer asks whether you know React. Instead of simply saying 'Yes, I know React,' you explain that you used React to build a project and briefly describe what you built and what you learned.",
+
+    tamil:
+      "Interviewer உங்களுக்கு React தெரியுமா என்று கேட்கிறார் என்று நினைத்துக் கொள்ளுங்கள். 'Yes, I know React' என்று மட்டும் சொல்வதற்குப் பதிலாக, ஒரு project-ஐ build செய்ய React-ஐ பயன்படுத்தியதை explain செய்து, என்ன build செய்தீர்கள் மற்றும் என்ன கற்றுக்கொண்டீர்கள் என்பதை சுருக்கமாக சொல்கிறீர்கள்."
+  },
+
+  commonMistake: {
+    english:
+      "A common mistake is listing many skills without being able to explain or demonstrate them. Claiming a high level of knowledge without practical experience can also create problems during an interview.",
+
+    tamil:
+      "பல skills-ஐ list செய்துவிட்டு அவற்றை explain அல்லது demonstrate செய்ய முடியாமல் இருப்பது ஒரு பொதுவான தவறு. Practical experience இல்லாமல் ஒரு skill-ல் அதிக knowledge இருப்பதாக claim செய்வதும் interview-ல் problems-ஐ உருவாக்கலாம்."
+  },
+
+  betterApproach: {
+    english:
+      "Choose skills that are relevant to the role and support them with real examples. Be honest about your current level and explain what you are learning or improving.",
+
+    tamil:
+      "Role-க்கு relevant-ஆக இருக்கும் skills-ஐ தேர்வு செய்து, அவற்றை real examples மூலம் support செய்யுங்கள். உங்கள் current level பற்றி honest-ஆக இருந்து, தற்போது என்ன கற்றுக்கொள்கிறீர்கள் அல்லது improve செய்கிறீர்கள் என்பதையும் explain செய்யுங்கள்."
+  },
+
+  usefulExpressions: [
+    {
+      english: "One of my key skills is...",
+      tamil: "என்னுடைய முக்கியமான skills-ல் ஒன்று..."
+    },
+    {
+      english: "I used this skill while working on...",
+      tamil: "நான் இந்த skill-ஐ ... மீது வேலை செய்யும்போது பயன்படுத்தினேன்."
+    },
+    {
+      english: "I have practical experience with...",
+      tamil: "...-ல் எனக்கு practical experience உள்ளது."
+    },
+    {
+      english: "I am currently improving my skills in...",
+      tamil: "நான் தற்போது ...-ல் என்னுடைய skills-ஐ improve செய்து வருகிறேன்."
+    }
+  ],
+
+  tryYourself: {
+    english:
+      "Choose one technical or soft skill you have. Explain what the skill is, where you used it, and what you learned from using it.",
+
+    tamil:
+      "உங்களிடம் இருக்கும் ஒரு technical அல்லது soft skill-ஐ தேர்வு செய்யுங்கள். அந்த skill என்ன, அதை எங்கு பயன்படுத்தினீர்கள், அதை பயன்படுத்தியதன் மூலம் என்ன கற்றுக்கொண்டீர்கள் என்பதை explain செய்யுங்கள்."
+  }
+}
 ];
 
 export default concepts;
