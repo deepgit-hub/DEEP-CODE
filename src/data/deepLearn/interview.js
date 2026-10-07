@@ -188,6 +188,69 @@ const concepts = [
       "நீங்கள் வேலை செய்ய விரும்பும் ஒரு company-ஐ தேர்வு செய்யுங்கள். அந்த company-ன் interview-க்கு செல்வதற்கு முன்பு நீங்கள் தெரிந்து கொள்ள வேண்டிய மூன்று முக்கியமான விஷயங்களை கண்டுபிடியுங்கள்."
   }
 },
+{
+  conceptId: 4,
+  title: "Introducing Yourself in an Interview",
+
+  understand: {
+    english:
+      "Introducing yourself in an interview means giving a short and relevant summary of who you are, your educational background, important skills, projects or experience, and your career interests. It gives the interviewer an initial understanding of your background.",
+
+    tamil:
+      "Interview-ல் உங்களை அறிமுகப்படுத்துவது என்பது நீங்கள் யார், உங்கள் educational background, முக்கியமான skills, projects அல்லது experience மற்றும் career interests பற்றி short மற்றும் relevant-ஆக சொல்லுவதாகும். இது interviewer-க்கு உங்கள் background பற்றி ஒரு initial understanding-ஐ கொடுக்கிறது."
+  },
+
+  seeTheSituation: {
+    english:
+      "Imagine that the interviewer says, 'Please introduce yourself.' You start with your name and education, briefly mention a relevant project or skill, and finish by explaining what kind of opportunity you are looking for.",
+
+    tamil:
+      "Interviewer 'Please introduce yourself' என்று கேட்கிறார் என்று நினைத்துக் கொள்ளுங்கள். நீங்கள் உங்கள் name மற்றும் education-ல் தொடங்கி, relevant project அல்லது skill பற்றி சுருக்கமாக சொல்லி, எந்த வகையான opportunity-ஐ எதிர்பார்க்கிறீர்கள் என்பதை சொல்லி முடிக்கிறீர்கள்."
+  },
+
+  commonMistake: {
+    english:
+      "A common mistake is giving a very long personal story, repeating everything written on the resume, or including information that is not relevant to the role.",
+
+    tamil:
+      "மிக நீண்ட personal story-ஐ சொல்லுவது, resume-ல் இருப்பதை முழுவதுமாக repeat செய்வது அல்லது அந்த role-க்கு relevant இல்லாத information-ஐ சேர்ப்பது பொதுவான தவறுகள்."
+  },
+
+  betterApproach: {
+    english:
+      "Keep your introduction focused and relevant to the position. Start with your current education or role, mention one or two strong skills or projects, and explain what you hope to contribute and learn in the role.",
+
+    tamil:
+      "உங்கள் introduction-ஐ position-க்கு relevant-ஆகவும் focused-ஆகவும் வைத்துக் கொள்ளுங்கள். உங்கள் current education அல்லது role-ல் தொடங்கி, ஒன்று அல்லது இரண்டு strong skills அல்லது projects பற்றி சொல்லி, அந்த role-ல் நீங்கள் என்ன contribute செய்யவும் learn செய்யவும் விரும்புகிறீர்கள் என்பதை explain செய்யுங்கள்."
+  },
+
+  usefulExpressions: [
+    {
+      english: "My name is Deepak, and I am currently pursuing my degree in Computer Science.",
+      tamil: "என் பெயர் Deepak. நான் தற்போது Computer Science-ல் என் degree-ஐ படித்து வருகிறேன்."
+    },
+    {
+      english: "I recently worked on a project where I...",
+      tamil: "சமீபத்தில் நான் ஒரு project-ல் வேலை செய்தேன், அதில் நான்..."
+    },
+    {
+      english: "My main areas of interest are...",
+      tamil: "என்னுடைய முக்கியமான interest areas..."
+    },
+    {
+      english: "I am looking for an opportunity where I can apply my skills and continue learning.",
+      tamil: "என்னுடைய skills-ஐ பயன்படுத்தி தொடர்ந்து கற்றுக்கொள்ளக்கூடிய ஒரு opportunity-ஐ நான் எதிர்பார்க்கிறேன்."
+    }
+  ],
+
+  tryYourself: {
+    english:
+      "Prepare a 30–60 second self-introduction for a job interview. Include your name, education, one relevant skill or project, and your career interest.",
+
+    tamil:
+      "ஒரு job interview-க்காக 30–60 seconds அளவிலான self-introduction-ஐ தயார் செய்யுங்கள். அதில் உங்கள் name, education, ஒரு relevant skill அல்லது project மற்றும் career interest ஆகியவற்றை சேர்க்கவும்."
+  }
+},
 ];
 
 export default concepts;
