@@ -999,6 +999,69 @@ const concepts = [
       "உங்கள் teammate ஒரு முக்கியமான instruction-ஐ தவறாக புரிந்து கொண்டு, நீங்கள் எதிர்பார்த்த விதத்தில் இல்லாமல் task-ஐ செய்துள்ளார். அவரை blame செய்யாமல் அந்த misunderstanding-ஐ எப்படி explain செய்வீர்கள்?"
   }
 },
+{
+  conceptId: 17,
+  title: "Saying No Politely",
+
+  understand: {
+    english:
+      "Saying no politely means refusing a request while still showing respect for the other person. Being able to say no is important when a request conflicts with your responsibilities, priorities, time, or personal boundaries.",
+
+    tamil:
+      "Saying No Politely என்பது மற்றவருடைய request-ஐ மறுக்கும் போது அவருக்கு மரியாதையை தொடர்ந்து காட்டுவதாகும். நம்முடைய responsibilities, priorities, time அல்லது personal boundaries-க்கு ஒரு request பொருந்தாதபோது மரியாதையாக 'no' சொல்ல தெரிந்து இருப்பது முக்கியம்."
+  },
+
+  seeTheSituation: {
+    english:
+      "Imagine that your teammate asks you to take on another task, but you already have an important deadline. Instead of simply saying 'No, I won't do it', you explain that you are currently busy and offer to help after completing your current task.",
+
+    tamil:
+      "உங்கள் teammate இன்னொரு task-ஐ எடுத்துக் கொள்ளச் சொல்கிறார். ஆனால் உங்களிடம் ஏற்கனவே ஒரு important deadline உள்ளது என்று நினைத்துக் கொள்ளுங்கள். 'No, I won't do it' என்று மட்டும் சொல்வதற்குப் பதிலாக, தற்போது நீங்கள் busy-ஆக இருப்பதை explain செய்து, current task-ஐ முடித்த பிறகு help செய்யலாம் என்று சொல்லுகிறீர்கள்."
+  },
+
+  commonMistake: {
+    english:
+      "A common mistake is saying yes to everything even when you do not have the time or ability to complete it. Another mistake is refusing in a rude or aggressive way.",
+
+    tamil:
+      "Time அல்லது ability இல்லாதபோதும் எல்லாவற்றிற்கும் 'yes' சொல்வது ஒரு பொதுவான தவறு. அதேபோல், request-ஐ rude அல்லது aggressive-ஆக reject செய்வதும் தவறு."
+  },
+
+  betterApproach: {
+    english:
+      "Be honest about your situation, give a brief reason when appropriate, and if possible offer an alternative. You can be respectful without agreeing to everything.",
+
+    tamil:
+      "உங்கள் situation பற்றி honest-ஆக சொல்லுங்கள், தேவையான போது ஒரு short reason கொடுங்கள், முடிந்தால் ஒரு alternative-ஐ suggest செய்யுங்கள். எல்லாவற்றிற்கும் agree செய்யாமல் இருந்தாலும் respectful-ஆக இருக்க முடியும்."
+  },
+
+  usefulExpressions: [
+    {
+      english: "I'm sorry, but I can't take this up right now.",
+      tamil: "மன்னிக்கவும், ஆனால் இப்போது இதை என்னால் எடுத்துக்கொள்ள முடியாது."
+    },
+    {
+      english: "I have another deadline to complete first.",
+      tamil: "முதலில் எனக்கு இன்னொரு deadline-ஐ complete செய்ய வேண்டும்."
+    },
+    {
+      english: "I won't be able to do it today.",
+      tamil: "என்னால் இன்று இதை செய்ய முடியாது."
+    },
+    {
+      english: "Could we do this tomorrow instead?",
+      tamil: "அதற்கு பதிலாக இதை நாளை செய்யலாமா?"
+    }
+  ],
+
+  tryYourself: {
+    english:
+      "Your friend asks you to help them with a task, but you have an important assignment due tomorrow. How would you politely say no without damaging the relationship?",
+
+    tamil:
+      "உங்கள் friend ஒரு task-ல் help கேட்கிறார். ஆனால் நாளைக்கு submit செய்ய வேண்டிய ஒரு important assignment உங்களிடம் உள்ளது. Relationship-ஐ பாதிக்காமல் எப்படி politely 'no' சொல்வீர்கள்?"
+  }
+},
 ];
 
 export default concepts;
