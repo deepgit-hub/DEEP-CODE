@@ -632,7 +632,271 @@ const concepts = [
     tamil:
       "நீங்கள் உண்மையாக improve செய்ய விரும்பும் ஒரு area-ஐ யோசியுங்கள். அந்த weakness என்ன, அதை ஏன் improve செய்ய விரும்புகிறீர்கள், அதை improve செய்ய நீங்கள் எடுத்து வரும் ஒன்று அல்லது இரண்டு actions என்ன என்பதை explain செய்யுங்கள்."
   }
-}
+},
+  {
+    conceptId: 11,
+    title: "Answering \"Why Should We Hire You?\"",
+    understand: {
+      english:
+        "This question gives you a chance to explain why you are a good fit for the job. You should connect your skills, attitude, education, and projects to what the company needs. You do not need to say that you are better than other candidates. Instead, explain what you can contribute and why you are ready to learn and grow.",
+      tamil:
+        "இந்த கேள்வி நீங்கள் அந்த வேலைக்கு ஏன் பொருத்தமானவர் என்பதை சொல்லும் வாய்ப்பு. உங்கள் skills, attitude, education மற்றும் projects ஆகியவற்றை அந்த வேலைக்கு தேவையான விஷயங்களுடன் தொடர்புபடுத்தி சொல்ல வேண்டும். மற்ற candidates-ஐ விட நீங்கள் சிறந்தவர் என்று சொல்ல வேண்டிய அவசியம் இல்லை. நீங்கள் company-க்கு என்ன contribution செய்ய முடியும் மற்றும் கற்றுக்கொண்டு வளர தயாராக இருக்கிறீர்கள் என்பதையே சொல்லுங்கள்."
+    },
+    seeTheSituation: {
+      english:
+        "Imagine you are applying for a junior software developer position. The interviewer asks, \"Why should we hire you?\" Instead of saying only, \"I am hardworking,\" you can explain your programming knowledge, your project experience, your willingness to learn, and how you solve problems.",
+      tamil:
+        "நீங்கள் Junior Software Developer வேலைக்கு interview செல்கிறீர்கள் என்று நினைத்துக்கொள்ளுங்கள். Interviewer, \"Why should we hire you?\" என்று கேட்கிறார். \"I am hardworking\" என்று மட்டும் சொல்லாமல், உங்கள் programming knowledge, project experience, கற்றுக்கொள்ளும் ஆர்வம் மற்றும் problem-solving ability பற்றி சொல்லலாம்."
+    },
+    commonMistake: {
+      english:
+        "A common mistake is giving a generic answer such as \"I am hardworking and sincere\" without explaining anything with an example. Another mistake is sounding overconfident or comparing yourself negatively with other candidates.",
+      tamil:
+        "Example இல்லாமல் \"I am hardworking and sincere\" என்று பொதுவாக மட்டும் சொல்வது ஒரு common mistake. மற்ற candidates-ஐ குறைத்து பேசுவதும் அல்லது மிகவும் overconfident-ஆக பேசுவதும் தவறு."
+    },
+    betterApproach: {
+      english:
+        "Choose two or three qualities that are relevant to the job. Support them with your education, projects, or real experiences. End by showing that you are ready to learn and contribute to the company.",
+      tamil:
+        "அந்த வேலைக்கு தொடர்புடைய இரண்டு அல்லது மூன்று qualities-ஐ தேர்வு செய்யுங்கள். அவற்றை உங்கள் education, projects அல்லது real experiences மூலம் explain செய்யுங்கள். கடைசியில் company-க்கு contribution செய்யவும் புதிய விஷயங்களை கற்றுக்கொள்ளவும் நீங்கள் தயாராக இருக்கிறீர்கள் என்பதை சொல்லுங்கள்."
+    },
+    usefulExpressions: [
+      {
+        english: "I believe my skills match the requirements of this role.",
+        tamil: "என்னுடைய skills இந்த role-க்கு தேவையான requirements-க்கு பொருந்தும் என்று நான் நம்புகிறேன்."
+      },
+      {
+        english: "I have practical experience through my academic projects.",
+        tamil: "என்னுடைய academic projects மூலம் எனக்கு practical experience கிடைத்துள்ளது."
+      },
+      {
+        english: "I am willing to learn and improve continuously.",
+        tamil: "நான் தொடர்ந்து கற்றுக்கொண்டு என்னை மேம்படுத்த தயாராக இருக்கிறேன்."
+      },
+      {
+        english: "I believe I can contribute to the team while growing with the company.",
+        tamil: "Company-யுடன் வளர்ந்துகொண்டே team-க்கும் நான் contribution செய்ய முடியும் என்று நம்புகிறேன்."
+      }
+    ],
+    tryYourself: {
+      english:
+        "Imagine you are attending an interview for a job related to your field. Answer the question: \"Why should we hire you?\" Mention your skills, one practical experience, and your willingness to learn.",
+      tamil:
+        "உங்கள் field-க்கு தொடர்பான ஒரு வேலைக்கு interview செல்கிறீர்கள் என்று நினைத்துக்கொள்ளுங்கள். \"Why should we hire you?\" என்ற கேள்விக்கு பதில் சொல்லிப் பாருங்கள். உங்கள் skills, ஒரு practical experience மற்றும் கற்றுக்கொள்ளும் ஆர்வம் ஆகியவற்றை குறிப்பிடுங்கள்."
+    }
+  },
+
+  {
+    conceptId: 12,
+    title: "Answering \"Why Do You Want This Job?\"",
+    understand: {
+      english:
+        "This question helps the interviewer understand your interest in the job and whether you have thought about your career direction. A good answer should connect the role with your skills, interests, learning goals, and career plans.",
+      tamil:
+        "இந்த கேள்வி உங்களுக்கு அந்த job-ல் உண்மையான interest இருக்கிறதா மற்றும் உங்கள் career direction பற்றி நீங்கள் யோசித்திருக்கிறீர்களா என்பதை interviewer புரிந்துகொள்ள உதவும். நல்ல பதில் அந்த role-ஐ உங்கள் skills, interests, learning goals மற்றும் career plans உடன் தொடர்புபடுத்த வேண்டும்."
+    },
+    seeTheSituation: {
+      english:
+        "Suppose you are applying for a software development role because you enjoy programming and want to build real-world applications. You can explain that the role matches your technical interests and gives you an opportunity to improve your skills through practical work.",
+      tamil:
+        "நீங்கள் programming பிடிக்கும் என்பதாலும் real-world applications உருவாக்க விரும்புவதாலும் software development role-க்கு apply செய்கிறீர்கள் என்று நினைத்துக்கொள்ளுங்கள். அந்த role உங்கள் technical interests-க்கு பொருந்துகிறது என்றும் practical work மூலம் உங்கள் skills-ஐ improve செய்ய ஒரு நல்ல opportunity என்றும் explain செய்யலாம்."
+    },
+    commonMistake: {
+      english:
+        "A common mistake is saying that you want the job only because of salary or because you need any job. Another mistake is giving an answer that could apply to any company or any position.",
+      tamil:
+        "Salary காரணமாக மட்டும் இந்த job வேண்டும் என்று சொல்வது ஒரு common mistake. எந்த company அல்லது எந்த position-க்கும் பொருந்தக்கூடிய ஒரு generic answer கொடுப்பதும் தவறு."
+    },
+    betterApproach: {
+      english:
+        "Explain what interests you about the role. Connect the job with something you have learned, built, or enjoyed doing. Also mention how the opportunity fits into your future career development.",
+      tamil:
+        "அந்த role-ல் உங்களுக்கு என்ன interest இருக்கிறது என்பதை சொல்லுங்கள். நீங்கள் கற்றது, உருவாக்கியது அல்லது செய்ய விரும்பியது ஆகியவற்றுடன் அந்த job-ஐ connect செய்யுங்கள். மேலும் இந்த opportunity உங்கள் future career development-க்கு எப்படி உதவும் என்பதையும் சொல்லுங்கள்."
+    },
+    usefulExpressions: [
+      {
+        english: "This role matches my interest in technology.",
+        tamil: "இந்த role-ல் technology தொடர்பான என்னுடைய interest-க்கு நல்ல பொருத்தம் உள்ளது."
+      },
+      {
+        english: "I want to gain practical experience in this field.",
+        tamil: "இந்த field-ல் practical experience பெற விரும்புகிறேன்."
+      },
+      {
+        english: "I see this role as a good opportunity to develop my skills.",
+        tamil: "என்னுடைய skills-ஐ develop செய்ய இந்த role ஒரு நல்ல opportunity என்று நான் பார்க்கிறேன்."
+      },
+      {
+        english: "This position aligns with my long-term career goals.",
+        tamil: "இந்த position என்னுடைய long-term career goals-க்கு பொருந்துகிறது."
+      }
+    ],
+    tryYourself: {
+      english:
+        "Choose a job you would like to apply for. Explain why you want that job, what interests you about it, and how it connects with your future career.",
+      tamil:
+        "நீங்கள் விரும்பும் ஒரு job-ஐ தேர்வு செய்யுங்கள். அந்த job ஏன் வேண்டும், அதில் உங்களுக்கு என்ன interest இருக்கிறது, அது உங்கள் future career-க்கு எப்படி தொடர்புடையது என்பதை explain செய்து பாருங்கள்."
+    }
+  },
+
+  {
+    conceptId: 13,
+    title: "Handling Unknown Questions",
+    understand: {
+      english:
+        "You may sometimes receive a question in an interview that you do not know the answer to. It is normal. The important thing is how you respond. You should stay calm, be honest, and show your willingness to learn instead of guessing or pretending to know.",
+      tamil:
+        "Interview-ல் சில நேரங்களில் உங்களுக்கு தெரியாத question கேட்கப்படலாம். இது சாதாரணமான விஷயம். நீங்கள் அதை எப்படி handle செய்கிறீர்கள் என்பதுதான் முக்கியம். Calm-ஆக இருந்து, உண்மையாக பதில் சொல்லி, தெரியாததை கற்றுக்கொள்ளும் willingness-ஐ காட்ட வேண்டும். Guess செய்து அல்லது தெரியும் போல நடிக்கக்கூடாது."
+    },
+    seeTheSituation: {
+      english:
+        "Imagine the interviewer asks you about a technology that you have never used. Instead of giving a random answer, you can say that you have not worked with it yet but are interested in learning it.",
+      tamil:
+        "நீங்கள் ஒருபோதும் பயன்படுத்தாத ஒரு technology பற்றி interviewer கேட்கிறார் என்று நினைத்துக்கொள்ளுங்கள். Random answer கொடுப்பதற்குப் பதிலாக, அந்த technology-யில் இன்னும் work செய்யவில்லை என்றும் அதை கற்றுக்கொள்ள interest இருக்கிறது என்றும் சொல்லலாம்."
+    },
+    commonMistake: {
+      english:
+        "A common mistake is pretending to know the answer. Guessing confidently can create a bigger problem if the interviewer asks follow-up questions. Another mistake is immediately saying only, \"I don't know,\" without showing any willingness to learn.",
+      tamil:
+        "தெரியாத answer-ஐ தெரியும் போல நடிப்பது ஒரு common mistake. Confident-ஆக தவறான answer guess செய்தால் interviewer follow-up questions கேட்கும்போது பெரிய problem ஆகலாம். \"I don't know\" என்று மட்டும் சொல்லிவிட்டு நிறுத்துவதும் நல்ல approach அல்ல."
+    },
+    betterApproach: {
+      english:
+        "Be honest about what you know and what you do not know. If you have some related knowledge, explain that connection. Then show your willingness to learn the topic.",
+      tamil:
+        "உங்களுக்கு தெரிந்தது மற்றும் தெரியாதது பற்றி honest-ஆக சொல்லுங்கள். Related knowledge ஏதாவது இருந்தால் அந்த connection-ஐ explain செய்யுங்கள். அதன் பிறகு அந்த topic-ஐ கற்றுக்கொள்ளும் willingness-ஐ காட்டுங்கள்."
+    },
+    usefulExpressions: [
+      {
+        english: "I am not familiar with that technology yet.",
+        tamil: "அந்த technology பற்றி எனக்கு இன்னும் familiarity இல்லை."
+      },
+      {
+        english: "I have not worked with it yet, but I am interested in learning it.",
+        tamil: "நான் இன்னும் அதில் work செய்யவில்லை, ஆனால் அதை கற்றுக்கொள்ள எனக்கு interest உள்ளது."
+      },
+      {
+        english: "I am not completely sure about the answer.",
+        tamil: "இந்த answer பற்றி எனக்கு முழுமையாக உறுதியாக தெரியவில்லை."
+      },
+      {
+        english: "I would like to learn more about this topic.",
+        tamil: "இந்த topic பற்றி மேலும் கற்றுக்கொள்ள விரும்புகிறேன்."
+      }
+    ],
+    tryYourself: {
+      english:
+        "Imagine an interviewer asks you about a technology you have never used. Practice giving an honest answer without becoming nervous or pretending to know it.",
+      tamil:
+        "நீங்கள் ஒருபோதும் பயன்படுத்தாத ஒரு technology பற்றி interviewer கேட்கிறார் என்று நினைத்துக்கொள்ளுங்கள். Nervous ஆகாமல், தெரியும் போல நடிக்காமல் honest-ஆக பதில் சொல்லிப் பாருங்கள்."
+    }
+  },
+
+  {
+    conceptId: 14,
+    title: "Asking Questions to the Interviewer",
+    understand: {
+      english:
+        "An interview is not only about answering questions. At the end, the interviewer may ask if you have any questions. Asking a few thoughtful questions shows that you are interested in the role and want to understand the opportunity better.",
+      tamil:
+        "Interview என்பது questions-க்கு answers மட்டும் கொடுப்பது அல்ல. Interview முடிவில் interviewer உங்களிடம் ஏதாவது questions இருக்கிறதா என்று கேட்கலாம். நல்ல questions கேட்பது அந்த role-ல் உங்களுக்கு interest இருக்கிறது மற்றும் opportunity-ஐ நன்றாக புரிந்துகொள்ள விரும்புகிறீர்கள் என்பதை காட்டும்."
+    },
+    seeTheSituation: {
+      english:
+        "Suppose the interviewer says, \"Do you have any questions for us?\" You can ask about the responsibilities of the role, the team you would work with, or what a new employee is expected to learn during the first few months.",
+      tamil:
+        "Interviewer, \"Do you have any questions for us?\" என்று கேட்கிறார் என்று நினைத்துக்கொள்ளுங்கள். அந்த role-ன் responsibilities, நீங்கள் work செய்யும் team அல்லது முதல் சில மாதங்களில் ஒரு new employee என்ன கற்றுக்கொள்ள வேண்டும் போன்ற questions கேட்கலாம்."
+    },
+    commonMistake: {
+      english:
+        "A common mistake is saying, \"No, I don't have any questions,\" every time. Another mistake is asking questions that were already clearly answered during the interview or immediately focusing only on salary and holidays.",
+      tamil:
+        "ஒவ்வொரு interview-லும் \"No, I don't have any questions\" என்று சொல்வது ஒரு common mistake. Interview-ல் ஏற்கனவே தெளிவாக சொல்லப்பட்ட விஷயங்களை மீண்டும் கேட்பதும் அல்லது ஆரம்பத்திலேயே salary மற்றும் holidays பற்றி மட்டும் கேட்பதும் நல்ல approach அல்ல."
+    },
+    betterApproach: {
+      english:
+        "Prepare two or three meaningful questions before the interview. Ask questions about the role, team, expectations, learning opportunities, or the next steps in the hiring process.",
+      tamil:
+        "Interview-க்கு முன்பே இரண்டு அல்லது மூன்று meaningful questions-ஐ prepare செய்து வைத்துக்கொள்ளுங்கள். Role, team, expectations, learning opportunities அல்லது hiring process-ன் next steps பற்றி கேட்கலாம்."
+    },
+    usefulExpressions: [
+      {
+        english: "Could you tell me more about the responsibilities of this role?",
+        tamil: "இந்த role-ன் responsibilities பற்றி இன்னும் கொஞ்சம் சொல்ல முடியுமா?"
+      },
+      {
+        english: "What would you expect from a person in this role during the first few months?",
+        tamil: "இந்த role-ல் இருக்கும் ஒருவரிடம் முதல் சில மாதங்களில் நீங்கள் என்ன எதிர்பார்ப்பீர்கள்?"
+      },
+      {
+        english: "Could you tell me about the team I would be working with?",
+        tamil: "நான் work செய்யும் team பற்றி சொல்ல முடியுமா?"
+      },
+      {
+        english: "What are the next steps in the interview process?",
+        tamil: "Interview process-ன் அடுத்த steps என்ன?"
+      }
+    ],
+    tryYourself: {
+      english:
+        "Prepare three questions that you could ask an interviewer at the end of an interview. Make sure the questions are related to the role or the work environment.",
+      tamil:
+        "Interview முடிவில் interviewer-ிடம் கேட்கக்கூடிய மூன்று questions-ஐ தயார் செய்யுங்கள். அந்த questions role அல்லது work environment-க்கு தொடர்புடையதாக இருக்க வேண்டும்."
+    }
+  },
+
+  {
+    conceptId: 15,
+    title: "Body Language in Interviews",
+    understand: {
+      english:
+        "Body language is the way you communicate through your posture, facial expressions, eye contact, gestures, and overall physical behavior. Good body language can help you appear confident, attentive, and professional during an interview.",
+      tamil:
+        "Body language என்பது posture, facial expressions, eye contact, gestures மற்றும் உங்கள் overall physical behavior மூலம் communication செய்வது. நல்ல body language interview-ல் நீங்கள் confident, attentive மற்றும் professional-ஆக இருப்பதை காட்ட உதவும்."
+    },
+    seeTheSituation: {
+      english:
+        "Imagine you enter an interview room, greet the interviewer politely, sit with a comfortable upright posture, maintain natural eye contact, and listen without constantly looking at your phone or the floor. These small actions create a professional impression.",
+      tamil:
+        "நீங்கள் interview room-க்கு சென்று interviewer-ஐ polite-ஆக greet செய்து, comfortable-ஆக நேராக உட்கார்ந்து, natural eye contact maintain செய்து, phone அல்லது floor-ஐ தொடர்ந்து பார்க்காமல் listen செய்கிறீர்கள் என்று நினைத்துக்கொள்ளுங்கள். இந்த சிறிய actions ஒரு professional impression-ஐ உருவாக்கும்."
+    },
+    commonMistake: {
+      english:
+        "Common mistakes include avoiding eye contact completely, constantly looking at the floor, sitting too casually, crossing your arms tightly, checking your phone, or making distracting movements.",
+      tamil:
+        "Eye contact-ஐ முழுமையாக avoid செய்வது, தொடர்ந்து கீழே பார்ப்பது, மிகவும் casual-ஆக உட்கார்வது, கைகளை tight-ஆக cross செய்வது, phone பார்ப்பது அல்லது தேவையில்லாமல் அதிகமாக movements செய்வது போன்றவை common mistakes."
+    },
+    betterApproach: {
+      english:
+        "Sit comfortably with an upright posture. Maintain natural eye contact without staring. Listen carefully, smile when appropriate, and keep your hands relaxed. Focus on the conversation rather than trying to control every movement.",
+      tamil:
+        "Comfortable-ஆக upright posture-ல் உட்காருங்கள். Stare செய்யாமல் natural eye contact maintain செய்யுங்கள். கவனமாக listen செய்து, தேவையான இடங்களில் smile செய்யுங்கள், hands-ஐ relaxed-ஆக வைத்துக்கொள்ளுங்கள். ஒவ்வொரு movement-ஐயும் control செய்வதை விட conversation-ல் கவனம் செலுத்துங்கள்."
+    },
+    usefulExpressions: [
+      {
+        english: "Good morning. It is nice to meet you.",
+        tamil: "காலை வணக்கம். உங்களை சந்திப்பதில் மகிழ்ச்சி."
+      },
+      {
+        english: "Thank you for giving me this opportunity.",
+        tamil: "இந்த opportunity-ஐ வழங்கியதற்கு நன்றி."
+      },
+      {
+        english: "I understand.",
+        tamil: "எனக்கு புரிகிறது."
+      },
+      {
+        english: "Thank you for explaining that.",
+        tamil: "அதை explain செய்ததற்கு நன்றி."
+      }
+    ],
+    tryYourself: {
+      english:
+        "Practice sitting in an interview position for two minutes. Maintain a comfortable posture, natural eye contact, a calm facial expression, and attentive listening.",
+      tamil:
+        "இரண்டு நிமிடங்கள் interview position-ல் உட்கார்ந்து practice செய்யுங்கள். Comfortable posture, natural eye contact, calm facial expression மற்றும் attentive listening ஆகியவற்றை practice செய்யுங்கள்."
+    }
+  },
 ];
 
 export default concepts;
