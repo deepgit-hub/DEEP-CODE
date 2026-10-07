@@ -1062,6 +1062,69 @@ const concepts = [
       "உங்கள் friend ஒரு task-ல் help கேட்கிறார். ஆனால் நாளைக்கு submit செய்ய வேண்டிய ஒரு important assignment உங்களிடம் உள்ளது. Relationship-ஐ பாதிக்காமல் எப்படி politely 'no' சொல்வீர்கள்?"
   }
 },
+{
+  conceptId: 18,
+  title: "Expressing Opinions Respectfully",
+
+  understand: {
+    english:
+      "Expressing an opinion respectfully means sharing what you think while recognizing that other people may have different views. Respectful communication allows people to disagree without turning the conversation into a personal conflict.",
+
+    tamil:
+      "Expressing Opinions Respectfully என்பது மற்றவர்களுக்கு வேறுபட்ட கருத்துகள் இருக்கலாம் என்பதை புரிந்து கொண்டு, நம்முடைய opinion-ஐ மரியாதையாக பகிர்வதாகும். Respectful communication மூலம் கருத்து வேறுபாடு இருந்தாலும் அதை personal conflict-ஆக மாற்றாமல் பேச முடியும்."
+  },
+
+  seeTheSituation: {
+    english:
+      "Imagine that your team is discussing which technology to use for a project. You disagree with one suggestion. Instead of saying, 'That's a bad idea,' you explain your concern and suggest another option with a reason.",
+
+    tamil:
+      "உங்கள் team ஒரு project-க்கு எந்த technology-ஐ பயன்படுத்துவது என்று discuss செய்கிறது என்று நினைத்துக் கொள்ளுங்கள். ஒரு suggestion-உடன் நீங்கள் disagree செய்கிறீர்கள். 'That's a bad idea' என்று சொல்வதற்குப் பதிலாக, உங்கள் concern-ஐ explain செய்து, அதற்கான reason-உடன் வேறு ஒரு option-ஐ suggest செய்கிறீர்கள்."
+  },
+
+  commonMistake: {
+    english:
+      "A common mistake is treating a different opinion as a personal attack or trying to prove that your opinion is the only correct one. Using disrespectful words can quickly turn a discussion into an argument.",
+
+    tamil:
+      "வேறுபட்ட opinion-ஐ personal attack-ஆக எடுத்துக் கொள்வது அல்லது நம்முடைய opinion மட்டுமே சரியானது என்று prove செய்ய முயற்சி செய்வது பொதுவான தவறு. Disrespectful words பயன்படுத்துவது ஒரு discussion-ஐ விரைவாக argument-ஆக மாற்றிவிடலாம்."
+  },
+
+  betterApproach: {
+    english:
+      "State your opinion clearly, explain your reasoning, and allow others to share their views. You can disagree with an idea while still respecting the person who shared it.",
+
+    tamil:
+      "உங்கள் opinion-ஐ தெளிவாக சொல்லி, அதற்கான reasoning-ஐ explain செய்து, மற்றவர்களும் அவர்களுடைய views-ஐ share செய்ய allow செய்யுங்கள். ஒரு idea-வுடன் disagree செய்தாலும், அந்த idea-வை பகிர்ந்த நபரை respect செய்ய முடியும்."
+  },
+
+  usefulExpressions: [
+    {
+      english: "In my opinion...",
+      tamil: "என்னுடைய கருத்துப்படி..."
+    },
+    {
+      english: "I see your point, but I think...",
+      tamil: "உங்கள் கருத்து எனக்கு புரிகிறது, ஆனால் நான் நினைப்பது..."
+    },
+    {
+      english: "I have a slightly different view.",
+      tamil: "எனக்கு கொஞ்சம் வேறுபட்ட கருத்து உள்ளது."
+    },
+    {
+      english: "Could we also consider this option?",
+      tamil: "இந்த option-ஐயும் consider செய்யலாமா?"
+    }
+  ],
+
+  tryYourself: {
+    english:
+      "Your team chooses an approach that you believe may create problems later. How would you express your opinion and concern without disrespecting the team's decision?",
+
+    tamil:
+      "உங்கள் team எதிர்காலத்தில் problems உருவாக்கலாம் என்று நீங்கள் நினைக்கும் ஒரு approach-ஐ தேர்வு செய்கிறது. Team-ன் decision-ஐ disrespect செய்யாமல் உங்கள் opinion மற்றும் concern-ஐ எப்படி express செய்வீர்கள்?"
+  }
+},
 ];
 
 export default concepts;
