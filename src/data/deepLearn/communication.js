@@ -566,6 +566,65 @@ const concepts = [
       "நீங்கள் உங்கள் interviewer-ஐ முதல் முறையாக சந்திக்கிறீர்கள் என்று நினைத்துக் கொள்ளுங்கள். Interview தொடங்குவதற்கு முன் அவரை எப்படி greet செய்வீர்கள்?"
   }
 },
+{
+  conceptId: 10,
+  title: "Body Language",
+
+  understand: {
+    english:
+      "Body language is the way we communicate through our posture, facial expressions, gestures, eye contact, and other physical actions. People often form an impression from our body language even before we start speaking.",
+
+    tamil:
+      "Body Language என்பது நம்முடைய posture, facial expressions, gestures, eye contact மற்றும் பிற உடல் அசைவுகள் மூலம் communication செய்வதாகும். நாம் பேசத் தொடங்குவதற்கு முன்பே மற்றவர்கள் நம்முடைய body language-ஐ வைத்து ஒரு impression-ஐ உருவாக்கலாம்."
+  },
+
+  seeTheSituation: {
+    english:
+      "Imagine that you are attending an interview. You sit upright, look at the interviewer while listening, give a natural smile when appropriate, and avoid constantly looking at your phone or the floor. These actions show that you are attentive and interested.",
+
+    tamil:
+      "நீங்கள் ஒரு interview-ல் கலந்து கொள்கிறீர்கள் என்று நினைத்துக் கொள்ளுங்கள். நீங்கள் நேராக உட்கார்ந்து, interviewer பேசும்போது அவரை கவனமாக பார்க்கிறீர்கள், தேவையான நேரத்தில் இயல்பாக புன்னகைக்கிறீர்கள், மேலும் தொடர்ந்து phone அல்லது தரையை பார்க்காமல் இருக்கிறீர்கள். இந்த actions நீங்கள் attentive மற்றும் interested-ஆக இருக்கிறீர்கள் என்பதை காட்டுகின்றன."
+  },
+
+  commonMistake: {
+    english:
+      "Common mistakes include avoiding eye contact completely, constantly looking at a phone, sitting with very poor posture, or using distracting gestures while someone is speaking.",
+
+    tamil:
+      "முழுமையாக eye contact-ஐ தவிர்ப்பது, தொடர்ந்து phone-ஐ பார்ப்பது, மிகவும் poor posture-ல் உட்காருவது அல்லது ஒருவர் பேசும்போது கவனத்தை சிதறடிக்கும் gestures-ஐ தொடர்ந்து பயன்படுத்துவது பொதுவான தவறுகள்."
+  },
+
+  betterApproach: {
+    english:
+      "Keep your posture comfortable and confident, maintain natural eye contact, use appropriate facial expressions, and keep your gestures natural. Body language should support your words rather than distract from them.",
+
+    tamil:
+      "Comfortable மற்றும் confident posture-ஐ வைத்துக் கொள்ளுங்கள், இயல்பான eye contact-ஐ maintain செய்யுங்கள், பொருத்தமான facial expressions-ஐ பயன்படுத்துங்கள், gestures-ஐ இயல்பாக வைத்துக் கொள்ளுங்கள். உங்கள் body language உங்கள் words-ஐ support செய்ய வேண்டும்; கவனத்தை திசைதிருப்பக்கூடாது."
+  },
+
+  usefulExpressions: [
+    {
+      english: "Please have a seat.",
+      tamil: "தயவுசெய்து உட்காருங்கள்."
+    },
+    {
+      english: "Please go ahead.",
+      tamil: "தயவுசெய்து தொடருங்கள்."
+    },
+    {
+      english: "I understand.",
+      tamil: "எனக்கு புரிகிறது."
+    }
+  ],
+
+  tryYourself: {
+    english:
+      "Imagine that you are speaking to an interviewer. Think about how you would sit, where you would look, and how you would use your hands while answering questions.",
+
+    tamil:
+      "நீங்கள் ஒரு interviewer-உடன் பேசுகிறீர்கள் என்று நினைத்துக் கொள்ளுங்கள். நீங்கள் எப்படி உட்காருவீர்கள், எங்கே பார்ப்பீர்கள், கேள்விகளுக்கு பதில் சொல்லும்போது உங்கள் கைகளை எப்படி பயன்படுத்துவீர்கள் என்று யோசித்துப் பாருங்கள்."
+  }
+},
 ];
 
 export default concepts;
