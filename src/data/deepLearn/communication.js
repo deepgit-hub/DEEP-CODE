@@ -125,7 +125,69 @@ const concepts = [
       "உங்கள் teammate ஒரு task-ஐ விளக்குகிறார். ஆனால் அதில் ஒரு முக்கியமான பகுதி உங்களுக்கு முழுமையாக புரியவில்லை. யூகித்து செய்வதற்குப் பதிலாக, நீங்கள் சரியாக புரிந்து கொண்டீர்களா என்பதை உறுதி செய்ய எப்படி பதிலளிப்பீர்கள்?"
   }
 },
+{
+  conceptId: 3,
+  title: "Speaking Clearly",
 
+  understand: {
+    english:
+      "Speaking clearly means expressing your thoughts in a simple, organized, and understandable way. Clear speaking helps other people understand your message without unnecessary confusion or repeated explanations.",
+
+    tamil:
+      "தெளிவாக பேசுவது என்பது நம்முடைய எண்ணங்களையும் கருத்துகளையும் எளிமையாகவும், ஒழுங்காகவும், மற்றவர்களுக்கு புரியும் வகையிலும் வெளிப்படுத்துவதாகும். தெளிவாக பேசும்போது மற்றவர்கள் நம்முடைய கருத்தை குழப்பமில்லாமல் புரிந்து கொள்ள முடியும்."
+  },
+
+  seeTheSituation: {
+    english:
+      "Imagine that your manager asks you to explain the progress of your project. Instead of giving random details, you explain what you have completed, what you are currently working on, and what remains to be done. Your manager can understand the situation quickly.",
+
+    tamil:
+      "உங்கள் manager உங்கள் project-ன் progress பற்றி கேட்கிறார் என்று நினைத்துக் கொள்ளுங்கள். சம்பந்தமில்லாத விஷயங்களை randomly சொல்வதற்குப் பதிலாக, நீங்கள் என்ன முடித்துள்ளீர்கள், தற்போது என்ன செய்து கொண்டிருக்கிறீர்கள், இன்னும் என்ன செய்ய வேண்டும் என்பதை வரிசையாக சொல்கிறீர்கள். இதனால் உங்கள் manager-க்கு நிலைமை விரைவாக புரியும்."
+  },
+
+  commonMistake: {
+    english:
+      "A common mistake is speaking too fast, using unnecessary words, giving too much unrelated information, or jumping from one point to another. This can make even a simple message difficult to understand.",
+
+    tamil:
+      "மிக வேகமாக பேசுவது, தேவையில்லாத வார்த்தைகளை அதிகமாக பயன்படுத்துவது, சம்பந்தமில்லாத தகவல்களை சொல்வது அல்லது ஒரு விஷயத்திலிருந்து இன்னொரு விஷயத்திற்கு திடீரென மாறுவது பொதுவான தவறுகள். இதனால் எளிய விஷயத்தைக் கூட மற்றவர்கள் புரிந்து கொள்வது கடினமாகலாம்."
+  },
+
+  betterApproach: {
+    english:
+      "Think about your main point before speaking. Use simple words, speak at a comfortable speed, and organize your message in a logical order. If the topic is important, give the key information first and then provide additional details.",
+
+    tamil:
+      "பேசுவதற்கு முன் நீங்கள் சொல்ல வேண்டிய முக்கியமான விஷயத்தை முதலில் யோசித்துக் கொள்ளுங்கள். எளிய வார்த்தைகளை பயன்படுத்துங்கள், சரியான வேகத்தில் பேசுங்கள், மேலும் உங்கள் கருத்துகளை ஒரு ஒழுங்கான வரிசையில் சொல்லுங்கள். முக்கியமான விஷயம் என்றால், முதலில் முக்கிய தகவலை சொல்லிவிட்டு பின்னர் கூடுதல் விவரங்களை சொல்லலாம்."
+  },
+
+  usefulExpressions: [
+    {
+      english: "Let me explain it step by step.",
+      tamil: "நான் இதை படிப்படியாக விளக்குகிறேன்."
+    },
+    {
+      english: "The main point is...",
+      tamil: "முக்கியமான விஷயம்..."
+    },
+    {
+      english: "To put it simply...",
+      tamil: "எளிமையாக சொல்வதானால்..."
+    },
+    {
+      english: "There are three things I would like to explain.",
+      tamil: "நான் விளக்க விரும்பும் மூன்று விஷயங்கள் உள்ளன."
+    }
+  ],
+
+  tryYourself: {
+    english:
+      "Imagine that your teacher asks you to explain your college project in one minute. How would you explain the project clearly without giving unnecessary details?",
+
+    tamil:
+      "உங்கள் teacher உங்கள் college project-ஐ ஒரு நிமிடத்தில் விளக்கச் சொல்கிறார் என்று நினைத்துக் கொள்ளுங்கள். தேவையில்லாத விவரங்களை சொல்லாமல், உங்கள் project-ஐ தெளிவாக எப்படி விளக்குவீர்கள்?"
+  }
+}
 ];
 
 export default concepts;
