@@ -746,7 +746,70 @@ const concepts = [
     tamil:
       "ஒரு teammate செய்யும் தவறு உங்கள் வேலையை பாதிக்கிறது என்று நினைத்துக் கொள்ளுங்கள். Calm மற்றும் respectful tone-ல் அந்த problem-ஐ எப்படி explain செய்வீர்கள்?"
   }
-}
+},
+{
+  conceptId: 13,
+  title: "Choosing the Right Words",
+
+  understand: {
+    english:
+      "Choosing the right words means selecting words that are clear, respectful, and suitable for the person and situation. The way you express an idea can affect how other people understand and respond to you.",
+
+    tamil:
+      "Choosing the Right Words என்பது situation மற்றும் நாம் பேசும் நபருக்கு ஏற்ற, தெளிவான மற்றும் மரியாதையான வார்த்தைகளை தேர்வு செய்வதாகும். ஒரு கருத்தை நாம் எப்படி வெளிப்படுத்துகிறோம் என்பது மற்றவர்கள் அதை எப்படி புரிந்து கொண்டு பதிலளிக்கிறார்கள் என்பதை பாதிக்கலாம்."
+  },
+
+  seeTheSituation: {
+    english:
+      "Imagine that you disagree with your teammate's idea. Instead of saying, 'Your idea is useless,' you could say, 'I understand your idea, but I think we could try another approach.' The second version communicates disagreement without being disrespectful.",
+
+    tamil:
+      "உங்கள் teammate-ன் idea-வுடன் நீங்கள் disagree செய்கிறீர்கள் என்று நினைத்துக் கொள்ளுங்கள். 'Your idea is useless' என்று சொல்வதற்குப் பதிலாக, 'I understand your idea, but I think we could try another approach' என்று சொல்லலாம். இரண்டாவது முறையில் disrespect இல்லாமல் உங்கள் disagreement-ஐ வெளிப்படுத்த முடியும்."
+  },
+
+  commonMistake: {
+    english:
+      "A common mistake is using harsh, insulting, overly casual, or unclear words when a more respectful and precise expression would communicate the message better.",
+
+    tamil:
+      "மரியாதையாகவும் தெளிவாகவும் சொல்லக்கூடிய ஒரு விஷயத்திற்கு harsh, insulting, மிகவும் casual அல்லது unclear words-ஐ பயன்படுத்துவது பொதுவான தவறு."
+  },
+
+  betterApproach: {
+    english:
+      "Think about the purpose of your message and choose words that communicate your point without unnecessarily offending the other person. In professional situations, prefer clear and respectful language.",
+
+    tamil:
+      "உங்கள் message-ன் purpose என்ன என்பதை முதலில் யோசித்து, மற்றவரை தேவையில்லாமல் offend செய்யாமல் உங்கள் கருத்தை தெரிவிக்கும் வார்த்தைகளை தேர்வு செய்யுங்கள். Professional situations-ல் clear மற்றும் respectful language-ஐ பயன்படுத்துவது நல்லது."
+  },
+
+  usefulExpressions: [
+    {
+      english: "I understand your point, but I have a different view.",
+      tamil: "உங்கள் கருத்து எனக்கு புரிகிறது, ஆனால் எனக்கு வேறுபட்ட கருத்து உள்ளது."
+    },
+    {
+      english: "Could we consider another option?",
+      tamil: "வேறு ஒரு option-ஐ consider செய்யலாமா?"
+    },
+    {
+      english: "I think we can improve this part.",
+      tamil: "இந்த பகுதியை நாம் improve செய்யலாம் என்று நினைக்கிறேன்."
+    },
+    {
+      english: "Could you help me understand this better?",
+      tamil: "இதை இன்னும் நன்றாக புரிந்து கொள்ள எனக்கு உதவ முடியுமா?"
+    }
+  ],
+
+  tryYourself: {
+    english:
+      "Your teammate suggests an approach that you believe may cause a problem. How would you explain your concern without making them feel that you are attacking their idea?",
+
+    tamil:
+      "உங்கள் teammate ஒரு approach-ஐ suggest செய்கிறார். ஆனால் அது ஒரு problem-ஐ உருவாக்கலாம் என்று நீங்கள் நினைக்கிறீர்கள். அவருடைய idea-வை attack செய்வது போல இல்லாமல், உங்கள் concern-ஐ எப்படி explain செய்வீர்கள்?"
+  }
+},
 ];
 
 export default concepts;
