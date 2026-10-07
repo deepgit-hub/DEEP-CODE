@@ -377,6 +377,69 @@ const concepts = [
       "யாராவது உங்களிடம், 'உங்கள் college project-ல் இருந்து என்ன கற்றுக்கொண்டீர்கள்?' என்று கேட்கிறார்கள். ஒரு முக்கியமான point மற்றும் அதற்கு ஒரு supporting example வைத்து சுருக்கமாக எப்படி பதிலளிப்பீர்கள்?"
   }
 },
+{
+  conceptId: 7,
+  title: "Starting a Conversation",
+
+  understand: {
+    english:
+      "Starting a conversation means beginning a friendly and appropriate interaction with another person. A simple greeting, introduction, or question can help create a comfortable conversation.",
+
+    tamil:
+      "Starting a Conversation என்பது மற்றொருவருடன் ஒரு friendly மற்றும் appropriate interaction-ஐ தொடங்குவதாகும். ஒரு simple greeting, introduction அல்லது கேள்வி ஒரு comfortable conversation-ஐ தொடங்க உதவும்."
+  },
+
+  seeTheSituation: {
+    english:
+      "Imagine that you attend a college seminar and sit next to a student you have never met before. Instead of staying completely silent, you greet them and ask whether they have attended similar seminars before.",
+
+    tamil:
+      "நீங்கள் ஒரு college seminar-க்கு செல்கிறீர்கள். உங்களுக்கு முன்பே தெரியாத ஒரு student-க்கு அருகில் உட்காருகிறீர்கள் என்று நினைத்துக் கொள்ளுங்கள். அமைதியாக இருப்பதற்குப் பதிலாக, அவரை greet செய்து, இதுபோன்ற seminar-க்கு முன்பு வந்திருக்கிறார்களா என்று கேட்கிறீர்கள்."
+  },
+
+  commonMistake: {
+    english:
+      "A common mistake is trying to start with complicated topics or worrying too much about saying the perfect thing. Another mistake is asking very personal questions when you have just met someone.",
+
+    tamil:
+      "முதலில் சந்திக்கும் ஒருவரிடம் மிகவும் complicated topics-ஐ தொடங்குவது அல்லது perfect-ஆக என்ன பேசுவது என்று அதிகமாக கவலைப்படுவது பொதுவான தவறுகள். அதேபோல், புதிதாக சந்தித்தவரிடம் மிகவும் personal questions கேட்பதும் தவறாக இருக்கலாம்."
+  },
+
+  betterApproach: {
+    english:
+      "Start with a simple greeting and use the situation around you to find a natural topic. Ask open and comfortable questions, listen to the response, and continue the conversation naturally.",
+
+    tamil:
+      "Simple greeting-ல் தொடங்கி, உங்களைச் சுற்றியுள்ள situation-ஐ பயன்படுத்தி இயல்பான ஒரு topic-ஐ தேர்வு செய்யுங்கள். Comfortable-ஆக இருக்கும் questions-ஐ கேட்டு, அவர்களின் பதிலை கவனமாக கேட்டு, conversation-ஐ இயல்பாக தொடருங்கள்."
+  },
+
+  usefulExpressions: [
+    {
+      english: "Hi, is this your first time attending this event?",
+      tamil: "Hi, இந்த event-க்கு நீங்கள் முதல் முறையாக வருகிறீர்களா?"
+    },
+    {
+      english: "How are you doing?",
+      tamil: "எப்படி இருக்கிறீர்கள்?"
+    },
+    {
+      english: "What do you think about this event?",
+      tamil: "இந்த event பற்றி நீங்கள் என்ன நினைக்கிறீர்கள்?"
+    },
+    {
+      english: "Nice to meet you.",
+      tamil: "உங்களை சந்தித்ததில் மகிழ்ச்சி."
+    }
+  ],
+
+  tryYourself: {
+    english:
+      "Imagine that you meet a new student during a college event. How would you start a friendly conversation with them?",
+
+    tamil:
+      "ஒரு college event-ல் நீங்கள் ஒரு புதிய student-ஐ சந்திக்கிறீர்கள் என்று நினைத்துக் கொள்ளுங்கள். அவருடன் ஒரு friendly conversation-ஐ எப்படி தொடங்குவீர்கள்?"
+  }
+}
 ];
 
 export default concepts;
