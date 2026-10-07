@@ -1125,6 +1125,74 @@ const concepts = [
       "உங்கள் team எதிர்காலத்தில் problems உருவாக்கலாம் என்று நீங்கள் நினைக்கும் ஒரு approach-ஐ தேர்வு செய்கிறது. Team-ன் decision-ஐ disrespect செய்யாமல் உங்கள் opinion மற்றும் concern-ஐ எப்படி express செய்வீர்கள்?"
   }
 },
+{
+  conceptId: 19,
+  title: "Communication in Group Discussions",
+
+  understand: {
+    english:
+      "Group discussion is a conversation where multiple people share ideas, opinions, and information about a topic. Good communication in a group discussion means listening to others, sharing your ideas clearly, staying on the topic, and giving everyone a chance to speak.",
+
+    tamil:
+      "Group Discussion என்பது ஒரு topic பற்றி பலர் தங்களுடைய ideas, opinions மற்றும் information-ஐ பகிர்ந்து கொள்ளும் ஒரு conversation ஆகும். ஒரு group discussion-ல் நல்ல communication என்பது மற்றவர்கள் சொல்வதை கேட்பது, நம்முடைய கருத்துகளை தெளிவாக சொல்வது, topic-ல் கவனம் செலுத்துவது மற்றும் அனைவருக்கும் பேசும் வாய்ப்பு கொடுப்பது."
+  },
+
+  seeTheSituation: {
+    english:
+      "Imagine that you are participating in a college group discussion about whether students should learn programming from their first year. You listen to another student's opinion, wait for them to finish, and then share your own point with a reason or example.",
+
+    tamil:
+      "முதல் வருடத்திலிருந்தே students programming கற்றுக்கொள்ள வேண்டுமா என்பதைப் பற்றி ஒரு college group discussion நடக்கிறது என்று நினைத்துக் கொள்ளுங்கள். மற்றொரு student-ன் opinion-ஐ கவனமாக கேட்டு, அவர் பேசி முடித்த பிறகு, உங்கள் own point-ஐ ஒரு reason அல்லது example உடன் பகிர்கிறீர்கள்."
+  },
+
+  commonMistake: {
+    english:
+      "Common mistakes include interrupting others, speaking for too long, staying completely silent, moving away from the topic, or trying to dominate the entire discussion.",
+
+    tamil:
+      "மற்றவர்கள் பேசும்போது interrupt செய்வது, மிகவும் நீண்ட நேரம் பேசுவது, முழுவதுமாக அமைதியாக இருப்பது, topic-ஐ விட்டு வேறு விஷயத்திற்கு செல்வது அல்லது முழு discussion-ஐ நாமே control செய்ய முயற்சி செய்வது பொதுவான தவறுகள்."
+  },
+
+  betterApproach: {
+    english:
+      "Listen carefully before responding. Share your point briefly, support it with a reason or example, and allow others to contribute. If you disagree, respond to the idea respectfully rather than attacking the person.",
+
+    tamil:
+      "பதில் சொல்வதற்கு முன் கவனமாக கேளுங்கள். உங்கள் point-ஐ சுருக்கமாக சொல்லி, அதற்கு ஒரு reason அல்லது example கொடுங்கள், மேலும் மற்றவர்களும் பேசுவதற்கு வாய்ப்பு கொடுங்கள். Disagree செய்தால், அந்த நபரை attack செய்யாமல் அவருடைய idea-க்கு respectful-ஆக பதிலளியுங்கள்."
+  },
+
+  usefulExpressions: [
+    {
+      english: "I would like to add something to that point.",
+      tamil: "அந்த point-க்கு நான் ஒரு விஷயத்தை add செய்ய விரும்புகிறேன்."
+    },
+    {
+      english: "I agree with your point because...",
+      tamil: "உங்கள் point-ஐ நான் agree செய்கிறேன், ஏனென்றால்..."
+    },
+    {
+      english: "I have a different opinion on this.",
+      tamil: "இதைப் பற்றி எனக்கு வேறுபட்ட கருத்து உள்ளது."
+    },
+    {
+      english: "That's a good point. I would also like to add...",
+      tamil: "அது ஒரு நல்ல point. அதோடு நான் மேலும் ஒன்றை add செய்ய விரும்புகிறேன்..."
+    },
+    {
+      english: "What do you think about this?",
+      tamil: "இதைப் பற்றி நீங்கள் என்ன நினைக்கிறீர்கள்?"
+    }
+  ],
+
+  tryYourself: {
+    english:
+      "Imagine that you are participating in a group discussion and another student shares an opinion that you partly agree with. How would you respond and add your own point?",
+
+    tamil:
+      "நீங்கள் ஒரு group discussion-ல் கலந்து கொள்கிறீர்கள். மற்றொரு student ஒரு opinion சொல்கிறார், அதில் நீங்கள் ஓரளவு agree செய்கிறீர்கள். அவருடைய point-ஐ acknowledge செய்து உங்கள் own point-ஐ எப்படி add செய்வீர்கள்?"
+  }
+},
+
 ];
 
 export default concepts;
