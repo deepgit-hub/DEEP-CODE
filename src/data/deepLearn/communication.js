@@ -873,6 +873,70 @@ const concepts = [
       "ஒரு technical concept உங்களுக்கு நன்றாக தெரியும். ஆனால் உங்கள் friend அதை இதுவரை கற்றுக்கொண்டதில்லை என்று நினைத்துக் கொள்ளுங்கள். உங்கள் friend எளிதாக புரிந்து கொள்ளும் வகையில் அதை எப்படி explain செய்வீர்கள்?"
   }
 },
+{
+  conceptId: 15,
+  title: "Giving and Receiving Feedback",
+
+  understand: {
+    english:
+      "Feedback is information about someone's work, behavior, or performance that can help them understand what they are doing well and what they can improve. Good feedback should be specific, respectful, and focused on improvement.",
+
+    tamil:
+      "Feedback என்பது ஒருவருடைய work, behavior அல்லது performance பற்றி அவர்களுக்கு எது நன்றாக இருக்கிறது, எதை improve செய்யலாம் என்பதை புரிந்து கொள்ள உதவும் தகவலாகும். நல்ல feedback என்பது specific-ஆகவும், respectful-ஆகவும், improvement-ஐ நோக்கமாகக் கொண்டதாகவும் இருக்க வேண்டும்."
+  },
+
+  seeTheSituation: {
+    english:
+      "Imagine that your teammate gives a presentation. Instead of simply saying 'It was good' or 'It was bad', you say that their explanation was clear and suggest that they speak a little slower during the technical section.",
+
+    tamil:
+      "உங்கள் teammate ஒரு presentation கொடுக்கிறார் என்று நினைத்துக் கொள்ளுங்கள். 'It was good' அல்லது 'It was bad' என்று மட்டும் சொல்வதற்குப் பதிலாக, அவருடைய explanation தெளிவாக இருந்தது என்று சொல்லி, technical section-ல் கொஞ்சம் மெதுவாக பேசலாம் என்று suggestion கொடுக்கிறீர்கள்."
+  },
+
+  commonMistake: {
+    english:
+      "A common mistake when giving feedback is attacking the person instead of discussing the work. When receiving feedback, another mistake is becoming defensive and immediately rejecting what the other person says.",
+
+    tamil:
+      "Feedback கொடுக்கும்போது person's character-ஐ attack செய்வது, அவருடைய work பற்றி பேசாமல் இருப்பது ஒரு பொதுவான தவறு. Feedback பெறும்போது defensive-ஆகி, மற்றவர் சொல்வதை உடனடியாக reject செய்வதும் மற்றொரு தவறு."
+  },
+
+  betterApproach: {
+    english:
+      "When giving feedback, focus on specific behavior or work and explain how it can be improved. When receiving feedback, listen calmly, ask questions if needed, and consider how you can use the feedback to improve.",
+
+    tamil:
+      "Feedback கொடுக்கும்போது specific behavior அல்லது work-ல் கவனம் செலுத்தி, அதை எப்படி improve செய்யலாம் என்பதை explain செய்யுங்கள். Feedback பெறும்போது அமைதியாக கேட்டு, தேவைப்பட்டால் questions கேட்டு, அந்த feedback-ஐ எப்படி பயன்படுத்தி improve செய்யலாம் என்பதை யோசியுங்கள்."
+  },
+
+  usefulExpressions: [
+    {
+      english: "I think you did well in this part.",
+      tamil: "இந்த பகுதியில் நீங்கள் நன்றாக செய்திருக்கிறீர்கள் என்று நினைக்கிறேன்."
+    },
+    {
+      english: "One thing you could improve is...",
+      tamil: "நீங்கள் improve செய்யக்கூடிய ஒரு விஷயம்..."
+    },
+    {
+      english: "Thank you for the feedback.",
+      tamil: "Feedback கொடுத்ததற்கு நன்றி."
+    },
+    {
+      english: "Could you explain how I can improve this?",
+      tamil: "இதை நான் எப்படி improve செய்யலாம் என்று விளக்க முடியுமா?"
+    }
+  ],
+
+  tryYourself: {
+    english:
+      "Your teammate asks you for feedback on their presentation. Mention one thing they did well and one specific thing they could improve.",
+
+    tamil:
+      "உங்கள் teammate அவருடைய presentation பற்றி feedback கேட்கிறார். அவர் நன்றாக செய்த ஒரு விஷயத்தையும், அவர் improve செய்யக்கூடிய ஒரு specific விஷயத்தையும் சொல்லுங்கள்."
+  }
+},
+
 ];
 
 export default concepts;
