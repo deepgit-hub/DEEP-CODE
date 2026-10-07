@@ -810,6 +810,69 @@ const concepts = [
       "உங்கள் teammate ஒரு approach-ஐ suggest செய்கிறார். ஆனால் அது ஒரு problem-ஐ உருவாக்கலாம் என்று நீங்கள் நினைக்கிறீர்கள். அவருடைய idea-வை attack செய்வது போல இல்லாமல், உங்கள் concern-ஐ எப்படி explain செய்வீர்கள்?"
   }
 },
+{
+  conceptId: 14,
+  title: "Communicating with Different People",
+
+  understand: {
+    english:
+      "Different people may have different levels of knowledge, experience, communication styles, and expectations. Good communication means adjusting the way you explain something based on who you are speaking with and what they need to understand.",
+
+    tamil:
+      "ஒவ்வொருவருக்கும் வெவ்வேறு அளவிலான knowledge, experience, communication style மற்றும் expectations இருக்கலாம். நாம் யாரிடம் பேசுகிறோம், அவர்களுக்கு என்ன புரிய வேண்டும் என்பதைப் பொறுத்து நம்முடைய communication முறையை மாற்றிக் கொள்வதே நல்ல communication ஆகும்."
+  },
+
+  seeTheSituation: {
+    english:
+      "Imagine that you are explaining a technical project. When speaking to your technical teammate, you can use technical terms they understand. When explaining the same project to a non-technical person, you may need to use simpler words and real-world examples.",
+
+    tamil:
+      "நீங்கள் ஒரு technical project-ஐ explain செய்கிறீர்கள் என்று நினைத்துக் கொள்ளுங்கள். Technical teammate-உடன் பேசும்போது அவர்களுக்கு தெரிந்த technical terms-ஐ பயன்படுத்தலாம். அதே project-ஐ technical knowledge இல்லாத ஒருவரிடம் explain செய்யும்போது எளிய வார்த்தைகள் மற்றும் real-world examples-ஐ பயன்படுத்த வேண்டியிருக்கும்."
+  },
+
+  commonMistake: {
+    english:
+      "A common mistake is using the same communication style with everyone. Using too much technical language with a beginner or speaking too casually in a formal situation can create confusion or a poor impression.",
+
+    tamil:
+      "எல்லோரிடமும் ஒரே communication style-ஐ பயன்படுத்துவது ஒரு பொதுவான தவறு. Beginner-ிடம் அதிகமான technical language பயன்படுத்துவது அல்லது formal situation-ல் மிகவும் casual-ஆக பேசுவது confusion அல்லது poor impression-ஐ ஏற்படுத்தலாம்."
+  },
+
+  betterApproach: {
+    english:
+      "Before communicating, think about who you are speaking with, what they already know, and what they need to understand. Adjust your words, examples, tone, and level of detail accordingly.",
+
+    tamil:
+      "பேசுவதற்கு முன் நீங்கள் யாரிடம் பேசுகிறீர்கள், அவர்களுக்கு ஏற்கனவே என்ன தெரியும், அவர்கள் என்ன புரிந்து கொள்ள வேண்டும் என்பதை யோசிக்கவும். அதற்கேற்ப உங்கள் words, examples, tone மற்றும் explanation-ன் detail-ஐ மாற்றிக் கொள்ளுங்கள்."
+  },
+
+  usefulExpressions: [
+    {
+      english: "Let me explain that in a simpler way.",
+      tamil: "அதை இன்னும் எளிமையான முறையில் விளக்குகிறேன்."
+    },
+    {
+      english: "Are you familiar with this concept?",
+      tamil: "இந்த concept பற்றி உங்களுக்கு தெரிந்திருக்கிறதா?"
+    },
+    {
+      english: "Would you like me to give an example?",
+      tamil: "நான் ஒரு example கொடுக்க வேண்டுமா?"
+    },
+    {
+      english: "Please let me know if anything is unclear.",
+      tamil: "ஏதாவது தெளிவாக இல்லையென்றால் தயவுசெய்து சொல்லுங்கள்."
+    }
+  ],
+
+  tryYourself: {
+    english:
+      "Imagine that you understand a technical concept very well, but your friend has never learned it before. How would you explain it so that your friend can understand it easily?",
+
+    tamil:
+      "ஒரு technical concept உங்களுக்கு நன்றாக தெரியும். ஆனால் உங்கள் friend அதை இதுவரை கற்றுக்கொண்டதில்லை என்று நினைத்துக் கொள்ளுங்கள். உங்கள் friend எளிதாக புரிந்து கொள்ளும் வகையில் அதை எப்படி explain செய்வீர்கள்?"
+  }
+},
 ];
 
 export default concepts;
