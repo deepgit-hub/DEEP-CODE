@@ -263,6 +263,270 @@ const concepts = [
         "Manager உங்களுக்கு ஒரு task கொடுக்கிறார், ஆனால் ஒரு requirement clear இல்லை என்று நினைத்துக்கொள்ளுங்கள். அதை politely மற்றும் clearly clarify கேட்பதை practice செய்யுங்கள்."
     }
   },
+    {
+    conceptId: 6,
+    title: "Communicating with Teammates",
+    understand: {
+      english:
+        "Communicating with teammates means sharing information, discussing tasks, asking questions, giving updates, and supporting each other. Good communication helps the team avoid confusion and complete work more effectively.",
+      tamil:
+        "Teammates-உடன் communicate செய்வது information share செய்வது, tasks பற்றி discuss செய்வது, questions கேட்பது, updates கொடுப்பது மற்றும் ஒருவருக்கொருவர் support செய்வது ஆகியவற்றை உள்ளடக்கியது. நல்ல communication confusion-ஐ குறைத்து team-ஐ effective-ஆக work செய்ய உதவும்."
+    },
+    seeTheSituation: {
+      english:
+        "Imagine you are working on a college project with three teammates. You have completed your part, but another teammate is waiting for information from you. Sharing the required information clearly and on time helps the whole team continue their work.",
+      tamil:
+        "நீங்கள் மூன்று teammates-உடன் ஒரு college project-ல் work செய்கிறீர்கள் என்று நினைத்துக்கொள்ளுங்கள். உங்கள் part-ஐ complete செய்துவிட்டீர்கள், ஆனால் மற்றொரு teammate உங்களிடமிருந்து ஒரு information-க்காக wait செய்கிறார். தேவையான information-ஐ தெளிவாகவும் சரியான நேரத்திலும் share செய்வது முழு team-ம் தொடர்ந்து work செய்ய உதவும்."
+    },
+    commonMistake: {
+      english:
+        "Common mistakes include assuming that teammates already know everything, not sharing important updates, interrupting others, or keeping problems to yourself until they become bigger.",
+      tamil:
+        "Teammates-க்கு எல்லாமே தெரியும் என்று assume செய்வது, important updates-ஐ share செய்யாமல் இருப்பது, மற்றவர்கள் பேசும்போது interrupt செய்வது அல்லது problems-ஐ பெரியதாகும் வரை சொல்லாமல் இருப்பது common mistakes."
+    },
+    betterApproach: {
+      english:
+        "Keep communication clear and timely. Share important updates, listen to your teammates, ask when something is unclear, and inform the team early when you face a problem that may affect their work.",
+      tamil:
+        "Communication-ஐ clear மற்றும் timely-ஆக வைத்துக்கொள்ளுங்கள். Important updates-ஐ share செய்யுங்கள், teammates சொல்வதை listen செய்யுங்கள், ஏதாவது unclear-ஆக இருந்தால் கேளுங்கள், உங்கள் problem மற்றவர்களின் work-ஐ affect செய்யக்கூடும் என்றால் early-ஆக team-க்கு inform செய்யுங்கள்."
+    },
+    usefulExpressions: [
+      {
+        english: "I have completed my part of the task.",
+        tamil: "என்னுடைய task-ன் பகுதியை complete செய்துவிட்டேன்."
+      },
+      {
+        english: "Could you share the latest update with me?",
+        tamil: "Latest update-ஐ என்னுடன் share செய்ய முடியுமா?"
+      },
+      {
+        english: "I need some clarification about this part.",
+        tamil: "இந்த part பற்றி எனக்கு கொஞ்சம் clarification தேவை."
+      },
+      {
+        english: "This issue may affect our deadline, so I wanted to inform you early.",
+        tamil: "இந்த issue நம்முடைய deadline-ஐ affect செய்யலாம், அதனால் early-ஆக உங்களுக்கு inform செய்ய விரும்பினேன்."
+      }
+    ],
+    tryYourself: {
+      english:
+        "Imagine that you completed your part of a team project. Practice giving your teammates a short update explaining what you completed and what they need from you next.",
+      tamil:
+        "Team project-ல் உங்கள் part-ஐ complete செய்துவிட்டதாக நினைத்துக்கொள்ளுங்கள். நீங்கள் என்ன complete செய்தீர்கள், அடுத்து teammates-க்கு உங்களிடமிருந்து என்ன தேவை என்பதை short update-ஆக சொல்லிப் practice செய்யுங்கள்."
+    }
+  },
+
+  {
+    conceptId: 7,
+    title: "Working in a Team",
+    understand: {
+      english:
+        "Teamwork means working with other people toward a common goal. Good teamwork requires communication, cooperation, responsibility, respect, and a willingness to support others. You do not always have to agree with everyone, but you should work together professionally.",
+      tamil:
+        "Teamwork என்பது மற்றவர்களுடன் சேர்ந்து ஒரு common goal-ஐ அடைவதற்காக work செய்வது. நல்ல teamwork-க்கு communication, cooperation, responsibility, respect மற்றும் மற்றவர்களுக்கு support செய்யும் மனப்பான்மை தேவை. எல்லா விஷயத்திலும் எல்லோருடனும் agree செய்ய வேண்டிய அவசியமில்லை, ஆனால் professional-ஆக சேர்ந்து work செய்ய வேண்டும்."
+    },
+    seeTheSituation: {
+      english:
+        "Suppose a team is developing a website. One person works on the frontend, another works on the backend, and another handles testing. Each person has a different responsibility, but everyone must coordinate their work for the final product to succeed.",
+      tamil:
+        "ஒரு team ஒரு website develop செய்கிறது என்று நினைத்துக்கொள்ளுங்கள். ஒருவர் frontend-ல் work செய்கிறார், மற்றொருவர் backend-ல் work செய்கிறார், இன்னொருவர் testing செய்கிறார். ஒவ்வொருவருக்கும் different responsibility இருந்தாலும் final product successful ஆக அனைவரும் coordinate செய்ய வேண்டும்."
+    },
+    commonMistake: {
+      english:
+        "A common mistake is focusing only on your own part and ignoring the team's overall goal. Other mistakes include refusing to help teammates, taking all the credit, or blaming others when something goes wrong.",
+      tamil:
+        "உங்கள் own part-ல் மட்டும் கவனம் செலுத்தி team-ன் overall goal-ஐ ignore செய்வது ஒரு common mistake. Teammates-க்கு help செய்ய மறுப்பது, எல்லா credit-ஐயும் எடுத்துக்கொள்வது அல்லது problem ஏற்பட்டால் மற்றவர்களை blame செய்வதும் தவறு."
+    },
+    betterApproach: {
+      english:
+        "Understand your responsibility while also keeping the team's goal in mind. Share information, support teammates when possible, respect different ideas, and take responsibility for your own work.",
+      tamil:
+        "உங்கள் responsibility-ஐ புரிந்துகொண்டு அதே நேரத்தில் team-ன் goal-ஐயும் மனதில் வைத்துக்கொள்ளுங்கள். Information share செய்யுங்கள், முடிந்தவரை teammates-க்கு support செய்யுங்கள், different ideas-ஐ respect செய்யுங்கள், உங்கள் work-க்கு responsibility எடுத்துக்கொள்ளுங்கள்."
+    },
+    usefulExpressions: [
+      {
+        english: "How can I help with this task?",
+        tamil: "இந்த task-ல் நான் எப்படி help செய்யலாம்?"
+      },
+      {
+        english: "Let's discuss the best approach together.",
+        tamil: "Best approach என்ன என்பதை நாம் together discuss செய்வோம்."
+      },
+      {
+        english: "I agree with your point.",
+        tamil: "உங்கள் point-ஐ நான் agree செய்கிறேன்."
+      },
+      {
+        english: "I have a different idea. Can we discuss it?",
+        tamil: "எனக்கு ஒரு different idea இருக்கிறது. அதை discuss செய்யலாமா?"
+      }
+    ],
+    tryYourself: {
+      english:
+        "Think about a team project you have worked on. Identify one thing you did well as a team member and one thing you could improve.",
+      tamil:
+        "நீங்கள் work செய்த ஒரு team project பற்றி யோசிக்கவும். Team member-ஆக நீங்கள் நன்றாக செய்த ஒரு விஷயத்தையும் improve செய்ய வேண்டிய ஒரு விஷயத்தையும் identify செய்யுங்கள்."
+    }
+  },
+
+  {
+    conceptId: 8,
+    title: "Taking Responsibility",
+    understand: {
+      english:
+        "Taking responsibility means accepting ownership of your tasks, actions, and results. It means completing what you promised, communicating when there is a problem, and accepting mistakes instead of immediately blaming someone else.",
+      tamil:
+        "Taking responsibility என்பது உங்கள் tasks, actions மற்றும் results-க்கு ownership எடுத்துக்கொள்வது. நீங்கள் promise செய்ததை complete செய்வது, problem ஏற்பட்டால் communicate செய்வது மற்றும் உடனடியாக வேறு ஒருவரை blame செய்யாமல் உங்கள் mistakes-ஐ accept செய்வது இதன் ஒரு பகுதியாகும்."
+    },
+    seeTheSituation: {
+      english:
+        "Imagine you were responsible for submitting a report, but you forgot to send it before the deadline. A responsible response is to acknowledge the mistake, inform the appropriate person, apologize, and take action to complete it as soon as possible.",
+      tamil:
+        "ஒரு report-ஐ deadline-க்கு முன் submit செய்வது உங்கள் responsibility என்று நினைத்துக்கொள்ளுங்கள். ஆனால் அதை அனுப்ப மறந்துவிட்டீர்கள். Responsible response என்பது mistake-ஐ accept செய்து, appropriate person-க்கு inform செய்து, apologize செய்து, அதை விரைவாக complete செய்ய action எடுப்பது."
+    },
+    commonMistake: {
+      english:
+        "A common mistake is blaming another person immediately when something goes wrong. Another mistake is hiding a mistake because of fear. Problems usually become harder to solve when they are hidden.",
+      tamil:
+        "Problem ஏற்பட்டவுடன் உடனடியாக வேறு ஒருவரை blame செய்வது ஒரு common mistake. பயம் காரணமாக mistake-ஐ hide செய்வதும் தவறு. Problems-ஐ மறைத்தால் அவை பொதுவாக இன்னும் difficult ஆகிவிடும்."
+    },
+    betterApproach: {
+      english:
+        "Take ownership of your responsibilities. If you make a mistake, acknowledge it, understand what caused it, fix what you can, and learn how to prevent it from happening again.",
+      tamil:
+        "உங்கள் responsibilities-க்கு ownership எடுத்துக்கொள்ளுங்கள். Mistake செய்தால் அதை acknowledge செய்து, அதற்கான காரணத்தை புரிந்துகொண்டு, முடிந்ததை fix செய்து, அது மீண்டும் நடக்காமல் எப்படி prevent செய்வது என்பதை கற்றுக்கொள்ளுங்கள்."
+    },
+    usefulExpressions: [
+      {
+        english: "I take responsibility for this mistake.",
+        tamil: "இந்த mistake-க்கு நான் responsibility எடுத்துக்கொள்கிறேன்."
+      },
+      {
+        english: "I apologize for the mistake.",
+        tamil: "இந்த mistake-க்கு மன்னிக்கவும்."
+      },
+      {
+        english: "I will correct it as soon as possible.",
+        tamil: "முடிந்தவரை விரைவாக இதை correct செய்கிறேன்."
+      },
+      {
+        english: "I will make sure to avoid this mistake in the future.",
+        tamil: "Future-ல் இந்த mistake வராமல் பார்த்துக்கொள்கிறேன்."
+      }
+    ],
+    tryYourself: {
+      english:
+        "Imagine you missed an important deadline because you forgot to complete a task. Practice explaining the situation honestly and taking responsibility without blaming anyone.",
+      tamil:
+        "ஒரு task-ஐ complete செய்ய மறந்ததால் important deadline-ஐ miss செய்துவிட்டதாக நினைத்துக்கொள்ளுங்கள். யாரையும் blame செய்யாமல் situation-ஐ honest-ஆக explain செய்து responsibility எடுத்துக்கொள்வதை practice செய்யுங்கள்."
+    }
+  },
+
+  {
+    conceptId: 9,
+    title: "Meeting Deadlines",
+    understand: {
+      english:
+        "A deadline is the expected time or date by which a task should be completed. Meeting deadlines is important because your work may be connected to the work of other people. Finishing your task on time helps the entire team move forward.",
+      tamil:
+        "Deadline என்பது ஒரு task complete செய்ய வேண்டிய expected time அல்லது date. Deadlines-ஐ meet செய்வது முக்கியம், ஏனெனில் உங்கள் work மற்றவர்களின் work-உடன் connected-ஆக இருக்கலாம். உங்கள் task-ஐ சரியான நேரத்தில் complete செய்வது முழு team-ம் முன்னேற உதவும்."
+    },
+    seeTheSituation: {
+      english:
+        "Suppose your manager asks you to complete a task by Friday because another team needs your output on Monday. If you finish your work on Friday as planned, the other team can continue without unnecessary delay.",
+      tamil:
+        "உங்கள் manager Friday-க்குள் ஒரு task complete செய்ய சொல்கிறார் என்று நினைத்துக்கொள்ளுங்கள். ஏனெனில் மற்றொரு team-க்கு Monday அன்று உங்கள் output தேவை. நீங்கள் திட்டமிட்டபடி Friday-க்குள் work-ஐ complete செய்தால், மற்ற team unnecessary delay இல்லாமல் continue செய்ய முடியும்."
+    },
+    commonMistake: {
+      english:
+        "Common mistakes include starting too late, underestimating how long a task will take, getting distracted, or waiting until the deadline is very close before mentioning a problem.",
+      tamil:
+        "மிகவும் late-ஆக task-ஐ start செய்வது, task எவ்வளவு நேரம் எடுக்கும் என்பதை underestimate செய்வது, distractions காரணமாக time waste செய்வது அல்லது deadline மிகவும் அருகில் வந்த பிறகு problem பற்றி சொல்வது common mistakes."
+    },
+    betterApproach: {
+      english:
+        "Understand the deadline clearly, divide large tasks into smaller steps, start early, and track your progress. If you realize that you may miss the deadline, communicate early and discuss possible solutions.",
+      tamil:
+        "Deadline-ஐ தெளிவாக புரிந்துகொள்ளுங்கள். பெரிய tasks-ஐ smaller steps-ஆக divide செய்யுங்கள், early-ஆக start செய்யுங்கள், progress-ஐ track செய்யுங்கள். Deadline-ஐ meet செய்ய முடியாது என்று தெரிந்தால் early-ஆக communicate செய்து possible solutions பற்றி discuss செய்யுங்கள்."
+    },
+    usefulExpressions: [
+      {
+        english: "When is the deadline for this task?",
+        tamil: "இந்த task-க்கான deadline எப்போது?"
+      },
+      {
+        english: "I am on track to complete it by Friday.",
+        tamil: "Friday-க்குள் இதை complete செய்யும் நிலையில் இருக்கிறேன்."
+      },
+      {
+        english: "I may need some additional time to complete this properly.",
+        tamil: "இதை properly complete செய்ய எனக்கு கொஞ்சம் additional time தேவைப்படலாம்."
+      },
+      {
+        english: "I wanted to inform you before the deadline.",
+        tamil: "Deadline-க்கு முன்பே உங்களுக்கு inform செய்ய விரும்பினேன்."
+      }
+    ],
+    tryYourself: {
+      english:
+        "Choose a task you need to complete this week. Break it into three smaller steps and create a simple plan to finish it before the deadline.",
+      tamil:
+        "இந்த வாரம் நீங்கள் complete செய்ய வேண்டிய ஒரு task-ஐ தேர்வு செய்யுங்கள். அதை மூன்று smaller steps-ஆக divide செய்து deadline-க்கு முன் complete செய்ய ஒரு simple plan உருவாக்குங்கள்."
+    }
+  },
+
+  {
+    conceptId: 10,
+    title: "Managing Daily Tasks",
+    understand: {
+      english:
+        "Managing daily tasks means organizing the work you need to complete during the day. Good task management helps you remember responsibilities, avoid unnecessary stress, and make steady progress instead of trying to handle everything at the last minute.",
+      tamil:
+        "Managing daily tasks என்பது ஒரு நாளில் நீங்கள் complete செய்ய வேண்டிய work-ஐ organize செய்வது. நல்ல task management responsibilities-ஐ நினைவில் வைத்துக்கொள்ளவும், unnecessary stress-ஐ குறைக்கவும், எல்லாவற்றையும் last minute-ல் செய்யாமல் steady progress செய்யவும் உதவும்."
+    },
+    seeTheSituation: {
+      english:
+        "Imagine you have three tasks: finish a report, attend a team meeting, and test a feature. Instead of keeping everything in your mind, you write the tasks down, identify their deadlines, and decide when to work on each one.",
+      tamil:
+        "உங்களுக்கு மூன்று tasks உள்ளன என்று நினைத்துக்கொள்ளுங்கள்: report finish செய்வது, team meeting-ல் attend செய்வது மற்றும் ஒரு feature-ஐ test செய்வது. எல்லாவற்றையும் mind-ல் வைத்துக்கொள்வதை விட, tasks-ஐ எழுதிக்கொண்டு, deadlines-ஐ identify செய்து, ஒவ்வொரு task-க்கும் எப்போது work செய்வது என்று decide செய்வது நல்ல approach."
+    },
+    commonMistake: {
+      english:
+        "A common mistake is starting the easiest task first every time, even when another important task has a closer deadline. Another mistake is trying to remember everything without using any notes, calendar, or task list.",
+      tamil:
+        "ஒவ்வொரு முறையும் easiest task-ஐ முதலில் செய்வது, ஆனால் இன்னொரு important task-க்கு closer deadline இருப்பது ஒரு common mistake. Notes, calendar அல்லது task list எதையும் பயன்படுத்தாமல் எல்லாவற்றையும் mind-ல் remember செய்ய முயற்சிப்பதும் தவறு."
+    },
+    betterApproach: {
+      english:
+        "Start your day by reviewing your tasks. Note the deadlines, identify important work, estimate the time required, and organize your day accordingly. Update your list when priorities or deadlines change.",
+      tamil:
+        "Day-ஐ start செய்யும்போது உங்கள் tasks-ஐ review செய்யுங்கள். Deadlines-ஐ note செய்து, important work-ஐ identify செய்து, எவ்வளவு time தேவைப்படும் என்று estimate செய்து அதற்கேற்ப உங்கள் day-ஐ organize செய்யுங்கள். Priorities அல்லது deadlines change ஆனால் task list-ஐ update செய்யுங்கள்."
+    },
+    usefulExpressions: [
+      {
+        english: "Let me check my task list.",
+        tamil: "என்னுடைய task list-ஐ check செய்கிறேன்."
+      },
+      {
+        english: "I will complete this task first.",
+        tamil: "இந்த task-ஐ முதலில் complete செய்கிறேன்."
+      },
+      {
+        english: "I have three tasks to complete today.",
+        tamil: "இன்று நான் மூன்று tasks complete செய்ய வேண்டும்."
+      },
+      {
+        english: "I have completed the tasks planned for today.",
+        tamil: "இன்று plan செய்த tasks-ஐ complete செய்துவிட்டேன்."
+      }
+    ],
+    tryYourself: {
+      english:
+        "Create a simple task list for tomorrow. Write down at least five tasks, their deadlines if applicable, and the order in which you plan to complete them.",
+      tamil:
+        "நாளைக்கான ஒரு simple task list உருவாக்குங்கள். குறைந்தது ஐந்து tasks-ஐ எழுதுங்கள். தேவையான இடங்களில் deadlines-ஐ குறிப்பிடுங்கள் மற்றும் எந்த order-ல் அவற்றை complete செய்யப் போகிறீர்கள் என்பதையும் எழுதுங்கள்."
+    }
+  },
   
 ];
 
