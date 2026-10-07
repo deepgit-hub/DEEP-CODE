@@ -503,6 +503,69 @@ const concepts = [
       "நீங்கள் ஒரு company-யில் முதல் நாள் வேலைக்கு செல்கிறீர்கள். உங்கள் manager உங்களை team-க்கு introduce செய்யச் சொல்கிறார் என்று நினைத்துக் கொள்ளுங்கள். சுமார் 30 seconds-ல் உங்களை அறிமுகப்படுத்தும் ஒரு short introduction-ஐ தயார் செய்யுங்கள்."
   }
 },
+{
+  conceptId: 9,
+  title: "Professional Greetings",
+
+  understand: {
+    english:
+      "Professional greetings are polite and appropriate ways of acknowledging and starting an interaction with people in a college, workplace, interview, or other professional environment. A good greeting creates a positive first impression and shows respect.",
+
+    tamil:
+      "Professional Greetings என்பது college, workplace, interview அல்லது professional environment-ல் மற்றவர்களை மரியாதையாகவும் பொருத்தமான முறையிலும் வரவேற்று conversation-ஐ தொடங்கும் முறையாகும். ஒரு நல்ல greeting நல்ல first impression-ஐ உருவாக்குவதுடன், மற்றவர்களுக்கு நாம் மரியாதை கொடுக்கிறோம் என்பதையும் காட்டுகிறது."
+  },
+
+  seeTheSituation: {
+    english:
+      "Imagine that you meet your manager at the office in the morning. Instead of walking past silently, you smile and say, 'Good morning.' If you are meeting them for the first time, you can also introduce yourself politely.",
+
+    tamil:
+      "நீங்கள் காலையில் office-ல் உங்கள் manager-ஐ சந்திக்கிறீர்கள் என்று நினைத்துக் கொள்ளுங்கள். எதுவும் பேசாமல் கடந்து செல்வதற்குப் பதிலாக, புன்னகையுடன் 'Good morning' என்று சொல்கிறீர்கள். முதல் முறையாக சந்திக்கிறீர்கள் என்றால், உங்களை மரியாதையாக அறிமுகப்படுத்தவும் முடியும்."
+  },
+
+  commonMistake: {
+    english:
+      "A common mistake is using the same greeting in every situation without considering the person, time, or level of formality. Being too casual in a formal situation can also create a poor impression.",
+
+    tamil:
+      "எந்த situation-ஆக இருந்தாலும் ஒரே greeting-ஐ பயன்படுத்துவது ஒரு பொதுவான தவறு. Person, time மற்றும் situation-ன் formality-ஐ கருத்தில் கொள்ளாமல் மிகவும் casual-ஆக பேசுவதும் தவறான impression-ஐ ஏற்படுத்தலாம்."
+  },
+
+  betterApproach: {
+    english:
+      "Choose a greeting that matches the situation. Use polite greetings in formal environments and a more relaxed greeting when the situation is informal. Smile, maintain appropriate eye contact, and speak politely.",
+
+    tamil:
+      "Situation-க்கு ஏற்ற greeting-ஐ தேர்வு செய்யுங்கள். Formal environment-ல் polite greetings-ஐ பயன்படுத்துங்கள்; informal situation-ல் கொஞ்சம் relaxed-ஆக greet செய்யலாம். புன்னகையுடன், பொருத்தமான eye contact-உடன், மரியாதையாக பேசுங்கள்."
+  },
+
+  usefulExpressions: [
+    {
+      english: "Good morning.",
+      tamil: "காலை வணக்கம்."
+    },
+    {
+      english: "Good afternoon.",
+      tamil: "மதிய வணக்கம்."
+    },
+    {
+      english: "Nice to meet you.",
+      tamil: "உங்களை சந்தித்ததில் மகிழ்ச்சி."
+    },
+    {
+      english: "It's nice to see you again.",
+      tamil: "உங்களை மீண்டும் சந்திப்பதில் மகிழ்ச்சி."
+    }
+  ],
+
+  tryYourself: {
+    english:
+      "Imagine that you meet your interviewer for the first time. How would you greet them before starting the interview?",
+
+    tamil:
+      "நீங்கள் உங்கள் interviewer-ஐ முதல் முறையாக சந்திக்கிறீர்கள் என்று நினைத்துக் கொள்ளுங்கள். Interview தொடங்குவதற்கு முன் அவரை எப்படி greet செய்வீர்கள்?"
+  }
+},
 ];
 
 export default concepts;
