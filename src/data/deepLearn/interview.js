@@ -251,6 +251,132 @@ const concepts = [
       "ஒரு job interview-க்காக 30–60 seconds அளவிலான self-introduction-ஐ தயார் செய்யுங்கள். அதில் உங்கள் name, education, ஒரு relevant skill அல்லது project மற்றும் career interest ஆகியவற்றை சேர்க்கவும்."
   }
 },
+{
+  conceptId: 5,
+  title: "The \"Tell Me About Yourself\" Question",
+
+  understand: {
+    english:
+      "“Tell me about yourself” is one of the most common interview questions. The interviewer usually wants a short overview of your background, education or experience, relevant skills, projects, interests, and what brings you to the opportunity. It is not an invitation to tell your entire life story.",
+
+    tamil:
+      "\"Tell me about yourself\" என்பது interview-ல் மிகவும் பொதுவாக கேட்கப்படும் questions-ல் ஒன்று. Interviewer பொதுவாக உங்கள் background, education அல்லது experience, relevant skills, projects, interests மற்றும் இந்த opportunity-க்கு நீங்கள் ஏன் வந்துள்ளீர்கள் என்பதைப் பற்றிய ஒரு short overview-ஐ எதிர்பார்ப்பார். இது உங்கள் முழு life story-ஐ சொல்லச் சொல்லும் கேள்வி அல்ல."
+  },
+
+  seeTheSituation: {
+    english:
+      "Imagine that you are applying for a software development role. You briefly introduce your education, mention a project you built, explain a relevant skill you developed, and finish by saying why you are interested in the role.",
+
+    tamil:
+      "நீங்கள் ஒரு software development role-க்கு apply செய்கிறீர்கள் என்று நினைத்துக் கொள்ளுங்கள். உங்கள் education பற்றி சுருக்கமாக சொல்லி, நீங்கள் செய்த ஒரு project-ஐ mention செய்து, அதில் develop செய்த relevant skill-ஐ explain செய்து, அந்த role-ல் ஏன் interest உள்ளது என்பதை சொல்லி முடிக்கிறீர்கள்."
+  },
+
+  commonMistake: {
+    english:
+      "A common mistake is talking for too long, starting with unrelated childhood or family details, repeating the resume word for word, or giving a memorized answer that sounds unnatural.",
+
+    tamil:
+      "மிக நீண்ட நேரம் பேசுவது, தொடர்பில்லாத childhood அல்லது family details-ல் தொடங்குவது, resume-ஐ word-for-word repeat செய்வது அல்லது இயல்பாக இல்லாமல் memorize செய்த answer-ஐ சொல்வது பொதுவான தவறுகள்."
+  },
+
+  betterApproach: {
+    english:
+      "Use a simple structure: present, relevant past, and future. Start with what you are currently doing, mention relevant education, skills, projects, or experience, and finish with why you are interested in the opportunity.",
+
+    tamil:
+      "ஒரு simple structure-ஐ பயன்படுத்துங்கள்: present, relevant past, and future. தற்போது நீங்கள் என்ன செய்கிறீர்கள் என்பதில் தொடங்கி, relevant education, skills, projects அல்லது experience பற்றி சொல்லி, இறுதியில் அந்த opportunity-ல் ஏன் interest உள்ளது என்பதை சொல்லுங்கள்."
+  },
+
+  usefulExpressions: [
+    {
+      english: "Currently, I am...",
+      tamil: "தற்போது, நான்..."
+    },
+    {
+      english: "During my studies, I worked on...",
+      tamil: "என்னுடைய studies-ன் போது, நான் ... மீது வேலை செய்தேன்."
+    },
+    {
+      english: "Through this project, I learned...",
+      tamil: "இந்த project மூலம் நான் ... கற்றுக்கொண்டேன்."
+    },
+    {
+      english: "I am interested in this opportunity because...",
+      tamil: "இந்த opportunity-ல் எனக்கு interest இருப்பதற்கான காரணம்..."
+    }
+  ],
+
+  tryYourself: {
+    english:
+      "Imagine that an interviewer says, 'Tell me about yourself.' Prepare a 60–90 second answer using your current education, one project or skill, and your career goal.",
+
+    tamil:
+      "ஒரு interviewer 'Tell me about yourself' என்று கேட்கிறார் என்று நினைத்துக் கொள்ளுங்கள். உங்கள் current education, ஒரு project அல்லது skill மற்றும் உங்கள் career goal ஆகியவற்றை பயன்படுத்தி 60–90 seconds அளவிலான answer-ஐ தயார் செய்யுங்கள்."
+  }
+},
+{
+  conceptId: 6,
+  title: "Explaining Your Education",
+
+  understand: {
+    english:
+      "Explaining your education in an interview means briefly describing what you studied, what areas you focused on, and how your education has prepared you for the role. The goal is not to list every subject, but to highlight education that is relevant to the opportunity.",
+
+    tamil:
+      "Interview-ல் உங்கள் education-ஐ explain செய்வது என்பது நீங்கள் என்ன படித்தீர்கள், எந்த areas-ல் focus செய்தீர்கள், உங்கள் education இந்த role-க்கு எப்படி உங்களை தயார்படுத்தியுள்ளது என்பதை சுருக்கமாக சொல்வதாகும். ஒவ்வொரு subject-ஐயும் list செய்வது நோக்கம் அல்ல; இந்த opportunity-க்கு relevant-ஆக இருக்கும் education-ஐ highlight செய்வதே முக்கியம்."
+  },
+
+  seeTheSituation: {
+    english:
+      "Imagine that an interviewer asks about your educational background. You explain your degree, mention relevant areas such as programming or databases, and connect what you learned to a project or skill you developed.",
+
+    tamil:
+      "ஒரு interviewer உங்கள் educational background பற்றி கேட்கிறார் என்று நினைத்துக் கொள்ளுங்கள். உங்கள் degree பற்றி சொல்லி, programming அல்லது databases போன்ற relevant areas-ஐ mention செய்து, நீங்கள் கற்றுக்கொண்டதை ஒரு project அல்லது develop செய்த skill-உடன் connect செய்கிறீர்கள்."
+  },
+
+  commonMistake: {
+    english:
+      "A common mistake is simply listing your degree, college, and marks without explaining what you learned or how it is relevant to the role.",
+
+    tamil:
+      "Degree, college மற்றும் marks-ஐ மட்டும் list செய்வது, நீங்கள் என்ன கற்றுக்கொண்டீர்கள் அல்லது அது இந்த role-க்கு எப்படி relevant என்பதை explain செய்யாமல் இருப்பது பொதுவான தவறு."
+  },
+
+  betterApproach: {
+    english:
+      "Briefly explain your education and focus on relevant knowledge, projects, or skills you developed. Connect your studies to the role whenever possible.",
+
+    tamil:
+      "உங்கள் education-ஐ சுருக்கமாக explain செய்து, நீங்கள் develop செய்த relevant knowledge, projects அல்லது skills மீது focus செய்யுங்கள். முடிந்தவரை உங்கள் studies-ஐ இந்த role-உடன் connect செய்யுங்கள்."
+  },
+
+  usefulExpressions: [
+    {
+      english: "I am currently pursuing my degree in Computer Science.",
+      tamil: "நான் தற்போது Computer Science-ல் என் degree-ஐ படித்து வருகிறேன்."
+    },
+    {
+      english: "During my studies, I developed an interest in...",
+      tamil: "என்னுடைய studies-ன் போது, எனக்கு ... மீது interest ஏற்பட்டது."
+    },
+    {
+      english: "My coursework helped me understand...",
+      tamil: "என்னுடைய coursework ... என்பதை புரிந்து கொள்ள எனக்கு உதவியது."
+    },
+    {
+      english: "I applied what I learned in my project.",
+      tamil: "நான் கற்றுக்கொண்டதை என்னுடைய project-ல் apply செய்தேன்."
+    }
+  ],
+
+  tryYourself: {
+    english:
+      "Imagine that an interviewer asks, 'Can you tell me about your educational background?' Give a short answer and connect one part of your education to a skill or project.",
+
+    tamil:
+      "ஒரு interviewer, 'உங்கள் educational background பற்றி சொல்ல முடியுமா?' என்று கேட்கிறார் என்று நினைத்துக் கொள்ளுங்கள். ஒரு short answer கொடுத்து, உங்கள் education-ன் ஒரு பகுதியை ஒரு skill அல்லது project-உடன் connect செய்யுங்கள்."
+  }
+},
 ];
 
 export default concepts;
