@@ -251,6 +251,69 @@ const concepts = [
       "நீங்கள் ஒரு group of new students முன் உங்களை அறிமுகப்படுத்த வேண்டும் என்று நினைத்துக் கொள்ளுங்கள். சில sentences-ல் உங்களை எப்படி confidence-ஆக அறிமுகப்படுத்துவீர்கள்?"
   }
 },
+{
+  conceptId: 5,
+  title: "Asking Questions Effectively",
+
+  understand: {
+    english:
+      "Asking questions effectively means asking clear and relevant questions to get the information or understanding you need. Good questions help you learn faster, avoid mistakes, and understand situations better.",
+
+    tamil:
+      "Asking Questions Effectively என்பது நமக்கு தேவையான தகவல் அல்லது புரிதலை பெறுவதற்காக தெளிவான மற்றும் சம்பந்தப்பட்ட கேள்விகளை கேட்பதாகும். நல்ல கேள்விகள் வேகமாக கற்றுக்கொள்ளவும், தவறுகளை தவிர்க்கவும், ஒரு situation-ஐ நன்றாக புரிந்து கொள்ளவும் உதவும்."
+  },
+
+  seeTheSituation: {
+    english:
+      "Imagine that your manager gives you a task but does not explain the deadline. Instead of assuming that it can be completed anytime, you politely ask when the task needs to be completed.",
+
+    tamil:
+      "உங்கள் manager உங்களுக்கு ஒரு task கொடுக்கிறார், ஆனால் அதை எப்போது முடிக்க வேண்டும் என்று சொல்லவில்லை என்று நினைத்துக் கொள்ளுங்கள். எப்போது வேண்டுமானாலும் முடிக்கலாம் என்று நினைப்பதற்குப் பதிலாக, task-ஐ எப்போது complete செய்ய வேண்டும் என்று மரியாதையாக கேட்கிறீர்கள்."
+  },
+
+  commonMistake: {
+    english:
+      "A common mistake is being afraid to ask questions because you think others may judge you. Another mistake is asking very general questions without explaining what you do not understand.",
+
+    tamil:
+      "மற்றவர்கள் நம்மை judge செய்வார்கள் என்று நினைத்து கேள்வி கேட்க பயப்படுவது ஒரு பொதுவான தவறு. நமக்கு எந்த பகுதி புரியவில்லை என்பதை சொல்லாமல் மிகவும் பொதுவான கேள்விகளை கேட்பதும் மற்றொரு தவறு."
+  },
+
+  betterApproach: {
+    english:
+      "First understand what you already know, identify exactly what you do not understand, and then ask a specific and polite question. A clear question usually gets a clearer answer.",
+
+    tamil:
+      "முதலில் உங்களுக்கு ஏற்கனவே என்ன தெரியும் என்பதை புரிந்து கொண்டு, எந்த விஷயம் புரியவில்லை என்பதை identify செய்து, பின்னர் தெளிவான மற்றும் மரியாதையான கேள்வியை கேளுங்கள். தெளிவான கேள்விக்கு பொதுவாக தெளிவான பதில் கிடைக்கும்."
+  },
+
+  usefulExpressions: [
+    {
+      english: "Could you please explain this part?",
+      tamil: "இந்த பகுதியை கொஞ்சம் விளக்க முடியுமா?"
+    },
+    {
+      english: "Could you clarify what you mean?",
+      tamil: "நீங்கள் என்ன சொல்ல வருகிறீர்கள் என்பதை தெளிவுபடுத்த முடியுமா?"
+    },
+    {
+      english: "When do you need this to be completed?",
+      tamil: "இதை எப்போது முடிக்க வேண்டும்?"
+    },
+    {
+      english: "Could you give me an example?",
+      tamil: "ஒரு example கொடுக்க முடியுமா?"
+    }
+  ],
+
+  tryYourself: {
+    english:
+      "Your manager gives you a new task, but you do not understand one important requirement. What question would you ask instead of making an assumption?",
+
+    tamil:
+      "உங்கள் manager ஒரு புதிய task கொடுக்கிறார். ஆனால் அதில் ஒரு முக்கியமான requirement உங்களுக்கு புரியவில்லை. நீங்களாக ஒரு assumption செய்வதற்குப் பதிலாக என்ன கேள்வி கேட்பீர்கள்?"
+  }
+},
 ];
 
 export default concepts;
