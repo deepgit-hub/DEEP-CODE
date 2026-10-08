@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { collection, getDocs } from "firebase/firestore";
 import { db } from "../firebase";
+import "../styles/DeepLearnCategory.css";
 
 function DeepLearnCategory() {
   const { categoryId } = useParams();
