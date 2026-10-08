@@ -47,17 +47,17 @@ function App() {
       ========================= */}
 
       <Route
-        path="/deep-learn"
+        path="/deep-speak"
         element={<DeepLearn />}
       />
 
       <Route
-        path="/deep-learn/:categoryId"
+        path="/deep-speak/:categoryId"
         element={<DeepLearnCategory />}
       />
 
       <Route
-        path="/deep-learn/:categoryId/:conceptId"
+        path="/deep-speak/:categoryId/:conceptId"
         element={<DeepLearnConcept />}
       />
 
