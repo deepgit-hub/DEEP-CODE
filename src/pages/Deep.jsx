@@ -21,8 +21,9 @@ function Deep() {
             கற்றுக்கொள். உருவாக்கு.
             <span>  வளரு.</span>
           </h1>
-
+<br></br>
           <p>
+
             A learning platform designed to help tamil medium students to build
             technical skills, professional skills, and confidence
             for your future.
@@ -104,7 +105,7 @@ function Deep() {
           </div>
 
 
-          {/* ================= DEEP LEARN ================= */}
+          {/* ================= DEEP SPEAK ================= */}
 
           <div className="deep-product-card deep-learn-product">
 
@@ -117,7 +118,7 @@ function Deep() {
             </div>
 
             <h3>
-              DEEP LEARN
+              DEEP SPEAK
             </h3>
 
             <p>
@@ -268,7 +269,7 @@ function Deep() {
 
         <span>•</span>
 
-        <span>DEEP LEARN</span>
+        <span>DEEP SPEAK</span>
 
       </div>
 
