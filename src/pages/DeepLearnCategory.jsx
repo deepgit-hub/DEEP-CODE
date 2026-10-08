@@ -47,8 +47,12 @@ function DeepLearnCategory() {
   }, [categoryId]);
 
   if (loading) {
-    return <h2>Loading concepts...</h2>;
-  }
+  return (
+    <div className="deep-loading">
+      <h2>Loading concepts...</h2>
+    </div>
+  );
+}
 
   if (error) {
     return <h2>{error}</h2>;
