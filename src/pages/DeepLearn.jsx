@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import "../styles/DeepLearn.css";
+
 function DeepLearn() {
   const navigate = useNavigate();
 
@@ -42,29 +43,46 @@ function DeepLearn() {
   ];
 
   return (
-    <div>
-      <h1>🎓 DEEP LEARN</h1>
+    <div className="deep-learn-page">
 
-      <p>
-        Build the skills you need for your professional journey.
-      </p>
+      <div className="deep-learn-header">
 
-      <div>
+        <div className="deep-learn-logo">
+          DEEPEX
+        </div>
+
+        <h1>🎓 DEEP LEARN</h1>
+
+        <p>
+          Build the skills you need for your professional journey.
+        </p>
+
+      </div>
+
+      <div className="deep-learn-categories">
+
         {categories.map((category) => (
           <button
             key={category.id}
+            className="deep-learn-category-card"
             onClick={() =>
               navigate(`/deep-learn/${category.id}`)
             }
           >
-            <span>{category.icon}</span>
+
+            <div className="deep-learn-category-icon">
+              {category.icon}
+            </div>
 
             <h2>{category.title}</h2>
 
             <p>{category.description}</p>
+
           </button>
         ))}
+
       </div>
+
     </div>
   );
 }
