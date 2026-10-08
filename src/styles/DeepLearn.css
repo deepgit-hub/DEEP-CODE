@@ -1,143 +1,401 @@
-/* =========================================
-   DEEPEX - DEEP LEARN HOME
-========================================= */
+/* ==========================================
+   DEEP LEARN PAGE
+========================================== */
 
 .deep-learn-page {
-  min-height: 100vh;
-  padding: 50px 7%;
-  background: #f5f7fb;
-  color: #172033;
+    min-height: 100vh;
+    background: #f8fafc;
+    padding: 50px 0;
 }
 
-/* Header */
 
-.deep-learn-header {
-  max-width: 850px;
-  margin: 0 auto 45px;
-  text-align: center;
+/* ==========================================
+   HERO
+========================================== */
+
+.deep-learn-hero {
+
+    background: white;
+
+    border-radius: 20px;
+
+    padding: 60px;
+
+    border: 1px solid #e2e8f0;
+
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+
+    margin-bottom: 60px;
 }
 
-.deep-learn-logo {
-  font-size: 18px;
-  font-weight: 700;
-  letter-spacing: 3px;
-  color: #2563eb;
-  margin-bottom: 15px;
+
+.deep-learn-hero-content {
+
+    max-width: 900px;
 }
 
-.deep-learn-header h1 {
-  font-size: 46px;
-  margin: 0 0 15px;
-  font-weight: 800;
+
+.deep-learn-badge {
+
+    display: inline-block;
+
+    background: #dbeafe;
+
+    color: #2563eb;
+
+    padding: 10px 22px;
+
+    border-radius: 999px;
+
+    font-size: 22px;
+
+    font-weight: 600;
+
+    margin-bottom: 30px;
 }
 
-.deep-learn-header p {
-  font-size: 18px;
-  color: #667085;
-  line-height: 1.7;
+
+.deep-learn-title {
+
+    font-size: 4.2rem;
+
+    font-weight: 800;
+
+    color: #0f172a;
+
+    line-height: 1.2;
+
+    margin-bottom: 30px;
 }
 
-/* Category Grid */
+
+.deep-learn-description {
+
+    font-size: 26px;
+
+    color: #64748b;
+
+    line-height: 1.9;
+
+    margin: 0;
+
+}
+
+
+/* ==========================================
+   SECTION HEADER
+========================================== */
+
+.deep-learn-categories-section {
+
+    margin-top: 30px;
+}
+
+
+.deep-learn-section-header {
+
+    margin-bottom: 40px;
+
+    padding-left: 50px;
+}
+
+
+.deep-learn-section-header h2 {
+
+    font-size: 3rem;
+
+    color: #0f172a;
+
+    margin-bottom: 12px;
+}
+
+
+.deep-learn-section-header p {
+
+    color: #64748b;
+
+    font-size: 24px;
+
+    line-height: 1.8;
+
+    max-width: 850px;
+}
+
+
+/* ==========================================
+   CATEGORY GRID
+========================================== */
 
 .deep-learn-categories {
-  max-width: 1100px;
-  margin: 0 auto;
 
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 22px;
+    display: grid;
+
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    gap: 30px;
+
+    padding: 0 50px;
 }
 
-/* Category Card */
+
+/* ==========================================
+   CATEGORY CARD
+========================================== */
 
 .deep-learn-category-card {
-  border: none;
-  text-align: left;
 
-  background: white;
-  border-radius: 20px;
+    width: 100%;
 
-  padding: 30px;
+    min-height: 220px;
 
-  cursor: pointer;
+    background: white;
 
-  box-shadow: 0 8px 30px rgba(15, 23, 42, 0.07);
+    border: 2px solid #e2e8f0;
 
-  transition:
-    transform 0.25s ease,
-    box-shadow 0.25s ease;
+    border-radius: 18px;
+
+    padding: 35px;
+
+    text-align: left;
+
+    cursor: pointer;
+
+    display: flex;
+
+    align-items: flex-start;
+
+    gap: 22px;
+
+    font-family: inherit;
+
+    transition: 0.3s;
+
 }
+
 
 .deep-learn-category-card:hover {
-  transform: translateY(-6px);
 
-  box-shadow:
-    0 16px 40px rgba(15, 23, 42, 0.12);
+    transform: translateY(-6px);
+
+    border-color: #2563eb;
+
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08);
 }
+
+
+/* ==========================================
+   ICON
+========================================== */
 
 .deep-learn-category-icon {
-  width: 58px;
-  height: 58px;
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    width: 60px;
 
-  border-radius: 16px;
+    height: 60px;
 
-  background: #eff6ff;
+    flex-shrink: 0;
 
-  font-size: 30px;
+    display: flex;
 
-  margin-bottom: 20px;
+    align-items: center;
+
+    justify-content: center;
+
+    background: #dbeafe;
+
+    border-radius: 16px;
+
+    font-size: 32px;
 }
 
-.deep-learn-category-card h2 {
-  margin: 0 0 10px;
 
-  font-size: 22px;
-  color: #172033;
+/* ==========================================
+   CONTENT
+========================================== */
+
+.deep-learn-category-content {
+
+    flex: 1;
 }
 
-.deep-learn-category-card p {
-  margin: 0;
 
-  font-size: 15px;
-  line-height: 1.7;
+.deep-learn-category-content h3 {
 
-  color: #667085;
+    margin: 0 0 14px;
+
+    font-size: 28px;
+
+    font-weight: 700;
+
+    color: #0f172a;
 }
 
-/* Last card */
+
+.deep-learn-category-content p {
+
+    margin: 0;
+
+    font-size: 20px;
+
+    line-height: 1.8;
+
+    color: #475569;
+}
+
+
+/* ==========================================
+   LAST CARD
+========================================== */
 
 .deep-learn-category-card:last-child {
-  grid-column: span 2;
-  max-width: 50%;
-  width: 100%;
-  justify-self: center;
+
+    grid-column: 1 / -1;
+
+    max-width: calc(50% - 15px);
+
+    justify-self: center;
 }
 
-/* Mobile */
 
-@media (max-width: 700px) {
-  .deep-learn-page {
-    padding: 35px 20px;
-  }
+/* ==========================================
+   RESPONSIVE
+========================================== */
 
-  .deep-learn-header h1 {
-    font-size: 34px;
-  }
+@media (max-width: 992px) {
 
-  .deep-learn-header p {
-    font-size: 16px;
-  }
+    .deep-learn-hero {
 
-  .deep-learn-categories {
-    grid-template-columns: 1fr;
-  }
+        padding: 40px;
+    }
 
-  .deep-learn-category-card:last-child {
-    grid-column: span 1;
-    max-width: none;
-  }
+    .deep-learn-title {
+
+        font-size: 3rem;
+    }
+
+    .deep-learn-description {
+
+        font-size: 22px;
+    }
+
+    .deep-learn-category-content h3 {
+
+        font-size: 24px;
+    }
+
+    .deep-learn-category-content p {
+
+        font-size: 19px;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    .deep-learn-page {
+
+        padding: 30px 15px;
+    }
+
+
+    .deep-learn-hero {
+
+        padding: 30px;
+
+        margin-bottom: 40px;
+    }
+
+
+    .deep-learn-badge {
+
+        font-size: 16px;
+
+        padding: 8px 16px;
+
+        margin-bottom: 20px;
+    }
+
+
+    .deep-learn-title {
+
+        font-size: 2.3rem;
+
+        margin-bottom: 20px;
+    }
+
+
+    .deep-learn-description {
+
+        font-size: 18px;
+
+        line-height: 1.8;
+    }
+
+
+    .deep-learn-section-header {
+
+        padding-left: 0;
+
+        margin-bottom: 25px;
+    }
+
+
+    .deep-learn-section-header h2 {
+
+        font-size: 2rem;
+    }
+
+
+    .deep-learn-section-header p {
+
+        font-size: 18px;
+    }
+
+
+    .deep-learn-categories {
+
+        grid-template-columns: 1fr;
+
+        padding: 0;
+
+        gap: 20px;
+    }
+
+
+    .deep-learn-category-card {
+
+        min-height: auto;
+
+        padding: 25px;
+    }
+
+
+    .deep-learn-category-card:last-child {
+
+        grid-column: auto;
+
+        max-width: none;
+    }
+
+
+    .deep-learn-category-icon {
+
+        width: 52px;
+
+        height: 52px;
+
+        font-size: 28px;
+    }
+
+
+    .deep-learn-category-content h3 {
+
+        font-size: 22px;
+    }
+
+
+    .deep-learn-category-content p {
+
+        font-size: 17px;
+    }
 }
