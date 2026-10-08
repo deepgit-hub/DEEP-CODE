@@ -155,7 +155,7 @@ function Deep() {
 
           <h2>
             Learn with a
-            <span> purpose.</span>
+            <span> PURPOSE.</span>
           </h2>
 
           <p>
