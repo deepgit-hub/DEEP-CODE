@@ -56,9 +56,9 @@ navigate("/deep");
         <h1>「 ✦ DEEPEX ✦ 」</h1>
 
       <p>
-   Learn. Grow. Succeed.
+   Grow , help them to Grow
   <br />
-  Technical & Professional Skills for Students
+  
   
 </p>
 
