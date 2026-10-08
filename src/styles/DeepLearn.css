@@ -441,3 +441,99 @@
 
     box-shadow: 0 10px 22px rgba(23, 52, 118, 0.35);
 } 
+/* ==========================================
+   HERO CONTENT
+========================================== */
+
+.deep-learn-main-description {
+
+    max-width: 850px;
+
+    font-size: 26px;
+
+    color: #475569;
+
+    line-height: 1.8;
+
+    margin: 0 0 18px;
+}
+
+
+.deep-learn-sub-description {
+
+    max-width: 850px;
+
+    font-size: 19px;
+
+    color: #64748b;
+
+    line-height: 1.8;
+
+    margin: 0;
+}
+
+
+/* ==========================================
+   HERO HIGHLIGHTS
+========================================== */
+
+.deep-learn-highlights {
+
+    display: grid;
+
+    grid-template-columns: repeat(2, minmax(220px, 1fr));
+
+    gap: 14px 30px;
+
+    max-width: 700px;
+
+    margin-top: 30px;
+}
+
+
+.deep-learn-highlight {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+}
+
+
+.deep-learn-highlight span {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    width: 26px;
+
+    height: 26px;
+
+    border-radius: 50%;
+
+    background: #dcfce7;
+
+    color: #16a34a;
+
+    font-size: 14px;
+
+    font-weight: 800;
+
+    flex-shrink: 0;
+}
+
+
+.deep-learn-highlight p {
+
+    margin: 0;
+
+    color: #334155;
+
+    font-size: 17px;
+
+    font-weight: 600;
+}
