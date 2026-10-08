@@ -137,7 +137,12 @@ const progress =
 
       <div className="container">
 
-
+<button
+  className="home-back-btn"
+  onClick={() => navigate("/deep")}
+>
+  ← Back to DEEPEX
+</button>
         {/* ================= HERO ================= */}
 
         <section className="hero">
