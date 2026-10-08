@@ -263,4 +263,268 @@ const concepts = [
         "ஒரு group project சரியாக complete ஆகவில்லை என்று நினைத்துக்கொள்ளுங்கள். அந்த situation-ஐ fix செய்வது உங்கள் responsibility என்று imagine செய்யுங்கள். Others-ஐ blame செய்யாமல் நீங்கள் எடுக்கக்கூடிய actions-ஐ explain செய்யுங்கள்."
     }
   },
+    {
+    conceptId: 6,
+    title: "Problem-Solving",
+    understand: {
+      english:
+        "Problem-solving means understanding a problem, identifying possible causes, considering different solutions, and taking appropriate action. Good professionals do not only point out problems; they also try to find practical ways to solve them.",
+      tamil:
+        "Problem-solving என்பது ஒரு problem-ஐ புரிந்துகொண்டு, அதன் possible causes-ஐ identify செய்து, different solutions-ஐ consider செய்து, appropriate action எடுப்பது. நல்ல professionals problem இருப்பதை மட்டும் சொல்லாமல், அதை solve செய்வதற்கான practical வழிகளையும் தேடுவார்கள்."
+    },
+    seeTheSituation: {
+      english:
+        "Imagine that a software feature is not working as expected. Instead of immediately saying that the feature is broken, you check the error, reproduce the problem, identify the possible cause, and then try a suitable solution.",
+      tamil:
+        "ஒரு software feature expected-ஆக work செய்யவில்லை என்று நினைத்துக்கொள்ளுங்கள். உடனே feature broken என்று சொல்லாமல், error-ஐ check செய்து, problem-ஐ reproduce செய்து, possible cause-ஐ identify செய்து, suitable solution-ஐ try செய்வது நல்ல problem-solving approach."
+    },
+    commonMistake: {
+      english:
+        "A common mistake is jumping to a solution without understanding the actual problem. Another mistake is blaming someone before checking the facts or giving up after the first solution does not work.",
+      tamil:
+        "Actual problem-ஐ புரிந்துகொள்ளாமல் உடனடியாக ஒரு solution-க்கு செல்வது ஒரு common mistake. Facts-ஐ check செய்வதற்கு முன் ஒருவரை blame செய்வதும் அல்லது first solution work ஆகவில்லை என்றவுடன் give up செய்வதும் தவறு."
+    },
+    betterApproach: {
+      english:
+        "First understand the problem clearly. Then identify possible causes, think of different solutions, choose a practical one, and check whether it actually solved the problem. Learn from the process.",
+      tamil:
+        "முதலில் problem-ஐ clearly understand செய்யுங்கள். பிறகு possible causes-ஐ identify செய்து, different solutions பற்றி யோசித்து, practical solution ஒன்றை choose செய்து, அது உண்மையில் problem-ஐ solve செய்ததா என்று check செய்யுங்கள். அந்த process-ல் இருந்து learn செய்யுங்கள்."
+    },
+    usefulExpressions: [
+      {
+        english: "Let me first understand the problem.",
+        tamil: "முதலில் problem-ஐ புரிந்துகொள்கிறேன்."
+      },
+      {
+        english: "What could be causing this issue?",
+        tamil: "இந்த issue-க்கு என்ன காரணமாக இருக்கலாம்?"
+      },
+      {
+        english: "Let's look at the possible solutions.",
+        tamil: "Possible solutions-ஐ பார்க்கலாம்."
+      },
+      {
+        english: "I found the cause of the problem.",
+        tamil: "Problem-க்கான காரணத்தை கண்டுபிடித்துவிட்டேன்."
+      }
+    ],
+    tryYourself: {
+      english:
+        "Think of a problem you recently faced. Write down the problem, three possible causes, two possible solutions, and the solution you would choose.",
+      tamil:
+        "நீங்கள் சமீபத்தில் faced செய்த ஒரு problem பற்றி யோசிக்கவும். Problem, மூன்று possible causes, இரண்டு possible solutions மற்றும் நீங்கள் choose செய்யும் solution ஆகியவற்றை எழுதுங்கள்."
+    }
+  },
+
+  {
+    conceptId: 7,
+    title: "Decision-Making",
+    understand: {
+      english:
+        "Decision-making means choosing one option after considering the available information, possible consequences, and goals. Good decisions do not always require perfect information. They require thoughtful reasoning and responsibility for the result.",
+      tamil:
+        "Decision-making என்பது available information, possible consequences மற்றும் goals ஆகியவற்றை consider செய்து ஒரு option-ஐ choose செய்வது. நல்ல decision எடுக்க எப்போதும் perfect information தேவைப்படாது. Thoughtful reasoning மற்றும் result-க்கு responsibility எடுத்துக்கொள்வது முக்கியம்."
+    },
+    seeTheSituation: {
+      english:
+        "Imagine your team has two possible tools for completing a project. Instead of choosing one simply because it is popular, you compare cost, features, learning time, team experience, and project requirements before making a decision.",
+      tamil:
+        "உங்கள் team ஒரு project complete செய்ய இரண்டு possible tools இருப்பதாக நினைத்துக்கொள்ளுங்கள். Popular-ஆக இருப்பதால் மட்டும் ஒன்றை choose செய்யாமல், cost, features, learning time, team experience மற்றும் project requirements ஆகியவற்றை compare செய்து decision எடுக்கலாம்."
+    },
+    commonMistake: {
+      english:
+        "Common mistakes include making decisions based only on emotions, choosing something without checking important information, delaying every decision because of fear, or copying someone else's decision without understanding the situation.",
+      tamil:
+        "Emotions-ஐ மட்டும் வைத்து decisions எடுப்பது, important information-ஐ check செய்யாமல் choose செய்வது, fear காரணமாக every decision-ஐ delay செய்வது அல்லது situation-ஐ புரிந்துகொள்ளாமல் மற்றொருவரின் decision-ஐ copy செய்வது common mistakes."
+    },
+    betterApproach: {
+      english:
+        "Clearly define the decision you need to make. Gather the important information, compare the main options, consider the possible consequences, and choose the option that best supports your goal.",
+      tamil:
+        "எந்த decision எடுக்க வேண்டும் என்பதை clearly define செய்யுங்கள். Important information-ஐ gather செய்து, main options-ஐ compare செய்து, possible consequences-ஐ consider செய்து, உங்கள் goal-க்கு best support செய்யும் option-ஐ choose செய்யுங்கள்."
+    },
+    usefulExpressions: [
+      {
+        english: "Let me compare the available options.",
+        tamil: "Available options-ஐ compare செய்கிறேன்."
+      },
+      {
+        english: "What are the possible consequences?",
+        tamil: "Possible consequences என்ன?"
+      },
+      {
+        english: "Based on the information, I would choose this option.",
+        tamil: "இந்த information-ன் அடிப்படையில் இந்த option-ஐ choose செய்வேன்."
+      },
+      {
+        english: "I will take responsibility for this decision.",
+        tamil: "இந்த decision-க்கு நான் responsibility எடுத்துக்கொள்கிறேன்."
+      }
+    ],
+    tryYourself: {
+      english:
+        "Think of a decision you need to make about your studies or career. List two or three options, compare their advantages and disadvantages, and choose one.",
+      tamil:
+        "உங்கள் studies அல்லது career தொடர்பாக நீங்கள் எடுக்க வேண்டிய ஒரு decision பற்றி யோசிக்கவும். இரண்டு அல்லது மூன்று options-ஐ list செய்து, அவற்றின் advantages மற்றும் disadvantages-ஐ compare செய்து, ஒன்றை choose செய்யுங்கள்."
+    }
+  },
+
+  {
+    conceptId: 8,
+    title: "Critical Thinking",
+    understand: {
+      english:
+        "Critical thinking means carefully examining information before accepting it as true or making a decision. It involves asking questions, checking evidence, considering different perspectives, and separating facts from assumptions.",
+      tamil:
+        "Critical thinking என்பது ஒரு information-ஐ உண்மை என்று accept செய்வதற்கு முன் அதை carefully examine செய்வது. Questions கேட்பது, evidence-ஐ check செய்வது, different perspectives-ஐ consider செய்வது மற்றும் facts-ஐ assumptions-ல் இருந்து பிரிப்பது இதில் அடங்கும்."
+    },
+    seeTheSituation: {
+      english:
+        "Suppose someone tells you that a particular programming technology is useless because they heard it from another person. Instead of immediately believing it, you check reliable information, understand where the technology is actually used, and form your own conclusion.",
+      tamil:
+        "ஒரு particular programming technology useless என்று ஒருவர் சொல்கிறார் என்று நினைத்துக்கொள்ளுங்கள். அதை உடனே நம்புவதற்கு பதிலாக, reliable information-ஐ check செய்து, அந்த technology உண்மையில் எங்கு பயன்படுத்தப்படுகிறது என்பதை புரிந்துகொண்டு, உங்கள் own conclusion-ஐ உருவாக்கலாம்."
+    },
+    commonMistake: {
+      english:
+        "A common mistake is accepting information simply because a senior person, friend, or social media post said it. Another mistake is rejecting an idea immediately without trying to understand the evidence behind it.",
+      tamil:
+        "Senior person, friend அல்லது social media post சொன்னதால் மட்டும் information-ஐ accept செய்வது ஒரு common mistake. Evidence-ஐ புரிந்துகொள்ளாமல் ஒரு idea-ஐ உடனடியாக reject செய்வதும் தவறு."
+    },
+    betterApproach: {
+      english:
+        "Ask yourself what the evidence is, whether the source is reliable, what assumptions are being made, and whether there are other possible explanations. Then make a balanced conclusion.",
+      tamil:
+        "Evidence என்ன, source reliable-ஆக இருக்கிறதா, என்ன assumptions செய்யப்படுகின்றன, வேறு possible explanations இருக்கிறதா என்று உங்களிடம் கேளுங்கள். பிறகு balanced conclusion ஒன்றை உருவாக்குங்கள்."
+    },
+    usefulExpressions: [
+      {
+        english: "What evidence supports this?",
+        tamil: "இதற்கு என்ன evidence உள்ளது?"
+      },
+      {
+        english: "Let me verify that information.",
+        tamil: "அந்த information-ஐ verify செய்கிறேன்."
+      },
+      {
+        english: "There may be another perspective.",
+        tamil: "இதற்கு இன்னொரு perspective இருக்கலாம்."
+      },
+      {
+        english: "I would like to understand the facts first.",
+        tamil: "முதலில் facts-ஐ புரிந்துகொள்ள விரும்புகிறேன்."
+      }
+    ],
+    tryYourself: {
+      english:
+        "Think of a claim you recently heard online or from someone else. Identify what is known, what is only an assumption, and what information you would need to verify it.",
+      tamil:
+        "Online-ல் அல்லது வேறு ஒருவரிடம் நீங்கள் சமீபத்தில் கேட்ட ஒரு claim பற்றி யோசிக்கவும். எது known fact, எது assumption, அதை verify செய்ய உங்களுக்கு என்ன information தேவை என்பதை identify செய்யுங்கள்."
+    }
+  },
+
+  {
+    conceptId: 9,
+    title: "Time Management",
+    understand: {
+      english:
+        "Time management means using your available time intentionally so that important responsibilities are completed without unnecessary stress. It involves planning, prioritizing, estimating time, and avoiding unnecessary distractions.",
+      tamil:
+        "Time management என்பது உங்களிடம் இருக்கும் available time-ஐ intentional-ஆக பயன்படுத்தி important responsibilities-ஐ unnecessary stress இல்லாமல் complete செய்வது. Planning, prioritizing, time estimate செய்வது மற்றும் unnecessary distractions-ஐ avoid செய்வது இதில் அடங்கும்."
+    },
+    seeTheSituation: {
+      english:
+        "Imagine you have classes, a project, interview preparation, and personal responsibilities on the same day. Instead of trying to do everything randomly, you create a schedule, allocate time for each activity, and protect time for the most important tasks.",
+      tamil:
+        "ஒரே நாளில் classes, project, interview preparation மற்றும் personal responsibilities இருக்கிறது என்று நினைத்துக்கொள்ளுங்கள். Random-ஆக எல்லாவற்றையும் செய்ய முயற்சி செய்வதற்கு பதிலாக, schedule உருவாக்கி ஒவ்வொரு activity-க்கும் time allocate செய்து, most important tasks-க்கு time reserve செய்யலாம்."
+    },
+    commonMistake: {
+      english:
+        "Common mistakes include spending too much time on low-priority activities, constantly checking social media, underestimating task duration, and postponing important work until the last minute.",
+      tamil:
+        "Low-priority activities-ல் அதிக நேரம் செலவிடுவது, தொடர்ந்து social media check செய்வது, task எவ்வளவு நேரம் எடுக்கும் என்பதை underestimate செய்வது மற்றும் important work-ஐ last minute வரை postpone செய்வது common mistakes."
+    },
+    betterApproach: {
+      english:
+        "Plan your day around important responsibilities. Break large tasks into smaller steps, set realistic time limits, reduce distractions, and review your progress at the end of the day.",
+      tamil:
+        "Important responsibilities-ஐ மையமாக வைத்து உங்கள் day-ஐ plan செய்யுங்கள். Large tasks-ஐ smaller steps-ஆக divide செய்து, realistic time limits set செய்து, distractions-ஐ reduce செய்து, day முடிவில் உங்கள் progress-ஐ review செய்யுங்கள்."
+    },
+    usefulExpressions: [
+      {
+        english: "I need to manage my time better.",
+        tamil: "என்னுடைய time-ஐ இன்னும் better-ஆக manage செய்ய வேண்டும்."
+      },
+      {
+        english: "I will schedule time for this task.",
+        tamil: "இந்த task-க்கு time schedule செய்கிறேன்."
+      },
+      {
+        english: "This is my highest priority today.",
+        tamil: "இது இன்று என்னுடைய highest priority."
+      },
+      {
+        english: "I need to avoid unnecessary distractions.",
+        tamil: "Unnecessary distractions-ஐ avoid செய்ய வேண்டும்."
+      }
+    ],
+    tryYourself: {
+      english:
+        "Create a simple schedule for tomorrow. Include your important work, study time, personal responsibilities, and some rest. Try to follow the schedule for one day.",
+      tamil:
+        "நாளைக்கான ஒரு simple schedule உருவாக்குங்கள். Important work, study time, personal responsibilities மற்றும் rest time ஆகியவற்றை include செய்யுங்கள். ஒரு நாள் அந்த schedule-ஐ follow செய்து பாருங்கள்."
+    }
+  },
+
+  {
+    conceptId: 10,
+    title: "Goal Setting",
+    understand: {
+      english:
+        "Goal setting means deciding what you want to achieve and creating a clear path toward it. A useful goal should be specific enough to understand, realistic enough to work toward, and connected to something that matters to you.",
+      tamil:
+        "Goal setting என்பது நீங்கள் எதை achieve செய்ய விரும்புகிறீர்கள் என்பதை decide செய்து, அதை நோக்கி செல்லும் clear path-ஐ உருவாக்குவது. Useful goal என்பது புரிந்துகொள்ளும் அளவுக்கு specific-ஆகவும், work செய்யக்கூடிய அளவுக்கு realistic-ஆகவும், உங்களுக்கு முக்கியமான விஷயத்துடன் connected-ஆகவும் இருக்க வேண்டும்."
+    },
+    seeTheSituation: {
+      english:
+        "Instead of saying, \"I want to improve my programming,\" you could set a clearer goal such as completing a specific number of programming problems each week and building one small project within a planned period.",
+      tamil:
+        "\"I want to improve my programming\" என்று பொதுவாக சொல்வதற்கு பதிலாக, ஒவ்வொரு வாரமும் குறிப்பிட்ட எண்ணிக்கையிலான programming problems solve செய்வது மற்றும் ஒரு planned period-க்குள் ஒரு small project build செய்வது போன்ற clear goal அமைக்கலாம்."
+    },
+    commonMistake: {
+      english:
+        "A common mistake is setting a very large goal without breaking it into smaller actions. Another mistake is setting goals only because other people expect them, without understanding whether they match your own direction.",
+      tamil:
+        "Large goal ஒன்றை smaller actions-ஆக break செய்யாமல் வைத்துக்கொள்வது ஒரு common mistake. மற்றவர்கள் expect செய்கிறார்கள் என்பதற்காக மட்டும், அது உங்கள் own direction-க்கு பொருந்துகிறதா என்பதை புரிந்துகொள்ளாமல் goals set செய்வதும் தவறு."
+    },
+    betterApproach: {
+      english:
+        "Define what you want to achieve, why it matters, and what actions you need to take. Give yourself a reasonable timeline and review your progress regularly.",
+      tamil:
+        "எதை achieve செய்ய வேண்டும், அது ஏன் important, அதற்காக என்ன actions எடுக்க வேண்டும் என்பதை define செய்யுங்கள். Reasonable timeline ஒன்றை வைத்துக்கொண்டு, உங்கள் progress-ஐ regularly review செய்யுங்கள்."
+    },
+    usefulExpressions: [
+      {
+        english: "My goal is to improve this skill.",
+        tamil: "இந்த skill-ஐ improve செய்வது என்னுடைய goal."
+      },
+      {
+        english: "I will break this goal into smaller steps.",
+        tamil: "இந்த goal-ஐ smaller steps-ஆக break செய்வேன்."
+      },
+      {
+        english: "I want to achieve this within the next few months.",
+        tamil: "அடுத்த சில மாதங்களுக்குள் இதை achieve செய்ய விரும்புகிறேன்."
+      },
+      {
+        english: "I will track my progress regularly.",
+        tamil: "என்னுடைய progress-ஐ regularly track செய்வேன்."
+      }
+    ],
+    tryYourself: {
+      english:
+        "Choose one career-related goal you want to achieve. Write why it matters, three actions you need to take, and a realistic timeline.",
+      tamil:
+        "நீங்கள் achieve செய்ய விரும்பும் ஒரு career-related goal-ஐ தேர்வு செய்யுங்கள். அது ஏன் important, நீங்கள் எடுக்க வேண்டிய மூன்று actions மற்றும் realistic timeline ஆகியவற்றை எழுதுங்கள்."
+    }
+  },
 ]
