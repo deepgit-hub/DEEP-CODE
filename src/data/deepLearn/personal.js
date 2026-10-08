@@ -896,8 +896,168 @@ const concepts = [
       tamil:
         "விரைவில் நீங்கள் எடுக்க வேண்டிய ஒரு decision பற்றி யோசிக்கவும். குறைந்தது இரண்டு options, ஒவ்வொரு option-க்கும் ஒரு benefit மற்றும் ஒரு possible drawback, தற்போது மிகவும் suitable என்று தோன்றும் option ஆகியவற்றை எழுதுங்கள்."
     }
+  },
+    {
+    conceptId: 18,
+    title: "Problem-Solving in Daily Life",
+    understand: {
+      english:
+        "Problem-solving means understanding a problem, identifying possible causes, considering different solutions, and choosing a practical way to address it. Good problem-solving focuses on the actual issue instead of only reacting to its symptoms.",
+      tamil:
+        "Problem-solving என்பது ஒரு problem-ஐ புரிந்துகொண்டு, அதன் possible causes-ஐ identify செய்து, different solutions-ஐ consider செய்து, அதை handle செய்ய practical வழியை choose செய்வதாகும். Problem-ன் symptoms-க்கு மட்டும் react செய்வதை விட actual issue-ல் focus செய்வது நல்ல problem-solving."
+    },
+    seeTheSituation: {
+      english:
+        "Imagine a student who regularly misses deadlines. Instead of simply saying that they do not have enough time, they examine their routine and realize that they spend too much time on distractions. They then change their routine and set priorities.",
+      tamil:
+        "ஒரு student regularly deadlines miss செய்கிறார் என்று நினைத்துக்கொள்ளுங்கள். Time போதவில்லை என்று மட்டும் சொல்வதற்கு பதிலாக, தனது routine-ஐ examine செய்து, distractions-ல் அதிக time செலவிடுவதை identify செய்கிறார். பிறகு routine-ஐ change செய்து priorities set செய்கிறார்."
+    },
+    commonMistake: {
+      english:
+        "A common mistake is solving only the visible symptom without understanding the real cause. Another mistake is choosing the first solution that comes to mind without considering whether it will actually work.",
+      tamil:
+        "Visible symptom-ஐ மட்டும் solve செய்து real cause-ஐ புரிந்துகொள்ளாமல் இருப்பது ஒரு common mistake. முதலில் தோன்றும் solution-ஐ அது உண்மையில் work ஆகுமா என்று consider செய்யாமல் choose செய்வதும் தவறு."
+    },
+    betterApproach: {
+      english:
+        "Clearly define the problem, find its possible causes, think of more than one solution, compare the options, and choose a practical action. After taking action, check whether the problem has actually improved.",
+      tamil:
+        "Problem-ஐ clearly define செய்து, possible causes-ஐ identify செய்து, ஒன்றுக்கு மேற்பட்ட solutions-ஐ think செய்து, options-ஐ compare செய்து, practical action-ஐ choose செய்யுங்கள். Action எடுத்த பிறகு problem உண்மையில் improve ஆகியிருக்கிறதா என்று check செய்யுங்கள்."
+    },
+    usefulExpressions: [
+      {
+        english: "Let me understand the actual problem first.",
+        tamil: "முதலில் actual problem என்ன என்பதை புரிந்துகொள்கிறேன்."
+      },
+      {
+        english: "What could be causing this problem?",
+        tamil: "இந்த problem-க்கு என்ன காரணமாக இருக்கலாம்?"
+      },
+      {
+        english: "Let us consider a few possible solutions.",
+        tamil: "சில possible solutions-ஐ consider செய்வோம்."
+      },
+      {
+        english: "I will check whether the solution actually works.",
+        tamil: "இந்த solution உண்மையில் work ஆகிறதா என்று check செய்வேன்."
+      }
+    ],
+    tryYourself: {
+      english:
+        "Think about one small problem you currently face in your studies or daily life. Write the problem, two possible causes, two possible solutions, and the solution you would try first.",
+      tamil:
+        "உங்கள் studies அல்லது daily life-ல் தற்போது இருக்கும் ஒரு small problem பற்றி யோசிக்கவும். Problem, இரண்டு possible causes, இரண்டு possible solutions மற்றும் முதலில் try செய்ய விரும்பும் solution ஆகியவற்றை எழுதுங்கள்."
+    }
+  },
+
+  {
+    conceptId: 19,
+    title: "Becoming Independent",
+    understand: {
+      english:
+        "Being independent means developing the ability to handle appropriate responsibilities, make decisions, solve problems, and manage important parts of your life without depending unnecessarily on others. Independence does not mean refusing help when help is genuinely needed.",
+      tamil:
+        "Being independent என்பது appropriate responsibilities-ஐ handle செய்வது, decisions எடுப்பது, problems solve செய்வது மற்றும் உங்கள் life-ன் important பகுதிகளை தேவையில்லாமல் மற்றவர்களை depend செய்யாமல் manage செய்வதற்கான ability-ஐ develop செய்வது. Independence என்பது உண்மையாக help தேவைப்படும்போதும் help மறுப்பது அல்ல."
+    },
+    seeTheSituation: {
+      english:
+        "Imagine a college student who usually waits for others to remind them about assignments, applications, and important deadlines. They gradually start maintaining their own schedule, checking important information themselves, and completing responsibilities without repeated reminders.",
+      tamil:
+        "ஒரு college student assignments, applications மற்றும் important deadlines பற்றி மற்றவர்கள் remind செய்யும் வரை wait செய்கிறார் என்று நினைத்துக்கொள்ளுங்கள். Gradually அவர் தனது own schedule-ஐ maintain செய்து, important information-ஐ தானாக check செய்து, repeated reminders இல்லாமல் responsibilities-ஐ complete செய்ய ஆரம்பிக்கிறார்."
+    },
+    commonMistake: {
+      english:
+        "A common mistake is thinking that independence means doing everything alone. Another mistake is avoiding responsibility by always expecting someone else to solve problems or make decisions.",
+      tamil:
+        "Independence என்றால் எல்லாவற்றையும் தனியாக செய்வது என்று நினைப்பது ஒரு common mistake. Problems solve செய்வதற்கும் decisions எடுப்பதற்கும் எப்போதும் மற்றவர்களை expect செய்து responsibility-ஐ avoid செய்வதும் தவறு."
+    },
+    betterApproach: {
+      english:
+        "Take responsibility for tasks that belong to you, learn how to find reliable information, make reasonable decisions, and ask for help when you genuinely need it. The goal is to become capable, not isolated.",
+      tamil:
+        "உங்களுக்கு சொந்தமான tasks-க்கு responsibility எடுத்துக்கொள்ளுங்கள், reliable information-ஐ எப்படி find செய்வது என்று learn செய்யுங்கள், reasonable decisions எடுங்கள், உண்மையாக help தேவைப்படும்போது கேளுங்கள். Goal capable ஆக மாறுவது; மற்றவர்களிடமிருந்து completely isolated ஆக இருப்பது அல்ல."
+    },
+    usefulExpressions: [
+      {
+        english: "I will take responsibility for this.",
+        tamil: "இதற்கான responsibility-ஐ நான் எடுத்துக்கொள்கிறேன்."
+      },
+      {
+        english: "I will try to find the information myself first.",
+        tamil: "முதலில் information-ஐ நானே find செய்ய முயற்சி செய்கிறேன்."
+      },
+      {
+        english: "I need some guidance, but I can handle the rest.",
+        tamil: "எனக்கு கொஞ்சம் guidance தேவை, ஆனால் மீதியை நான் handle செய்ய முடியும்."
+      },
+      {
+        english: "I am learning to manage my responsibilities independently.",
+        tamil: "என்னுடைய responsibilities-ஐ independently manage செய்ய நான் learn செய்து வருகிறேன்."
+      }
+    ],
+    tryYourself: {
+      english:
+        "Identify three responsibilities that you currently depend on others to remind or manage. Choose one and start handling it yourself from this week.",
+      tamil:
+        "தற்போது மற்றவர்கள் remind செய்யும் அல்லது manage செய்யும் மூன்று responsibilities-ஐ identify செய்யுங்கள். அதில் ஒன்றை choose செய்து இந்த வாரம் முதல் நீங்களே handle செய்ய ஆரம்பியுங்கள்."
+    }
+  },
+
+  {
+    conceptId: 20,
+    title: "Preparing for Life After College",
+    understand: {
+      english:
+        "Preparing for life after college means gradually developing the knowledge, skills, habits, and practical readiness needed for the next stage of your life. This can include career preparation, financial awareness, communication, independent decision-making, and adapting to new responsibilities.",
+      tamil:
+        "Preparing for life after college என்பது college-க்கு பிறகு வரும் next stage-க்கு தேவையான knowledge, skills, habits மற்றும் practical readiness-ஐ gradually develop செய்வது. இதில் career preparation, financial awareness, communication, independent decision-making மற்றும் new responsibilities-க்கு adapt ஆகுதல் போன்றவை அடங்கும்."
+    },
+    seeTheSituation: {
+      english:
+        "Imagine a final-year student who does not wait until graduation to think about the future. They explore career options, improve relevant skills, prepare their resume, practice professional communication, understand basic financial responsibilities, and gradually become ready for working life.",
+      tamil:
+        "ஒரு final-year student graduation முடியும் வரை future பற்றி யோசிக்காமல் இருக்காமல், career options-ஐ explore செய்து, relevant skills-ஐ improve செய்து, resume prepare செய்து, professional communication practice செய்து, basic financial responsibilities-ஐ understand செய்து, working life-க்கு gradually ready ஆகிறார்."
+    },
+    commonMistake: {
+      english:
+        "A common mistake is believing that college graduation automatically means you are prepared for every part of adult and professional life. Another mistake is waiting until the final moment to develop important skills.",
+      tamil:
+        "College graduation ஆனவுடன் adult மற்றும் professional life-ன் எல்லா பகுதிகளுக்கும் automatically ready ஆகிவிடுவோம் என்று நினைப்பது ஒரு common mistake. Important skills-ஐ develop செய்ய final moment வரை wait செய்வதும் தவறு."
+    },
+    betterApproach: {
+      english:
+        "Start preparing gradually while you are still in college. Build useful skills, gain practical experience, understand professional expectations, learn to manage responsibilities, and remain open to learning after graduation.",
+      tamil:
+        "College-ல் இருக்கும்போதே gradually prepare செய்ய ஆரம்பியுங்கள். Useful skills-ஐ build செய்து, practical experience gain செய்து, professional expectations-ஐ understand செய்து, responsibilities-ஐ manage செய்ய learn செய்து, graduation-க்கு பிறகும் தொடர்ந்து learn செய்ய open-ஆக இருங்கள்."
+    },
+    usefulExpressions: [
+      {
+        english: "I am preparing myself for the next stage of my career.",
+        tamil: "என்னுடைய career-ன் next stage-க்காக என்னை நான் prepare செய்து வருகிறேன்."
+      },
+      {
+        english: "I want to gain practical experience before graduation.",
+        tamil: "Graduation-க்கு முன் practical experience gain செய்ய விரும்புகிறேன்."
+      },
+      {
+        english: "I am working on skills that will be useful after college.",
+        tamil: "College-க்கு பிறகு useful ஆக இருக்கும் skills-ல் work செய்து வருகிறேன்."
+      },
+      {
+        english: "I know that learning will continue after graduation.",
+        tamil: "Graduation-க்கு பிறகும் learning continue ஆகும் என்பதை நான் understand செய்கிறேன்."
+      }
+    ],
+    tryYourself: {
+      english:
+        "Think about your life after college. Write down one career goal, two skills you need to improve, one practical experience you want to gain, and one personal responsibility you want to become better at managing.",
+      tamil:
+        "College-க்கு பிறகு உங்கள் life எப்படி இருக்க வேண்டும் என்று யோசிக்கவும். ஒரு career goal, improve செய்ய வேண்டிய இரண்டு skills, gain செய்ய விரும்பும் ஒரு practical experience மற்றும் better-ஆக manage செய்ய விரும்பும் ஒரு personal responsibility ஆகியவற்றை எழுதுங்கள்."
+    }
   }
 ];
+
+
 
 
 export default concepts;
