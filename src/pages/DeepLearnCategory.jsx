@@ -81,7 +81,7 @@ function DeepLearnCategory() {
 
         <button
           className="deep-category-back-btn"
-          onClick={() => navigate("/deep-learn")}
+          onClick={() => navigate("/deep-speak")}
         >
           ← Back to DEEP LEARN
         </button>
@@ -125,7 +125,7 @@ function DeepLearnCategory() {
               className="deep-concept-card"
               onClick={() =>
                 navigate(
-                  `/deep-learn/${categoryId}/${concept.id}`
+                  `/deep-speak/${categoryId}/${concept.id}`
                 )
               }
             >

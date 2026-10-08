@@ -83,7 +83,7 @@ function DeepLearnConcept() {
         <button
           className="deep-concept-back-btn"
           onClick={() =>
-            navigate(`/deep-learn/${categoryId}`)
+            navigate(`/deep-speak/${categoryId}`)
           }
         >
           ← Back to {categoryName}
@@ -320,7 +320,7 @@ function DeepLearnConcept() {
           <button
             className="deep-concept-complete-btn"
             onClick={() =>
-              navigate(`/deep-learn/${categoryId}`)
+              navigate(`/deep-speak/${categoryId}`)
             }
           >
             ✓ Back to Concepts
