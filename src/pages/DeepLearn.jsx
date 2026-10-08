@@ -41,6 +41,12 @@ function DeepLearn() {
         "Develop yourself, manage challenges, and prepare for your future.",
     },
   ];
+  <button
+  className="deep-learn-back-btn"
+  onClick={() => navigate("/deep")}
+>
+  ← Back to DEEPEX
+</button>
 
   return (
     <div className="deep-learn-page">
