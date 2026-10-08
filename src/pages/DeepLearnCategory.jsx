@@ -8,10 +8,15 @@ function DeepLearnCategory() {
   const navigate = useNavigate();
 
   const [concepts, setConcepts] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState("");
 
   useEffect(() => {
     async function fetchConcepts() {
       try {
+        setLoading(true);
+        setError("");
+
         const conceptsRef = collection(
           db,
           "deepLearn",
@@ -26,22 +31,41 @@ function DeepLearnCategory() {
             id: doc.id,
             ...doc.data(),
           }))
-          .sort((a, b) => a.order - b.order);
+          .sort((a, b) => a.conceptId - b.conceptId);
 
         setConcepts(data);
       } catch (error) {
         console.error("Failed to fetch concepts:", error);
+        setError("Failed to load concepts.");
+      } finally {
+        setLoading(false);
       }
     }
 
     fetchConcepts();
   }, [categoryId]);
 
+  if (loading) {
+    return <h2>Loading concepts...</h2>;
+  }
+
+  if (error) {
+    return <h2>{error}</h2>;
+  }
+
   return (
     <div>
       <h1>🎓 DEEP LEARN</h1>
 
-      <h2>{categoryId?.toUpperCase()}</h2>
+      <h2>
+        {categoryId?.charAt(0).toUpperCase() +
+          categoryId?.slice(1)}{" "}
+        Skills
+      </h2>
+
+      <p>
+        Choose a concept and start learning.
+      </p>
 
       {concepts.map((concept) => (
         <div
@@ -58,9 +82,13 @@ function DeepLearnCategory() {
             margin: "10px 0",
           }}
         >
-          <h3>{concept.title}</h3>
+          <h3>
+            {concept.conceptId}. {concept.title}
+          </h3>
 
-          <p>{concept.englishExplanation}</p>
+          <p>
+            {concept.understand?.english}
+          </p>
         </div>
       ))}
     </div>
