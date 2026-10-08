@@ -114,7 +114,7 @@ function Deep() {
             </div>
 
             <div className="deep-product-label">
-              CAREER & PERSONAL DEVELOPMENT
+              Communication & Professional Growth
             </div>
 
             <h3>
