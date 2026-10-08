@@ -1,205 +1,456 @@
-/* =========================================
-   DEEP LEARN - CONCEPT PAGE
-========================================= */
+/* ==========================================
+   DEEP LEARN CONCEPT PAGE
+========================================== */
 
 .deep-concept-page {
-  min-height: 100vh;
 
-  background: #f5f7fb;
+    width: calc(100% - 100px);
 
-  padding: 45px 7% 70px;
+    margin: 0 auto;
 
-  color: #172033;
+    padding: 40px 0 70px;
+
+    min-height: 100vh;
+
+    background: #f8fafc;
 }
 
-/* Header */
+
+/* ==========================================
+   HEADER
+========================================== */
 
 .deep-concept-header {
-  max-width: 900px;
 
-  margin: 0 auto 35px;
+    background: white;
+
+    border-radius: 18px;
+
+    padding: 45px;
+
+    text-align: center;
+
+    margin-bottom: 35px;
+
+    box-shadow: 0 10px 25px rgba(0, 0, 0, .08);
 }
 
-.deep-concept-brand {
-  font-size: 15px;
 
-  font-weight: 700;
+.deep-concept-back-btn {
 
-  letter-spacing: 3px;
+    display: block;
 
-  color: #2563eb;
+    background: #173476;
 
-  margin-bottom: 12px;
+    color: white;
+
+    border: none;
+
+    border-radius: 10px;
+
+    padding: 12px 22px;
+
+    font-size: 16px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+
+    margin: 0 auto 30px;
+
+    box-shadow: 0 6px 15px rgba(23, 52, 118, 0.25);
 }
+
+
+.deep-concept-back-btn:hover {
+
+    background: #21479c;
+
+    transform: translateY(-2px);
+
+    box-shadow: 0 10px 22px rgba(23, 52, 118, 0.35);
+}
+
+
+.deep-concept-badge {
+
+    display: inline-block;
+
+    background: #dbeafe;
+
+    color: #2563eb;
+
+    padding: 9px 18px;
+
+    border-radius: 999px;
+
+    font-size: 16px;
+
+    font-weight: 700;
+
+    margin-bottom: 18px;
+}
+
 
 .deep-concept-header h1 {
-  margin: 0 0 10px;
 
-  font-size: 40px;
+    font-size: 48px;
 
-  font-weight: 800;
+    color: #173476;
+
+    margin-bottom: 12px;
+
+    line-height: 1.25;
 }
+
 
 .deep-concept-header p {
-  margin: 0;
 
-  color: #667085;
+    color: #64748b;
 
-  font-size: 15px;
+    font-size: 24px;
+
+    font-weight: 600;
+
+    margin: 0;
 }
 
-/* Content */
+
+/* ==========================================
+   CONTENT
+========================================== */
 
 .deep-concept-content {
-  max-width: 900px;
 
-  margin: 0 auto;
-
-  display: flex;
-
-  flex-direction: column;
-
-  gap: 20px;
+    width: 100%;
 }
 
-/* Learning Section */
+
+/* ==========================================
+   INFORMATION CARDS
+========================================== */
 
 .deep-learning-section {
-  background: white;
 
-  border: 1px solid #e7eaf0;
+    background: white;
 
-  border-radius: 18px;
+    border-radius: 18px;
 
-  padding: 28px;
+    padding: 40px;
 
-  box-shadow:
-    0 5px 20px rgba(15, 23, 42, 0.04);
+    margin-bottom: 30px;
+
+    box-shadow: 0 10px 25px rgba(0, 0, 0, .08);
+
+    transition: 0.3s;
 }
+
+
+.deep-learning-section:hover {
+
+    transform: translateY(-4px);
+
+    box-shadow: 0 16px 30px rgba(0, 0, 0, .12);
+}
+
 
 .deep-learning-section h2 {
-  margin: 0 0 22px;
 
-  font-size: 22px;
+    color: #173476;
+
+    font-size: 32px;
+
+    margin-bottom: 25px;
 }
+
+
+/* ==========================================
+   LANGUAGE BLOCK
+========================================== */
 
 .deep-language-block {
-  margin-bottom: 20px;
+
+    margin-bottom: 25px;
 }
+
 
 .deep-language-block:last-child {
-  margin-bottom: 0;
+
+    margin-bottom: 0;
 }
+
 
 .deep-language-label {
-  font-size: 14px;
 
-  font-weight: 700;
+    color: #2563eb;
 
-  color: #2563eb;
+    font-size: 17px;
 
-  margin-bottom: 7px;
+    font-weight: 700;
+
+    margin-bottom: 10px;
 }
+
 
 .deep-language-block p {
-  margin: 0;
 
-  color: #475467;
+    color: #374151;
 
-  font-size: 16px;
+    font-size: 22px;
 
-  line-height: 1.8;
+    line-height: 1.9;
+
+    margin: 0;
 }
 
-/* Useful Expressions */
+
+/* ==========================================
+   COMMON MISTAKE
+========================================== */
+
+.mistake-section {
+
+    border-left: 8px solid #f59e0b;
+}
+
+
+.mistake-section h2 {
+
+    color: #b45309;
+}
+
+
+/* ==========================================
+   BETTER APPROACH
+========================================== */
+
+.better-section {
+
+    border-left: 8px solid #16a34a;
+}
+
+
+.better-section h2 {
+
+    color: #16a34a;
+}
+
+
+/* ==========================================
+   USEFUL EXPRESSIONS
+========================================== */
+
+.deep-expressions {
+
+    width: 100%;
+}
+
 
 .deep-expression {
-  padding: 15px 0;
 
-  border-bottom: 1px solid #edf0f4;
+    padding: 20px 0;
+
+    border-bottom: 1px solid #e2e8f0;
 }
+
+
+.deep-expression:first-child {
+
+    padding-top: 0;
+}
+
 
 .deep-expression:last-child {
-  border-bottom: none;
-  padding-bottom: 0;
+
+    border-bottom: none;
+
+    padding-bottom: 0;
 }
+
 
 .deep-expression-english {
-  margin: 0 0 7px;
 
-  font-size: 16px;
+    color: #173476;
 
-  color: #172033;
+    font-size: 21px;
+
+    font-weight: 600;
+
+    line-height: 1.7;
+
+    margin: 0 0 8px;
 }
+
 
 .deep-expression-tamil {
-  margin: 0;
 
-  font-size: 15px;
+    color: #64748b;
 
-  color: #667085;
+    font-size: 19px;
+
+    line-height: 1.7;
+
+    margin: 0;
 }
 
-/* Mark Learned */
 
-.deep-learned-button {
-  width: 100%;
+/* ==========================================
+   TRY YOURSELF
+========================================== */
 
-  border: none;
+.try-section {
 
-  border-radius: 14px;
-
-  padding: 16px 20px;
-
-  background: #2563eb;
-
-  color: white;
-
-  font-size: 16px;
-
-  font-weight: 700;
-
-  cursor: pointer;
-
-  transition:
-    background 0.2s ease,
-    transform 0.2s ease;
+    border-left: 8px solid #2563eb;
 }
 
-.deep-learned-button:hover {
-  background: #1d4ed8;
 
-  transform: translateY(-2px);
+.try-section h2 {
+
+    color: #2563eb;
 }
 
-/* Loading */
+
+/* ==========================================
+   ACTION
+========================================== */
+
+.deep-concept-action {
+
+    display: flex;
+
+    justify-content: center;
+
+    margin-top: 35px;
+}
+
+
+.deep-concept-complete-btn {
+
+    background: #173476;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 10px;
+
+    padding: 15px 30px;
+
+    font-size: 18px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+
+    box-shadow: 0 6px 15px rgba(23, 52, 118, .25);
+}
+
+
+.deep-concept-complete-btn:hover {
+
+    background: #21479c;
+
+    transform: translateY(-3px);
+
+    box-shadow: 0 12px 24px rgba(23, 52, 118, .35);
+}
+
+
+/* ==========================================
+   LOADING
+========================================== */
 
 .deep-concept-loading {
-  min-height: 100vh;
 
-  display: flex;
+    min-height: 100vh;
 
-  align-items: center;
+    display: flex;
 
-  justify-content: center;
+    align-items: center;
 
-  background: #f5f7fb;
+    justify-content: center;
 
-  color: #667085;
+    background: #f8fafc;
+
+    color: #173476;
 }
 
-/* Mobile */
 
-@media (max-width: 700px) {
-  .deep-concept-page {
-    padding: 30px 18px 50px;
-  }
+.deep-concept-loading h2 {
 
-  .deep-concept-header h1 {
-    font-size: 30px;
-  }
+    font-size: 28px;
+}
 
-  .deep-learning-section {
-    padding: 22px;
-  }
+
+/* ==========================================
+   RESPONSIVE
+========================================== */
+
+@media (max-width: 768px) {
+
+    .deep-concept-page {
+
+        width: calc(100% - 40px);
+
+        padding: 25px 0 50px;
+    }
+
+
+    .deep-concept-header {
+
+        padding: 30px 20px;
+    }
+
+
+    .deep-concept-header h1 {
+
+        font-size: 34px;
+    }
+
+
+    .deep-concept-header p {
+
+        font-size: 20px;
+    }
+
+
+    .deep-learning-section {
+
+        padding: 25px;
+    }
+
+
+    .deep-learning-section h2 {
+
+        font-size: 26px;
+    }
+
+
+    .deep-language-block p {
+
+        font-size: 18px;
+    }
+
+
+    .deep-expression-english {
+
+        font-size: 18px;
+    }
+
+
+    .deep-expression-tamil {
+
+        font-size: 17px;
+    }
+
+
+    .deep-concept-complete-btn {
+
+        width: 100%;
+    }
+
 }
