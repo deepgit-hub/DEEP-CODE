@@ -563,61 +563,308 @@
 
 
 /* ==========================================
-   FOOTER
+   DEEPEX FOOTER
 ========================================== */
 
 .deep-footer {
 
-    background: #0f172a;
+    background: #111827;
 
     color: white;
 
-    text-align: center;
+    padding: 70px 7% 25px;
 
-    padding: 55px 20px 30px;
+    margin-top: 50px;
 }
 
 
-.deep-footer h3 {
+.deep-footer-content {
 
-    font-size: 34px;
+    max-width: 1100px;
 
-    margin-bottom: 8px;
+    margin: 0 auto;
+
+    display: grid;
+
+    grid-template-columns:
+        1fr 1fr;
+
+    gap: 80px;
 }
 
 
-.deep-footer p {
+/* ==========================================
+   BRAND
+========================================== */
+
+.deep-footer-brand h3 {
+
+    font-size: 32px;
+
+    margin: 0 0 20px;
+
+    color: white;
+}
+
+
+.deep-footer-brand p {
+
+    color: #cbd5e1;
+
+    font-size: 17px;
+
+    line-height: 1.8;
+
+    max-width: 430px;
+
+    margin: 0 0 18px;
+}
+
+
+.deep-footer-tamil {
+
+    color: #94a3b8 !important;
+
+    font-size: 16px !important;
+
+    line-height: 1.9 !important;
+}
+
+
+.deep-footer-quote {
+
+    font-style: italic;
+
+    color: #dbeafe !important;
+
+    margin-top: 25px !important;
+}
+
+
+/* ==========================================
+   PRODUCTS
+========================================== */
+
+.deep-footer-products {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 12px;
+
+    margin-top: 28px;
+}
+
+
+.deep-footer-products span {
 
     color: #93c5fd;
 
-    font-size: 18px;
+    font-size: 14px;
 
-    margin-bottom: 30px;
+    font-weight: 700;
+
+    letter-spacing: 1px;
+}
+
+
+.deep-footer-products span:nth-child(2) {
+
+    color: #64748b;
+}
+
+
+/* ==========================================
+   DEVELOPER
+========================================== */
+
+.deep-footer-developer h3 {
+
+    font-size: 25px;
+
+    margin: 0 0 20px;
+
+    color: white;
+}
+
+
+.deep-footer-developer p {
+
+    color: #cbd5e1;
+
+    font-size: 17px;
+
+    line-height: 1.8;
+
+    margin: 0 0 18px;
+}
+
+
+.deep-footer-developer strong {
+
+    color: #93c5fd;
+}
+
+
+/* ==========================================
+   FOOTER BUTTONS
+========================================== */
+
+.deep-footer-buttons {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 14px;
+
+    margin-top: 28px;
+
+    max-width: 260px;
+}
+
+
+.deep-footer-buttons button {
+
+    border: none;
+
+    border-radius: 10px;
+
+    padding: 15px 20px;
+
+    color: white;
+
+    font-size: 15px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+
+.deep-footer-blue-btn {
+
+    background: #2563eb;
+
+    box-shadow:
+        0 8px 18px rgba(37, 99, 235, 0.25);
+}
+
+
+.deep-footer-blue-btn:hover {
+
+    background: #1d4ed8;
+
+    transform: translateY(-3px);
+
+    box-shadow:
+        0 12px 25px rgba(37, 99, 235, 0.35);
+}
+
+
+.deep-footer-pink-btn {
+
+    background: #d946ef;
+
+    box-shadow:
+        0 8px 18px rgba(217, 70, 239, 0.2);
+}
+
+
+.deep-footer-pink-btn:hover {
+
+    background: #c026d3;
+
+    transform: translateY(-3px);
+
+    box-shadow:
+        0 12px 25px rgba(217, 70, 239, 0.3);
+}
+
+
+/* ==========================================
+   FOOTER BOTTOM
+========================================== */
+
+.deep-footer-bottom {
+
+    max-width: 1250px;
+
+    margin: 55px auto 0;
+
+    text-align: center;
 }
 
 
 .deep-footer-line {
 
-    width: 90%;
-
-    max-width: 1000px;
+    width: 100%;
 
     height: 1px;
 
     background: #334155;
 
-    margin: 0 auto 25px;
+    margin-bottom: 25px;
 }
 
 
-.deep-footer span {
+.deep-footer-bottom p {
+
+    margin: 6px 0;
 
     color: #94a3b8;
 
-    font-size: 15px;
+    font-size: 14px;
 }
 
 
+/* ==========================================
+   MOBILE
+========================================== */
+
+@media (max-width: 768px) {
+
+    .deep-footer {
+
+        padding: 50px 25px 25px;
+    }
+
+
+    .deep-footer-content {
+
+        grid-template-columns: 1fr;
+
+        gap: 45px;
+    }
+
+
+    .deep-footer-brand h3 {
+
+        font-size: 28px;
+    }
+
+
+    .deep-footer-developer h3 {
+
+        font-size: 23px;
+    }
+
+
+    .deep-footer-buttons {
+
+        max-width: 100%;
+    }
+
+
+    .deep-footer-products {
+
+        flex-wrap: wrap;
+    }
+
+}
 /* ==========================================
    RESPONSIVE
 ========================================== */
