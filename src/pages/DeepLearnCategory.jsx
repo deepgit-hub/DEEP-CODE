@@ -13,10 +13,9 @@ function DeepLearnCategory() {
   const [error, setError] = useState("");
 
   useEffect(() => {
-    async function fetchConcepts() {
+    const fetchConcepts = async () => {
       try {
         setLoading(true);
-        setError("");
 
         const conceptsRef = collection(
           db,
@@ -35,80 +34,127 @@ function DeepLearnCategory() {
           .sort((a, b) => a.conceptId - b.conceptId);
 
         setConcepts(data);
-      } catch (error) {
-        console.error("Failed to fetch concepts:", error);
-        setError("Failed to load concepts.");
+      } catch (err) {
+        console.error(err);
+        setError("Unable to load concepts.");
       } finally {
         setLoading(false);
       }
-    }
+    };
 
     fetchConcepts();
   }, [categoryId]);
 
+  const categoryNames = {
+    communication: "Communication Skills",
+    interview: "Interview Skills",
+    workplace: "Workplace Skills",
+    professional: "Professional Skills",
+    personal: "Personal Skills",
+  };
+
+  const categoryName =
+    categoryNames[categoryId] || "DEEP LEARN";
+
   if (loading) {
-  return (
-    <div className="deep-loading">
-      <h2>Loading concepts...</h2>
-    </div>
-  );
-}
+    return (
+      <div className="deep-category-loading">
+        <h2>Loading concepts...</h2>
+      </div>
+    );
+  }
 
   if (error) {
-    return <h2>{error}</h2>;
+    return (
+      <div className="deep-category-loading">
+        <h2>{error}</h2>
+      </div>
+    );
   }
 
   return (
-  <div className="deep-category-page">
+    <div className="deep-category-page">
 
-    <div className="deep-category-header">
+      {/* ================= HEADER ================= */}
 
-      <div className="deep-category-brand">
-        DEEPEX · DEEP LEARN
-      </div>
+      <section className="deep-category-header">
 
-      <h1>
-        {categoryId?.charAt(0).toUpperCase() +
-          categoryId?.slice(1)}{" "}
-        Skills
-      </h1>
-
-      <p>
-        Choose a concept and start learning.
-      </p>
-
-    </div>
-
-    <div className="deep-concepts-list">
-
-      {concepts.map((concept) => (
-        <div
-          key={concept.id}
-          className="deep-concept-card"
-          onClick={() =>
-            navigate(
-              `/deep-learn/${categoryId}/${concept.id}`
-            )
-          }
+        <button
+          className="deep-category-back-btn"
+          onClick={() => navigate("/deep-learn")}
         >
+          ← Back to DEEP LEARN
+        </button>
 
-          <div className="deep-concept-number">
-            CONCEPT {concept.conceptId}
-          </div>
+        <div className="deep-category-badge">
+          🎓 DEEPEX
+        </div>
 
-          <h3>{concept.title}</h3>
+        <h1>{categoryName}</h1>
 
-          <p className="deep-concept-preview">
-            {concept.understand?.english}
+        <p>
+          Explore the concepts below and improve your skills step by step.
+        </p>
+
+      </section>
+
+
+      {/* ================= CONCEPTS ================= */}
+
+      <section className="deep-concepts-section">
+
+        <div className="deep-concepts-section-header">
+
+          <h2>
+            Learning Concepts
+          </h2>
+
+          <p>
+            Choose a concept to understand it with English and Tamil
+            explanations, situations, mistakes, and better approaches.
           </p>
 
         </div>
-      ))}
+
+
+        <div className="deep-concepts-list">
+
+          {concepts.map((concept) => (
+            <button
+              key={concept.id}
+              className="deep-concept-card"
+              onClick={() =>
+                navigate(
+                  `/deep-learn/${categoryId}/${concept.id}`
+                )
+              }
+            >
+
+              <div className="deep-concept-number">
+                Concept {concept.conceptId}
+              </div>
+
+              <h3>
+                {concept.title}
+              </h3>
+
+              <p className="deep-concept-preview">
+                {concept.understand?.english}
+              </p>
+
+              <span className="deep-concept-arrow">
+                Learn →
+              </span>
+
+            </button>
+          ))}
+
+        </div>
+
+      </section>
 
     </div>
-
-  </div>
-);
+  );
 }
 
 export default DeepLearnCategory;
