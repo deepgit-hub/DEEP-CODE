@@ -14,7 +14,7 @@ function Deep() {
         <div className="deep-hero-content">
 
           <div className="deep-badge">
-            🚀 DEEPEX
+            👨‍💻 DEEPEX
           </div>
 
           <h1>
