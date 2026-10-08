@@ -53,27 +53,56 @@ function DeepLearn() {
 </button>
       {/* ================= HERO ================= */}
 
-      <section className="deep-learn-hero">
+<section className="deep-learn-hero">
 
-        <div className="deep-learn-hero-content">
+  <div className="deep-learn-hero-content">
 
-          <div className="deep-learn-badge">
-            🎓 DEEPEX
-          </div>
+    <div className="deep-learn-badge">
+      🎓 DEEPEX
+    </div>
 
-          <h1 className="deep-learn-title">
-            DEEP LEARN
-          </h1>
+    <h1 className="deep-learn-title">
+      DEEP LEARN
+    </h1>
 
-          <p className="deep-learn-description">
-            Build the communication, professional, workplace, interview,
-            and personal skills you need for your future.
-          </p>
+    <p className="deep-learn-main-description">
+      Build the skills that help you communicate,
+      work, and grow with confidence.
+    </p>
 
-        </div>
+    <p className="deep-learn-sub-description">
+      Learn practical skills through real situations,
+      simple explanations, useful expressions, and
+      guided practice.
+    </p>
 
-      </section>
+    <div className="deep-learn-highlights">
 
+      <div className="deep-learn-highlight">
+        <span>✓</span>
+        <p>English + Tamil</p>
+      </div>
+
+      <div className="deep-learn-highlight">
+        <span>✓</span>
+        <p>Real-world situations</p>
+      </div>
+
+      <div className="deep-learn-highlight">
+        <span>✓</span>
+        <p>Useful expressions</p>
+      </div>
+
+      <div className="deep-learn-highlight">
+        <span>✓</span>
+        <p>Learn at your own pace</p>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
       {/* ================= CATEGORIES ================= */}
 
       <section className="deep-learn-categories-section">
