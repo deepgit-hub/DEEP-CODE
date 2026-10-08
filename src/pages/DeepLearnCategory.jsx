@@ -55,45 +55,56 @@ function DeepLearnCategory() {
   }
 
   return (
-    <div>
-      <h1>🎓 DEEP LEARN</h1>
+  <div className="deep-category-page">
 
-      <h2>
+    <div className="deep-category-header">
+
+      <div className="deep-category-brand">
+        DEEPEX · DEEP LEARN
+      </div>
+
+      <h1>
         {categoryId?.charAt(0).toUpperCase() +
           categoryId?.slice(1)}{" "}
         Skills
-      </h2>
+      </h1>
 
       <p>
         Choose a concept and start learning.
       </p>
 
+    </div>
+
+    <div className="deep-concepts-list">
+
       {concepts.map((concept) => (
         <div
           key={concept.id}
+          className="deep-concept-card"
           onClick={() =>
             navigate(
               `/deep-learn/${categoryId}/${concept.id}`
             )
           }
-          style={{
-            cursor: "pointer",
-            border: "1px solid #ccc",
-            padding: "15px",
-            margin: "10px 0",
-          }}
         >
-          <h3>
-            {concept.conceptId}. {concept.title}
-          </h3>
 
-          <p>
+          <div className="deep-concept-number">
+            CONCEPT {concept.conceptId}
+          </div>
+
+          <h3>{concept.title}</h3>
+
+          <p className="deep-concept-preview">
             {concept.understand?.english}
           </p>
+
         </div>
       ))}
+
     </div>
-  );
+
+  </div>
+);
 }
 
 export default DeepLearnCategory;
