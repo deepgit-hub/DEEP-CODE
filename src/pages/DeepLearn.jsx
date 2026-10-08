@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-
+import "../styles/DeepLearn.css";
 function DeepLearn() {
   const navigate = useNavigate();
 
