@@ -1,1781 +1,770 @@
 /* =========================================================
-   DEEPEX
-   MAIN PLATFORM STYLES
+   DEEPEX - MODERN & REFINED PLATFORM STYLES
+   Color Palette Preserved | Typography & Visuals Upgraded
 ========================================================= */
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@700;800&display=swap');
+
+/* =========================================================
+   GLOBAL RESET & VARIABLES
+========================================================= */
+
+:root {
+  /* Color Palette Preserved */
+  --color-bg-light: #f8fafc;
+  --color-text-dark: #0f172a;
+  --color-text-heading: #172033;
+  --color-text-muted: #64748b;
+  --color-text-subtle: #475569;
+  
+  --color-primary: #2563eb;
+  --color-primary-hover: #1d4ed8;
+  --color-primary-light: #dbeafe;
+  --color-primary-border: #bfdbfe;
+  
+  --color-navy: #173476;
+  --color-navy-hover: #21479c;
+  --color-dark-bg: #111827;
+  --color-accent-pink: #d946ef;
+  --color-accent-pink-hover: #c026d3;
+
+  /* Typography */
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-heading: 'Plus Jakarta Sans', 'Inter', -apple-system, sans-serif;
+
+  /* Elevation & Shadows */
+  --shadow-sm: 0 1px 3px rgba(15, 23, 42, 0.05), 0 1px 2px rgba(15, 23, 42, 0.03);
+  --shadow-md: 0 4px 20px -2px rgba(15, 23, 42, 0.06), 0 2px 6px -1px rgba(15, 23, 42, 0.03);
+  --shadow-lg: 0 12px 32px -4px rgba(15, 23, 42, 0.08), 0 4px 12px -2px rgba(15, 23, 42, 0.04);
+  --shadow-hover: 0 20px 40px -6px rgba(37, 99, 235, 0.12), 0 8px 16px -4px rgba(15, 23, 42, 0.06);
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
 
 /* =========================================================
    GLOBAL PAGE
 ========================================================= */
 
 .deep-page {
-
-    width: 100%;
-
-    min-height: 100vh;
-
-    background: #f8fafc;
-
-    color: #0f172a;
-
-    overflow-x: hidden;
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--color-bg-light);
+  color: var(--color-text-dark);
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.6;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
-
 
 /* =========================================================
    HERO SECTION
 ========================================================= */
 
 .deep-hero {
-
-    width: 100%;
-
-    padding: 75px 50px 90px;
-
-    background:
-        radial-gradient(
-            circle at 85% 15%,
-            rgba(37, 99, 235, 0.12),
-            transparent 32%
-        ),
-        radial-gradient(
-            circle at 10% 85%,
-            rgba(37, 99, 235, 0.06),
-            transparent 28%
-        ),
-        #f8fafc;
+  position: relative;
+  width: 100%;
+  padding: 100px 24px 110px;
+  background: 
+    radial-gradient(circle at 80% 20%, rgba(37, 99, 235, 0.08) 0%, transparent 40%),
+    radial-gradient(circle at 10% 80%, rgba(37, 99, 235, 0.05) 0%, transparent 35%),
+    var(--color-bg-light);
 }
-
 
 .deep-hero-content {
-
-    width: 100%;
-
-    max-width: 1250px;
-
-    margin: 0 auto;
-
-    text-align: center;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
 }
-
 
 /* =========================================================
    DEEPEX BADGE
 ========================================================= */
 
 .deep-badge {
-
-    display: inline-flex;
-
-    align-items: center;
-
-    justify-content: center;
-
-    padding: 11px 24px;
-
-    margin-bottom: 28px;
-
-    border-radius: 999px;
-
-    background: #dbeafe;
-
-    color: #2563eb;
-
-    font-size: 18px;
-
-    font-weight: 700;
-
-    letter-spacing: 0.2px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 20px;
+  margin-bottom: 32px;
+  border-radius: 9999px;
+  background-color: var(--color-primary-light);
+  color: var(--color-primary);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  border: 1px solid rgba(37, 99, 235, 0.15);
+  box-shadow: 0 2px 8px rgba(37, 99, 235, 0.08);
 }
-
 
 /* =========================================================
    HERO TITLE
 ========================================================= */
 
 .deep-hero h1 {
-
-    margin: 0;
-
-    color: #172033;
-
-    font-size: 5rem;
-
-    line-height: 1.08;
-
-    font-weight: 800;
-
-    letter-spacing: -2.5px;
+  margin: 0;
+  color: var(--color-text-heading);
+  font-family: var(--font-heading);
+  font-size: clamp(3rem, 6vw, 4.75rem);
+  line-height: 1.08;
+  font-weight: 800;
+  letter-spacing: -0.03em;
 }
-
 
 .deep-hero h1 span {
-
-    color: #2563eb;
+  color: var(--color-primary);
+  background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-
 
 /* =========================================================
    TAMIL HERO TITLE
 ========================================================= */
 
 .deep-tamil-hero-title {
-
-    margin: 15px 0 25px;
-
-    color: #2563eb;
-
-    font-size: 28px;
-
-    line-height: 1.6;
-
-    font-weight: 700;
+  margin: 18px 0 28px;
+  color: var(--color-primary);
+  font-size: clamp(1.25rem, 2.5vw, 1.65rem);
+  line-height: 1.5;
+  font-weight: 700;
 }
 
-
 /* =========================================================
-   HERO DESCRIPTION
+   HERO DESCRIPTION & TAMIL TEXT
 ========================================================= */
 
 .deep-hero > .deep-hero-content > p {
-
-    max-width: 1050px;
-
-    margin: 0 auto 18px;
-
-    color: #64748b;
-
-    font-size: 23px;
-
-    line-height: 1.9;
+  max-width: 860px;
+  margin: 0 auto 20px;
+  color: var(--color-text-muted);
+  font-size: clamp(1.1rem, 2vw, 1.35rem);
+  line-height: 1.7;
+  font-weight: 400;
 }
-
-
-/* =========================================================
-   TAMIL TEXT
-========================================================= */
 
 .deep-tamil-text {
-
-    color: #64748b;
-
-    font-size: 19px;
-
-    line-height: 1.9;
+  color: var(--color-text-muted);
+  font-size: 1.1rem;
+  line-height: 1.8;
 }
 
-
 /* =========================================================
-   HERO ACTIONS
+   HERO ACTIONS & BUTTONS
 ========================================================= */
 
 .deep-hero-actions {
-
-    display: flex;
-
-    align-items: stretch;
-
-    justify-content: center;
-
-    gap: 18px;
-
-    flex-wrap: wrap;
-
-    margin-top: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-top: 40px;
 }
-
-
-/* =========================================================
-   PRIMARY / SECONDARY BUTTONS
-========================================================= */
 
 .deep-primary-btn,
 .deep-secondary-btn {
-
-    min-width: 230px;
-
-    border-radius: 12px;
-
-    padding: 15px 25px;
-
-    font-family: inherit;
-
-    font-size: 17px;
-
-    font-weight: 700;
-
-    line-height: 1.4;
-
-    cursor: pointer;
-
-    transition:
-        transform 0.25s ease,
-        box-shadow 0.25s ease,
-        background 0.25s ease,
-        color 0.25s ease;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 220px;
+  border-radius: 12px;
+  padding: 14px 28px;
+  font-family: var(--font-sans);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.3;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
 }
-
 
 .deep-primary-btn {
-
-    border: 2px solid #173476;
-
-    background: #173476;
-
-    color: white;
-
-    box-shadow:
-        0 8px 18px rgba(23, 52, 118, 0.25);
+  border: 1px solid var(--color-navy);
+  background: var(--color-navy);
+  color: #ffffff;
+  box-shadow: 0 4px 14px rgba(23, 52, 118, 0.25);
 }
-
 
 .deep-primary-btn:hover {
-
-    background: #21479c;
-
-    border-color: #21479c;
-
-    transform: translateY(-3px);
-
-    box-shadow:
-        0 14px 28px rgba(23, 52, 118, 0.32);
+  background: var(--color-navy-hover);
+  border-color: var(--color-navy-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 22px rgba(23, 52, 118, 0.35);
 }
-
 
 .deep-secondary-btn {
-
-    border: 2px solid #173476;
-
-    background: white;
-
-    color: #173476;
+  border: 1.5px solid #cbd5e1;
+  background: #ffffff;
+  color: var(--color-navy);
+  box-shadow: var(--shadow-sm);
 }
-
 
 .deep-secondary-btn:hover {
-
-    background: #173476;
-
-    color: white;
-
-    transform: translateY(-3px);
-
-    box-shadow:
-        0 12px 25px rgba(23, 52, 118, 0.22);
+  background: #f1f5f9;
+  border-color: var(--color-navy);
+  color: var(--color-navy);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
 }
 
-
-/* =========================================================
-   BILINGUAL BUTTON TEXT
-========================================================= */
+.deep-primary-btn:active,
+.deep-secondary-btn:active {
+  transform: translateY(0);
+}
 
 .deep-primary-btn span,
 .deep-secondary-btn span {
-
-    display: block;
-
-    margin-top: 5px;
-
-    font-size: 13px;
-
-    font-weight: 500;
-
-    opacity: 0.9;
+  display: block;
+  margin-top: 4px;
+  font-size: 13px;
+  font-weight: 400;
+  opacity: 0.85;
 }
 
-
 /* =========================================================
-   MAIN INTRO SECTION
+   MAIN INTRO SECTION & HEADINGS
 ========================================================= */
 
 .deep-intro {
-
-    width: 100%;
-
-    max-width: 1250px;
-
-    margin: 0 auto;
-
-    padding: 80px 50px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 90px 24px;
 }
-
-
-/* =========================================================
-   SECTION HEADING
-========================================================= */
 
 .deep-section-heading {
-
-    margin-bottom: 45px;
+  margin-bottom: 50px;
 }
-
 
 .deep-small-label {
-
-    margin-bottom: 12px;
-
-    color: #2563eb;
-
-    font-size: 15px;
-
-    font-weight: 800;
-
-    letter-spacing: 2px;
+  display: inline-block;
+  margin-bottom: 10px;
+  color: var(--color-primary);
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
 }
-
 
 .deep-section-heading h2 {
-
-    margin: 0 0 12px;
-
-    color: #0f172a;
-
-    font-size: 3.2rem;
-
-    line-height: 1.2;
-
-    font-weight: 800;
-
-    letter-spacing: -1px;
+  margin: 0 0 10px;
+  color: var(--color-text-dark);
+  font-family: var(--font-heading);
+  font-size: clamp(2.2rem, 4vw, 3rem);
+  line-height: 1.15;
+  font-weight: 800;
+  letter-spacing: -0.02em;
 }
-
 
 .deep-section-heading h2 span {
-
-    color: #2563eb;
+  color: var(--color-primary);
 }
-
 
 .deep-section-heading h3 {
-
-    margin: 0 0 20px;
-
-    color: #2563eb;
-
-    font-size: 24px;
-
-    line-height: 1.6;
-
-    font-weight: 700;
+  margin: 0 0 18px;
+  color: var(--color-primary);
+  font-size: clamp(1.2rem, 2vw, 1.4rem);
+  line-height: 1.5;
+  font-weight: 600;
 }
-
 
 .deep-section-heading > p {
-
-    max-width: 1000px;
-
-    margin: 0 0 15px;
-
-    color: #64748b;
-
-    font-size: 20px;
-
-    line-height: 1.85;
+  max-width: 900px;
+  margin: 0 0 16px;
+  color: var(--color-text-muted);
+  font-size: 1.15rem;
+  line-height: 1.75;
 }
 
-
 /* =========================================================
-   PRODUCT GRID
+   PRODUCT GRID & CARDS
 ========================================================= */
 
 .deep-products {
-
-    display: grid;
-
-    grid-template-columns:
-        repeat(2, minmax(0, 1fr));
-
-    gap: 28px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 32px;
 }
-
-
-/* =========================================================
-   PRODUCT CARD
-========================================================= */
 
 .deep-product-card {
-
-    position: relative;
-
-    display: flex;
-
-    flex-direction: column;
-
-    background: white;
-
-    border: 1px solid #e2e8f0;
-
-    border-radius: 20px;
-
-    padding: 38px;
-
-    box-shadow:
-        0 8px 25px rgba(15, 23, 42, 0.05);
-
-    transition:
-        transform 0.3s ease,
-        box-shadow 0.3s ease,
-        border-color 0.3s ease;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: var(--shadow-md);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
 }
-
 
 .deep-product-card:hover {
-
-    transform: translateY(-7px);
-
-    border-color: #bfdbfe;
-
-    box-shadow:
-        0 18px 40px rgba(15, 23, 42, 0.10);
+  transform: translateY(-6px);
+  border-color: var(--color-primary-border);
+  box-shadow: var(--shadow-hover);
 }
-
-
-/* =========================================================
-   PRODUCT ICON
-========================================================= */
 
 .deep-product-icon {
-
-    width: 65px;
-
-    height: 65px;
-
-    display: flex;
-
-    align-items: center;
-
-    justify-content: center;
-
-    margin-bottom: 24px;
-
-    border-radius: 17px;
-
-    background: #dbeafe;
-
-    font-size: 34px;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 24px;
+  border-radius: 14px;
+  background: var(--color-primary-light);
+  color: var(--color-primary);
+  font-size: 28px;
 }
-
-
-/* =========================================================
-   PRODUCT LABEL
-========================================================= */
 
 .deep-product-label {
-
-    margin-bottom: 10px;
-
-    color: #2563eb;
-
-    font-size: 14px;
-
-    font-weight: 800;
-
-    letter-spacing: 1.5px;
-
-    line-height: 1.5;
+  margin-bottom: 8px;
+  color: var(--color-primary);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
 }
-
-
-/* =========================================================
-   PRODUCT TITLE
-========================================================= */
 
 .deep-product-card h3 {
-
-    margin: 0 0 7px;
-
-    color: #173476;
-
-    font-size: 34px;
-
-    line-height: 1.25;
-
-    font-weight: 800;
+  margin: 0 0 6px;
+  color: var(--color-navy);
+  font-family: var(--font-heading);
+  font-size: 1.85rem;
+  line-height: 1.25;
+  font-weight: 800;
 }
-
 
 .deep-product-card h4 {
-
-    margin: 0 0 20px;
-
-    color: #2563eb;
-
-    font-size: 19px;
-
-    line-height: 1.6;
-
-    font-weight: 600;
+  margin: 0 0 18px;
+  color: var(--color-primary);
+  font-size: 1.1rem;
+  line-height: 1.5;
+  font-weight: 600;
 }
-
-
-/* =========================================================
-   PRODUCT DESCRIPTION
-========================================================= */
 
 .deep-product-card > p {
-
-    margin: 0 0 17px;
-
-    color: #475569;
-
-    font-size: 19px;
-
-    line-height: 1.85;
+  margin: 0 0 20px;
+  color: var(--color-text-subtle);
+  font-size: 1.05rem;
+  line-height: 1.7;
 }
-
-
-/* =========================================================
-   PRODUCT FEATURES
-========================================================= */
 
 .deep-product-features {
-
-    display: flex;
-
-    flex-direction: column;
-
-    gap: 10px;
-
-    margin: 10px 0 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 8px 0 32px;
 }
-
 
 .deep-product-features span {
-
-    color: #334155;
-
-    font-size: 16px;
-
-    font-weight: 600;
-
-    line-height: 1.6;
+  position: relative;
+  padding-left: 24px;
+  color: #334155;
+  font-size: 0.95rem;
+  font-weight: 600;
+  line-height: 1.5;
 }
 
-
-/* =========================================================
-   PRODUCT BUTTON
-========================================================= */
+/* Custom indicator for product features */
+.deep-product-features span::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: var(--color-primary);
+  font-weight: 800;
+}
 
 .deep-product-btn {
-
-    width: 100%;
-
-    margin-top: auto;
-
-    padding: 15px 20px;
-
-    border: none;
-
-    border-radius: 11px;
-
-    background: #2563eb;
-
-    color: white;
-
-    font-family: inherit;
-
-    font-size: 17px;
-
-    font-weight: 700;
-
-    cursor: pointer;
-
-    transition:
-        transform 0.25s ease,
-        background 0.25s ease,
-        box-shadow 0.25s ease;
+  width: 100%;
+  margin-top: auto;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 10px;
+  background: var(--color-primary);
+  color: #ffffff;
+  font-family: var(--font-sans);
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.2);
 }
-
 
 .deep-product-btn:hover {
-
-    background: #1d4ed8;
-
-    transform: translateY(-2px);
-
-    box-shadow:
-        0 10px 22px rgba(37, 99, 235, 0.25);
+  background: var(--color-primary-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(37, 99, 235, 0.3);
 }
-
 
 .deep-product-btn span {
-
-    display: block;
-
-    margin-top: 4px;
-
-    font-size: 13px;
-
-    font-weight: 500;
+  display: block;
+  margin-top: 3px;
+  font-size: 12px;
+  font-weight: 400;
+  opacity: 0.9;
 }
 
-
 /* =========================================================
-   WHY DEEPEX
+   WHY DEEPEX & BENEFITS
 ========================================================= */
 
 .deep-why {
-
-    width: 100%;
-
-    max-width: 1250px;
-
-    margin: 0 auto;
-
-    padding: 80px 50px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 90px 24px;
 }
-
-
-/* =========================================================
-   BENEFITS GRID
-========================================================= */
 
 .deep-benefits {
-
-    display: grid;
-
-    grid-template-columns:
-        repeat(3, minmax(0, 1fr));
-
-    gap: 25px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
 }
-
-
-/* =========================================================
-   BENEFIT CARD
-========================================================= */
 
 .deep-benefit-card {
-
-    background: white;
-
-    border: 1px solid #e2e8f0;
-
-    border-radius: 18px;
-
-    padding: 32px;
-
-    box-shadow:
-        0 6px 20px rgba(15, 23, 42, 0.04);
-
-    transition:
-        transform 0.25s ease,
-        box-shadow 0.25s ease,
-        border-color 0.25s ease;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  padding: 32px 28px;
+  box-shadow: var(--shadow-sm);
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
 }
-
 
 .deep-benefit-card:hover {
-
-    transform: translateY(-5px);
-
-    border-color: #bfdbfe;
-
-    box-shadow:
-        0 14px 30px rgba(15, 23, 42, 0.08);
+  transform: translateY(-4px);
+  border-color: var(--color-primary-border);
+  box-shadow: var(--shadow-md);
 }
-
-
-/* =========================================================
-   BENEFIT NUMBER
-========================================================= */
 
 .deep-benefit-number {
-
-    margin-bottom: 18px;
-
-    color: #2563eb;
-
-    font-size: 15px;
-
-    font-weight: 800;
-
-    letter-spacing: 1px;
+  margin-bottom: 16px;
+  color: var(--color-primary);
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 1px;
 }
-
-
-/* =========================================================
-   BENEFIT TITLE
-========================================================= */
 
 .deep-benefit-card h3 {
-
-    margin: 0 0 6px;
-
-    color: #173476;
-
-    font-size: 28px;
-
-    line-height: 1.3;
-
-    font-weight: 800;
+  margin: 0 0 6px;
+  color: var(--color-navy);
+  font-family: var(--font-heading);
+  font-size: 1.4rem;
+  line-height: 1.3;
+  font-weight: 800;
 }
-
 
 .deep-benefit-card h4 {
-
-    margin: 0 0 16px;
-
-    color: #2563eb;
-
-    font-size: 18px;
-
-    line-height: 1.5;
-
-    font-weight: 600;
+  margin: 0 0 14px;
+  color: var(--color-primary);
+  font-size: 1rem;
+  line-height: 1.4;
+  font-weight: 600;
 }
-
-
-/* =========================================================
-   BENEFIT DESCRIPTION
-========================================================= */
 
 .deep-benefit-card p {
-
-    margin: 0 0 15px;
-
-    color: #64748b;
-
-    font-size: 17px;
-
-    line-height: 1.8;
+  margin: 0;
+  color: var(--color-text-muted);
+  font-size: 0.98rem;
+  line-height: 1.65;
 }
 
-
 /* =========================================================
-   CTA
+   CTA SECTION
 ========================================================= */
 
 .deep-cta {
-
-    width: calc(100% - 100px);
-
-    max-width: 1150px;
-
-    margin: 30px auto 90px;
-
-    padding: 65px 45px;
-
-    border-radius: 24px;
-
-    background:
-        radial-gradient(
-            circle at 20% 20%,
-            rgba(59, 130, 246, 0.18),
-            transparent 35%
-        ),
-        linear-gradient(
-            135deg,
-            #0f172a,
-            #173476
-        );
-
-    color: white;
-
-    text-align: center;
-
-    box-shadow:
-        0 18px 45px rgba(15, 23, 42, 0.18);
+  position: relative;
+  width: calc(100% - 48px);
+  max-width: 1100px;
+  margin: 40px auto 100px;
+  padding: 70px 32px;
+  border-radius: 24px;
+  background: 
+    radial-gradient(circle at 15% 15%, rgba(59, 130, 246, 0.25), transparent 40%),
+    linear-gradient(135deg, #0f172a 0%, #173476 100%);
+  color: #ffffff;
+  text-align: center;
+  box-shadow: 0 20px 40px rgba(15, 23, 42, 0.2);
+  overflow: hidden;
 }
-
-
-/* =========================================================
-   CTA ICON
-========================================================= */
 
 .deep-cta-icon {
-
-    margin-bottom: 15px;
-
-    font-size: 48px;
+  margin-bottom: 18px;
+  font-size: 42px;
 }
-
-
-/* =========================================================
-   CTA TITLE
-========================================================= */
 
 .deep-cta h2 {
-
-    margin: 0 0 8px;
-
-    color: white;
-
-    font-size: 40px;
-
-    line-height: 1.3;
-
-    font-weight: 800;
+  margin: 0 0 10px;
+  color: #ffffff;
+  font-family: var(--font-heading);
+  font-size: clamp(2rem, 3.5vw, 2.5rem);
+  line-height: 1.2;
+  font-weight: 800;
 }
-
 
 .deep-cta h3 {
-
-    margin: 0 0 18px;
-
-    color: #93c5fd;
-
-    font-size: 23px;
-
-    line-height: 1.6;
-
-    font-weight: 700;
+  margin: 0 0 18px;
+  color: #93c5fd;
+  font-size: clamp(1.1rem, 2vw, 1.35rem);
+  line-height: 1.5;
+  font-weight: 600;
 }
-
-
-/* =========================================================
-   CTA DESCRIPTION
-========================================================= */
 
 .deep-cta p {
-
-    margin: 0 auto 10px;
-
-    max-width: 800px;
-
-    color: #cbd5e1;
-
-    font-size: 19px;
-
-    line-height: 1.8;
+  max-width: 720px;
+  margin: 0 auto;
+  color: #cbd5e1;
+  font-size: 1.1rem;
+  line-height: 1.7;
 }
-
-
-/* =========================================================
-   CTA BUTTONS
-========================================================= */
 
 .deep-cta-buttons {
-
-    display: flex;
-
-    justify-content: center;
-
-    align-items: stretch;
-
-    gap: 16px;
-
-    flex-wrap: wrap;
-
-    margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-top: 36px;
 }
-
 
 .deep-cta .deep-primary-btn {
-
-    background: #2563eb;
-
-    border-color: #2563eb;
+  background: var(--color-primary);
+  border-color: var(--color-primary);
+  box-shadow: 0 4px 14px rgba(37, 99, 235, 0.4);
 }
-
 
 .deep-cta .deep-primary-btn:hover {
-
-    background: #1d4ed8;
-
-    border-color: #1d4ed8;
+  background: var(--color-primary-hover);
+  border-color: var(--color-primary-hover);
 }
-
 
 .deep-cta .deep-secondary-btn {
-
-    background: transparent;
-
-    color: white;
-
-    border-color: white;
+  background: transparent;
+  color: #ffffff;
+  border-color: rgba(255, 255, 255, 0.4);
 }
-
 
 .deep-cta .deep-secondary-btn:hover {
-
-    background: white;
-
-    color: #173476;
-
-    border-color: white;
+  background: #ffffff;
+  color: var(--color-navy);
+  border-color: #ffffff;
 }
-
 
 /* =========================================================
    FOOTER
 ========================================================= */
 
 .deep-footer {
-
-    width: 100%;
-
-    margin-top: 70px;
-
-    padding: 75px 7% 30px;
-
-    background: #111827;
-
-    color: white;
+  width: 100%;
+  margin-top: 80px;
+  padding: 80px 24px 36px;
+  background: var(--color-dark-bg);
+  color: #ffffff;
 }
-
-
-/* =========================================================
-   FOOTER CONTENT
-========================================================= */
 
 .deep-footer-content {
-
-    width: 100%;
-
-    max-width: 1100px;
-
-    margin: 0 auto;
-
-    display: grid;
-
-    grid-template-columns:
-        minmax(0, 1fr)
-        minmax(0, 1fr);
-
-    gap: 90px;
-
-    align-items: start;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 80px;
+  align-items: start;
 }
 
-
-/* =========================================================
-   FOOTER BRAND
-========================================================= */
-
-.deep-footer-brand h3 {
-
-    margin: 0 0 22px;
-
-    color: white;
-
-    font-size: 34px;
-
-    line-height: 1.3;
-
-    font-weight: 800;
+.deep-footer-brand h3,
+.deep-footer-developer h3 {
+  margin: 0 0 18px;
+  color: #ffffff;
+  font-family: var(--font-heading);
+  font-size: 1.75rem;
+  line-height: 1.3;
+  font-weight: 800;
 }
 
-
-.deep-footer-brand p {
-
-    max-width: 470px;
-
-    margin: 0 0 20px;
-
-    color: #cbd5e1;
-
-    font-size: 18px;
-
-    line-height: 1.9;
+.deep-footer-brand p,
+.deep-footer-developer p {
+  margin: 0 0 16px;
+  color: #cbd5e1;
+  font-size: 1.05rem;
+  line-height: 1.75;
 }
-
-
-/* =========================================================
-   FOOTER TAMIL
-========================================================= */
 
 .deep-footer-tamil {
-
-    color: #cbd5e1 !important;
-
-    font-size: 17px !important;
-
-    line-height: 2 !important;
+  color: #cbd5e1 !important;
+  font-size: 1rem !important;
+  line-height: 1.8 !important;
 }
-
-
-/* =========================================================
-   FOOTER QUOTE
-========================================================= */
 
 .deep-footer-quote {
-
-    margin-top: 25px !important;
-
-    margin-bottom: 28px !important;
-
-    color: #dbeafe !important;
-
-    font-size: 18px !important;
-
-    line-height: 1.9 !important;
-
-    font-style: italic;
+  margin-top: 20px !important;
+  margin-bottom: 24px !important;
+  color: #93c5fd !important;
+  font-size: 1.05rem !important;
+  line-height: 1.7 !important;
+  font-style: italic;
 }
-
-
-/* =========================================================
-   FOOTER PRODUCTS
-========================================================= */
 
 .deep-footer-products {
-
-    display: flex;
-
-    align-items: center;
-
-    gap: 13px;
-
-    margin-top: 28px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 24px;
 }
-
 
 .deep-footer-products span {
-
-    color: #93c5fd;
-
-    font-size: 15px;
-
-    font-weight: 800;
-
-    letter-spacing: 1px;
+  color: #93c5fd;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
 }
-
 
 .deep-footer-products span:nth-child(2) {
-
-    color: #64748b;
+  color: #475569;
 }
-
-
-/* =========================================================
-   DEVELOPER
-========================================================= */
-
-.deep-footer-developer h3 {
-
-    margin: 0 0 20px;
-
-    color: white;
-
-    font-size: 27px;
-
-    line-height: 1.4;
-
-    font-weight: 800;
-}
-
-
-.deep-footer-developer p {
-
-    max-width: 520px;
-
-    margin: 0 0 20px;
-
-    color: #cbd5e1;
-
-    font-size: 18px;
-
-    line-height: 1.9;
-}
-
 
 .deep-footer-developer strong {
-
-    color: #93c5fd;
+  color: #93c5fd;
+  font-weight: 600;
 }
-
-
-/* =========================================================
-   FOOTER BUTTONS
-========================================================= */
 
 .deep-footer-buttons {
-
-    display: flex;
-
-    flex-direction: column;
-
-    gap: 14px;
-
-    max-width: 280px;
-
-    margin-top: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 260px;
+  margin-top: 24px;
 }
-
 
 .deep-footer-buttons button {
-
-    width: 100%;
-
-    padding: 15px 20px;
-
-    border: none;
-
-    border-radius: 10px;
-
-    color: white;
-
-    font-family: inherit;
-
-    font-size: 16px;
-
-    font-weight: 700;
-
-    cursor: pointer;
-
-    transition:
-        transform 0.25s ease,
-        background 0.25s ease,
-        box-shadow 0.25s ease;
+  width: 100%;
+  padding: 13px 20px;
+  border: none;
+  border-radius: 8px;
+  color: #ffffff;
+  font-family: var(--font-sans);
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s ease;
 }
-
-
-/* =========================================================
-   FOOTER BLUE BUTTON
-========================================================= */
 
 .deep-footer-blue-btn {
-
-    background: #2563eb;
-
-    box-shadow:
-        0 8px 20px rgba(37, 99, 235, 0.25);
+  background: var(--color-primary);
+  box-shadow: 0 4px 14px rgba(37, 99, 235, 0.3);
 }
-
 
 .deep-footer-blue-btn:hover {
-
-    background: #1d4ed8;
-
-    transform: translateY(-3px);
-
-    box-shadow:
-        0 12px 26px rgba(37, 99, 235, 0.35);
+  background: var(--color-primary-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(37, 99, 235, 0.4);
 }
-
-
-/* =========================================================
-   FOOTER PINK BUTTON
-========================================================= */
 
 .deep-footer-pink-btn {
-
-    background: #d946ef;
-
-    box-shadow:
-        0 8px 20px rgba(217, 70, 239, 0.20);
+  background: var(--color-accent-pink);
+  box-shadow: 0 4px 14px rgba(217, 70, 239, 0.25);
 }
-
 
 .deep-footer-pink-btn:hover {
-
-    background: #c026d3;
-
-    transform: translateY(-3px);
-
-    box-shadow:
-        0 12px 26px rgba(217, 70, 239, 0.30);
+  background: var(--color-accent-pink-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(217, 70, 239, 0.35);
 }
-
-
-/* =========================================================
-   FOOTER BOTTOM
-========================================================= */
 
 .deep-footer-bottom {
-
-    width: 100%;
-
-    max-width: 1250px;
-
-    margin: 60px auto 0;
-
-    text-align: center;
+  width: 100%;
+  max-width: 1100px;
+  margin: 60px auto 0;
+  text-align: center;
 }
-
-
-/* =========================================================
-   FOOTER LINE
-========================================================= */
 
 .deep-footer-line {
-
-    width: 100%;
-
-    height: 1px;
-
-    margin-bottom: 24px;
-
-    background: #334155;
+  width: 100%;
+  height: 1px;
+  margin-bottom: 24px;
+  background: #1e293b;
 }
-
-
-/* =========================================================
-   COPYRIGHT
-========================================================= */
 
 .deep-footer-bottom p {
-
-    margin: 7px 0;
-
-    color: #94a3b8;
-
-    font-size: 15px;
-
-    line-height: 1.7;
+  margin: 6px 0;
+  color: #64748b;
+  font-size: 14px;
+  line-height: 1.6;
 }
 
-
 /* =========================================================
-   DESKTOP LARGE
+   MEDIA QUERIES / RESPONSIVENESS
 ========================================================= */
 
-@media (min-width: 1400px) {
+@media (max-width: 1024px) {
+  .deep-products {
+    gap: 24px;
+  }
+  
+  .deep-product-card {
+    padding: 32px;
+  }
 
-    .deep-hero {
-
-        padding-top: 90px;
-
-        padding-bottom: 100px;
-    }
-
-
-    .deep-hero h1 {
-
-        font-size: 5.3rem;
-    }
-
-
-    .deep-hero > .deep-hero-content > p {
-
-        font-size: 24px;
-    }
-
-
-    .deep-product-card {
-
-        padding: 42px;
-    }
-
+  .deep-footer-content {
+    gap: 48px;
+  }
 }
 
+@media (max-width: 860px) {
+  .deep-products,
+  .deep-benefits,
+  .deep-footer-content {
+    grid-template-columns: 1fr;
+  }
 
-/* =========================================================
-   TABLET
-========================================================= */
+  .deep-hero {
+    padding: 70px 20px 80px;
+  }
 
-@media (max-width: 1100px) {
+  .deep-intro,
+  .deep-why {
+    padding: 60px 20px;
+  }
 
-    .deep-hero {
+  .deep-cta {
+    width: calc(100% - 32px);
+    padding: 48px 24px;
+    margin-bottom: 60px;
+  }
 
-        padding: 65px 35px 75px;
-    }
+  .deep-hero-actions,
+  .deep-cta-buttons {
+    flex-direction: column;
+    width: 100%;
+  }
 
+  .deep-primary-btn,
+  .deep-secondary-btn {
+    width: 100%;
+    min-width: 0;
+  }
 
-    .deep-hero h1 {
-
-        font-size: 4.2rem;
-    }
-
-
-    .deep-intro,
-    .deep-why {
-
-        padding-left: 35px;
-
-        padding-right: 35px;
-    }
-
-
-    .deep-products {
-
-        gap: 22px;
-    }
-
-
-    .deep-product-card {
-
-        padding: 30px;
-    }
-
-
-    .deep-product-card h3 {
-
-        font-size: 30px;
-    }
-
-
-    .deep-footer-content {
-
-        gap: 60px;
-    }
-
+  .deep-footer-buttons {
+    max-width: 100%;
+  }
 }
 
-
-/* =========================================================
-   TABLET / SMALL LAPTOP
-========================================================= */
-
-@media (max-width: 900px) {
-
-    .deep-products {
-
-        grid-template-columns: 1fr;
-    }
-
-
-    .deep-benefits {
-
-        grid-template-columns: 1fr;
-    }
-
-
-    .deep-footer-content {
-
-        grid-template-columns: 1fr;
-
-        gap: 55px;
-    }
-
-
-    .deep-footer-brand p,
-    .deep-footer-developer p {
-
-        max-width: 700px;
-    }
-
-}
-
-
-/* =========================================================
-   MOBILE
-========================================================= */
-
-@media (max-width: 768px) {
-
-    /* PAGE */
-
-    .deep-page {
-
-        width: 100%;
-    }
-
-
-    /* HERO */
-
-    .deep-hero {
-
-        padding: 50px 20px 60px;
-    }
-
-
-    .deep-hero-content {
-
-        max-width: 100%;
-    }
-
-
-    .deep-badge {
-
-        padding: 9px 17px;
-
-        font-size: 15px;
-
-        margin-bottom: 22px;
-    }
-
-
-    .deep-hero h1 {
-
-        font-size: 2.9rem;
-
-        line-height: 1.15;
-
-        letter-spacing: -1px;
-    }
-
-
-    .deep-tamil-hero-title {
-
-        font-size: 21px;
-
-        margin-top: 12px;
-
-        margin-bottom: 20px;
-    }
-
-
-    .deep-hero > .deep-hero-content > p {
-
-        font-size: 18px;
-
-        line-height: 1.8;
-    }
-
-
-    .deep-tamil-text {
-
-        font-size: 17px;
-
-        line-height: 1.9;
-    }
-
-
-    /* HERO BUTTONS */
-
-    .deep-hero-actions {
-
-        flex-direction: column;
-
-        gap: 12px;
-
-        margin-top: 28px;
-    }
-
-
-    .deep-primary-btn,
-    .deep-secondary-btn {
-
-        width: 100%;
-
-        min-width: 0;
-
-        padding: 14px 20px;
-
-        font-size: 16px;
-    }
-
-
-    /* INTRO */
-
-    .deep-intro {
-
-        padding: 55px 20px;
-    }
-
-
-    .deep-section-heading {
-
-        margin-bottom: 30px;
-    }
-
-
-    .deep-small-label {
-
-        font-size: 13px;
-
-        letter-spacing: 1.5px;
-    }
-
-
-    .deep-section-heading h2 {
-
-        font-size: 2.35rem;
-
-        line-height: 1.25;
-    }
-
-
-    .deep-section-heading h3 {
-
-        font-size: 20px;
-    }
-
-
-    .deep-section-heading > p {
-
-        font-size: 17px;
-
-        line-height: 1.8;
-    }
-
-
-    /* PRODUCTS */
-
-    .deep-products {
-
-        grid-template-columns: 1fr;
-
-        gap: 20px;
-    }
-
-
-    .deep-product-card {
-
-        padding: 28px;
-
-        border-radius: 18px;
-    }
-
-
-    .deep-product-icon {
-
-        width: 58px;
-
-        height: 58px;
-
-        font-size: 30px;
-    }
-
-
-    .deep-product-label {
-
-        font-size: 12px;
-    }
-
-
-    .deep-product-card h3 {
-
-        font-size: 28px;
-    }
-
-
-    .deep-product-card h4 {
-
-        font-size: 18px;
-    }
-
-
-    .deep-product-card > p {
-
-        font-size: 17px;
-
-        line-height: 1.8;
-    }
-
-
-    .deep-product-features span {
-
-        font-size: 15px;
-    }
-
-
-    /* WHY */
-
-    .deep-why {
-
-        padding: 55px 20px;
-    }
-
-
-    .deep-benefits {
-
-        grid-template-columns: 1fr;
-
-        gap: 18px;
-    }
-
-
-    .deep-benefit-card {
-
-        padding: 28px;
-    }
-
-
-    .deep-benefit-card h3 {
-
-        font-size: 25px;
-    }
-
-
-    .deep-benefit-card p {
-
-        font-size: 16px;
-    }
-
-
-    /* CTA */
-
-    .deep-cta {
-
-        width: calc(100% - 30px);
-
-        margin: 20px auto 60px;
-
-        padding: 45px 22px;
-
-        border-radius: 20px;
-    }
-
-
-    .deep-cta-icon {
-
-        font-size: 40px;
-    }
-
-
-    .deep-cta h2 {
-
-        font-size: 30px;
-    }
-
-
-    .deep-cta h3 {
-
-        font-size: 20px;
-    }
-
-
-    .deep-cta p {
-
-        font-size: 17px;
-    }
-
-
-    .deep-cta-buttons {
-
-        flex-direction: column;
-
-        gap: 12px;
-    }
-
-
-    .deep-cta-buttons button {
-
-        width: 100%;
-    }
-
-
-    /* FOOTER */
-
-    .deep-footer {
-
-        margin-top: 45px;
-
-        padding: 55px 25px 30px;
-    }
-
-
-    .deep-footer-content {
-
-        grid-template-columns: 1fr;
-
-        gap: 50px;
-    }
-
-
-    .deep-footer-brand h3 {
-
-        font-size: 30px;
-    }
-
-
-    .deep-footer-brand p {
-
-        font-size: 17px;
-
-        line-height: 1.85;
-    }
-
-
-    .deep-footer-brand .deep-footer-tamil {
-
-        font-size: 16px !important;
-
-        line-height: 1.9 !important;
-    }
-
-
-    .deep-footer-quote {
-
-        font-size: 17px !important;
-    }
-
-
-    .deep-footer-developer h3 {
-
-        font-size: 24px;
-    }
-
-
-    .deep-footer-developer p {
-
-        font-size: 17px;
-
-        line-height: 1.85;
-    }
-
-
-    .deep-footer-developer .deep-footer-tamil {
-
-        font-size: 16px !important;
-    }
-
-
-    .deep-footer-buttons {
-
-        width: 100%;
-
-        max-width: 100%;
-    }
-
-
-    .deep-footer-products {
-
-        flex-wrap: wrap;
-    }
-
-
-    .deep-footer-products span {
-
-        font-size: 14px;
-    }
-
-
-    .deep-footer-bottom {
-
-        margin-top: 45px;
-    }
-
-
-    .deep-footer-bottom p {
-
-        font-size: 13px;
-    }
-
-}
-
-
-/* =========================================================
-   VERY SMALL MOBILE
-========================================================= */
-
-@media (max-width: 420px) {
-
-    .deep-hero h1 {
-
-        font-size: 2.45rem;
-    }
-
-
-    .deep-tamil-hero-title {
-
-        font-size: 19px;
-    }
-
-
-    .deep-section-heading h2 {
-
-        font-size: 2rem;
-    }
-
-
-    .deep-product-card {
-
-        padding: 24px;
-    }
-
-
-    .deep-product-card h3 {
-
-        font-size: 25px;
-    }
-
-
-    .deep-cta h2 {
-
-        font-size: 26px;
-    }
-
-
-    .deep-footer {
-
-        padding-left: 20px;
-
-        padding-right: 20px;
-    }
-
+@media (max-width: 480px) {
+  .deep-product-card,
+  .deep-benefit-card {
+    padding: 24px;
+  }
+
+  .deep-badge {
+    padding: 6px 14px;
+    font-size: 12px;
+  }
 }
