@@ -262,7 +262,7 @@ const concepts = [
       tamil:
         "நாளைக்கான activities-ஐ மூன்று priority levels-ஆக plan செய்யுங்கள்: must do, should do, if time allows. நாள் முடிவில் உங்கள் plan-ல் எவ்வளவு complete செய்தீர்கள் என்று check செய்யுங்கள்."
     }
-  }
+  },
     {
     conceptId: 6,
     title: "Managing Stress",
@@ -634,7 +634,4 @@ const concepts = [
     }
   }
 ];
-
-
-
 export default concepts;
