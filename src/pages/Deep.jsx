@@ -24,9 +24,7 @@ function Deep() {
 <br></br>
           <p>
 
-            A learning platform designed to help tamil medium students to build
-            technical skills, professional skills, and confidence
-            for your future.
+            தமிழ் மாணவர்களின் வளர்ச்சிக்காக உருவாக்கப்பட்டது.
           </p>
 
           <div className="deep-hero-actions">
