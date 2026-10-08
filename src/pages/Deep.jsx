@@ -136,7 +136,7 @@ function Deep() {
             </div>
 
             <button
-              onClick={() => navigate("/deep-learn")}
+              onClick={() => navigate("/deep-speak")}
               className="deep-product-btn"
             >
               Start Speaking →
