@@ -76,7 +76,7 @@
 
 .deep-hero-content {
   width: 100%;
-  max-width: 1100px;
+  max-width: 100%;
   margin: 0 auto;
   text-align: center;
 }
@@ -140,7 +140,7 @@
 ========================================================= */
 
 .deep-hero > .deep-hero-content > p {
-  max-width: 860px;
+  max-width: 100%;
   margin: 0 auto 20px;
   color: var(--color-text-muted);
   font-size: clamp(1.1rem, 2vw, 1.35rem);
@@ -234,7 +234,7 @@
 
 .deep-intro {
   width: 100%;
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
   padding: 90px 24px;
 }
@@ -276,7 +276,7 @@
 }
 
 .deep-section-heading > p {
-  max-width: 900px;
+  max-width: 100%;
   margin: 0 0 16px;
   color: var(--color-text-muted);
   font-size: 1.15rem;
@@ -418,7 +418,7 @@
 
 .deep-why {
   width: 100%;
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
   padding: 90px 24px;
 }
@@ -483,7 +483,7 @@
 .deep-cta {
   position: relative;
   width: calc(100% - 48px);
-  max-width: 1100px;
+  max-width: 100%;
   margin: 40px auto 100px;
   padding: 70px 32px;
   border-radius: 24px;
@@ -519,7 +519,7 @@
 }
 
 .deep-cta p {
-  max-width: 720px;
+  max-width: 100%;
   margin: 0 auto;
   color: #cbd5e1;
   font-size: 1.1rem;
@@ -572,7 +572,7 @@
 
 .deep-footer-content {
   width: 100%;
-  max-width: 1100px;
+  max-width: 80%;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1.2fr 0.8fr;
@@ -681,7 +681,7 @@
 
 .deep-footer-bottom {
   width: 100%;
-  max-width: 1100px;
+  max-width: 100%;
   margin: 60px auto 0;
   text-align: center;
 }
