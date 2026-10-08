@@ -1,0 +1,143 @@
+/* =========================================
+   DEEPEX - DEEP LEARN HOME
+========================================= */
+
+.deep-learn-page {
+  min-height: 100vh;
+  padding: 50px 7%;
+  background: #f5f7fb;
+  color: #172033;
+}
+
+/* Header */
+
+.deep-learn-header {
+  max-width: 850px;
+  margin: 0 auto 45px;
+  text-align: center;
+}
+
+.deep-learn-logo {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  color: #2563eb;
+  margin-bottom: 15px;
+}
+
+.deep-learn-header h1 {
+  font-size: 46px;
+  margin: 0 0 15px;
+  font-weight: 800;
+}
+
+.deep-learn-header p {
+  font-size: 18px;
+  color: #667085;
+  line-height: 1.7;
+}
+
+/* Category Grid */
+
+.deep-learn-categories {
+  max-width: 1100px;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 22px;
+}
+
+/* Category Card */
+
+.deep-learn-category-card {
+  border: none;
+  text-align: left;
+
+  background: white;
+  border-radius: 20px;
+
+  padding: 30px;
+
+  cursor: pointer;
+
+  box-shadow: 0 8px 30px rgba(15, 23, 42, 0.07);
+
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.deep-learn-category-card:hover {
+  transform: translateY(-6px);
+
+  box-shadow:
+    0 16px 40px rgba(15, 23, 42, 0.12);
+}
+
+.deep-learn-category-icon {
+  width: 58px;
+  height: 58px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 16px;
+
+  background: #eff6ff;
+
+  font-size: 30px;
+
+  margin-bottom: 20px;
+}
+
+.deep-learn-category-card h2 {
+  margin: 0 0 10px;
+
+  font-size: 22px;
+  color: #172033;
+}
+
+.deep-learn-category-card p {
+  margin: 0;
+
+  font-size: 15px;
+  line-height: 1.7;
+
+  color: #667085;
+}
+
+/* Last card */
+
+.deep-learn-category-card:last-child {
+  grid-column: span 2;
+  max-width: 50%;
+  width: 100%;
+  justify-self: center;
+}
+
+/* Mobile */
+
+@media (max-width: 700px) {
+  .deep-learn-page {
+    padding: 35px 20px;
+  }
+
+  .deep-learn-header h1 {
+    font-size: 34px;
+  }
+
+  .deep-learn-header p {
+    font-size: 16px;
+  }
+
+  .deep-learn-categories {
+    grid-template-columns: 1fr;
+  }
+
+  .deep-learn-category-card:last-child {
+    grid-column: span 1;
+    max-width: none;
+  }
+}
