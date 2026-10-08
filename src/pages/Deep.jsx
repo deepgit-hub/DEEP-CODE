@@ -233,25 +233,119 @@ function Deep() {
 
 
      
-      {/* ================= FOOTER ================= */}
+      {/* ================= DEEPEX FOOTER ================= */}
 
-      <footer className="deep-footer">
+<footer className="deep-footer">
 
-        <h3>
-          DEEPEX
-        </h3>
+  <div className="deep-footer-content">
 
-        <p>
-          Learn. Build. Grow.
-        </p>
+    {/* ================= BRAND ================= */}
 
-        <div className="deep-footer-line"></div>
+    <div className="deep-footer-brand">
 
-        <span>
-          © 2026 DEEPEX. Keep learning. 🚀
-        </span>
+      <h3>
+        🌾 DEEPEX
+      </h3>
 
-      </footer>
+      <p>
+        Empowering Tamil students to learn,
+        build, and grow with confidence.
+      </p>
+
+      <p className="deep-footer-tamil">
+        தமிழ் மாணவர்கள் நம்பிக்கையுடன் கற்க,
+        உருவாக்க மற்றும் வளர உதவும் கற்றல் தளம்.
+      </p>
+
+      <p className="deep-footer-quote">
+        "From Tamil classrooms to global
+        opportunities — your journey starts here."
+      </p>
+
+      <div className="deep-footer-products">
+
+        <span>DEEP CODE</span>
+
+        <span>•</span>
+
+        <span>DEEP LEARN</span>
+
+      </div>
+
+    </div>
+
+
+    {/* ================= DEVELOPER ================= */}
+
+    <div className="deep-footer-developer">
+
+      <h3>
+        👨‍💻 About the Developer
+      </h3>
+
+      <p>
+        Hi! I'm <strong>Deepak</strong>, a Computer Science
+        student passionate about helping Tamil students
+        learn technology and develop the skills they need
+        for their future.
+      </p>
+
+      <p className="deep-footer-tamil">
+        தமிழ் மாணவர்கள் தொழில்நுட்பத்தைக் கற்றுக்கொண்டு,
+        தங்கள் எதிர்காலத்திற்குத் தேவையான திறன்களை
+        வளர்த்துக்கொள்ள உதவுவதே இந்த முயற்சியின் நோக்கம்.
+      </p>
+
+      <div className="deep-footer-buttons">
+
+        <button
+          onClick={() => {
+            window.open(
+              "https://deepakl.dev",
+              "_blank"
+            );
+          }}
+          className="deep-footer-blue-btn"
+        >
+          👨‍💻 More about DEEPAK
+        </button>
+
+        <button
+          onClick={() => {
+            window.open(
+              "https://deepakl.dev",
+              "_blank"
+            );
+          }}
+          className="deep-footer-pink-btn"
+        >
+          🌐 To Build Websites
+        </button>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  {/* ================= COPYRIGHT ================= */}
+
+  <div className="deep-footer-bottom">
+
+    <div className="deep-footer-line"></div>
+
+    <p>
+      © 2026 DEEPEX • Designed & Developed by DEEPAK L.
+    </p>
+
+    <p className="deep-footer-tamil">
+      தமிழ் மாணவர்களின் வளர்ச்சிக்காக உருவாக்கப்பட்டது.
+    </p>
+
+  </div>
+
+</footer>
 
     </div>
   );
