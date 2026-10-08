@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { doc, getDoc } from "firebase/firestore";
 import { db } from "../firebase";
+import "../styles/DeepLearnConcept.css";
 
 function DeepLearnConcept() {
   const { categoryId, conceptId } = useParams();
