@@ -53,7 +53,7 @@ navigate("/deep");
     <div className="login-page">
       <div className="login-card">
 
-        <h1>「 ✦ DEEP ✦ 」</h1>
+        <h1>「 ✦ DEEPEX ✦ 」</h1>
 
       <p>
    Learn. Grow. Succeed.
