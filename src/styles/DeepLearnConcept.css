@@ -1,0 +1,205 @@
+/* =========================================
+   DEEP LEARN - CONCEPT PAGE
+========================================= */
+
+.deep-concept-page {
+  min-height: 100vh;
+
+  background: #f5f7fb;
+
+  padding: 45px 7% 70px;
+
+  color: #172033;
+}
+
+/* Header */
+
+.deep-concept-header {
+  max-width: 900px;
+
+  margin: 0 auto 35px;
+}
+
+.deep-concept-brand {
+  font-size: 15px;
+
+  font-weight: 700;
+
+  letter-spacing: 3px;
+
+  color: #2563eb;
+
+  margin-bottom: 12px;
+}
+
+.deep-concept-header h1 {
+  margin: 0 0 10px;
+
+  font-size: 40px;
+
+  font-weight: 800;
+}
+
+.deep-concept-header p {
+  margin: 0;
+
+  color: #667085;
+
+  font-size: 15px;
+}
+
+/* Content */
+
+.deep-concept-content {
+  max-width: 900px;
+
+  margin: 0 auto;
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 20px;
+}
+
+/* Learning Section */
+
+.deep-learning-section {
+  background: white;
+
+  border: 1px solid #e7eaf0;
+
+  border-radius: 18px;
+
+  padding: 28px;
+
+  box-shadow:
+    0 5px 20px rgba(15, 23, 42, 0.04);
+}
+
+.deep-learning-section h2 {
+  margin: 0 0 22px;
+
+  font-size: 22px;
+}
+
+.deep-language-block {
+  margin-bottom: 20px;
+}
+
+.deep-language-block:last-child {
+  margin-bottom: 0;
+}
+
+.deep-language-label {
+  font-size: 14px;
+
+  font-weight: 700;
+
+  color: #2563eb;
+
+  margin-bottom: 7px;
+}
+
+.deep-language-block p {
+  margin: 0;
+
+  color: #475467;
+
+  font-size: 16px;
+
+  line-height: 1.8;
+}
+
+/* Useful Expressions */
+
+.deep-expression {
+  padding: 15px 0;
+
+  border-bottom: 1px solid #edf0f4;
+}
+
+.deep-expression:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.deep-expression-english {
+  margin: 0 0 7px;
+
+  font-size: 16px;
+
+  color: #172033;
+}
+
+.deep-expression-tamil {
+  margin: 0;
+
+  font-size: 15px;
+
+  color: #667085;
+}
+
+/* Mark Learned */
+
+.deep-learned-button {
+  width: 100%;
+
+  border: none;
+
+  border-radius: 14px;
+
+  padding: 16px 20px;
+
+  background: #2563eb;
+
+  color: white;
+
+  font-size: 16px;
+
+  font-weight: 700;
+
+  cursor: pointer;
+
+  transition:
+    background 0.2s ease,
+    transform 0.2s ease;
+}
+
+.deep-learned-button:hover {
+  background: #1d4ed8;
+
+  transform: translateY(-2px);
+}
+
+/* Loading */
+
+.deep-concept-loading {
+  min-height: 100vh;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  background: #f5f7fb;
+
+  color: #667085;
+}
+
+/* Mobile */
+
+@media (max-width: 700px) {
+  .deep-concept-page {
+    padding: 30px 18px 50px;
+  }
+
+  .deep-concept-header h1 {
+    font-size: 30px;
+  }
+
+  .deep-learning-section {
+    padding: 22px;
+  }
+}
