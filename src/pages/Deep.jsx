@@ -23,7 +23,7 @@ function Deep() {
           </h1>
 
           <p>
-            A learning platform designed to help you build
+            A learning platform designed to help tamil medium students to build
             technical skills, professional skills, and confidence
             for your future.
           </p>
