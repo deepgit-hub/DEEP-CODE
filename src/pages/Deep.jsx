@@ -232,47 +232,7 @@ function Deep() {
       </section>
 
 
-      {/* ================= CTA ================= */}
-
-      <section className="deep-cta">
-
-        <div className="deep-cta-content">
-
-          <div className="deep-cta-icon">
-            🚀
-          </div>
-
-          <h2>
-            Ready to start learning?
-          </h2>
-
-          <p>
-            Choose your path and start building your skills today.
-          </p>
-
-          <div className="deep-cta-buttons">
-
-            <button
-              onClick={() => navigate("/choose-language")}
-              className="deep-primary-btn"
-            >
-              💻 DEEP CODE
-            </button>
-
-            <button
-              onClick={() => navigate("/deep-learn")}
-              className="deep-secondary-btn"
-            >
-              🎓 DEEP LEARN
-            </button>
-
-          </div>
-
-        </div>
-
-      </section>
-
-
+     
       {/* ================= FOOTER ================= */}
 
       <footer className="deep-footer">
