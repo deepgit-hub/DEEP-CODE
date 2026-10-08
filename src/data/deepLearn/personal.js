@@ -632,6 +632,272 @@ const concepts = [
       tamil:
         "Study அல்லது work செய்யும்போது உங்களுக்கு இருக்கும் மூன்று biggest distractions-ஐ identify செய்யுங்கள். ஒவ்வொரு distraction-க்கும் ஒரு practical change choose செய்து next focused work session-ல் try செய்யுங்கள்."
     }
+  },
+    {
+    conceptId: 13,
+    title: "Emotional Awareness",
+    understand: {
+      english:
+        "Emotional awareness means recognizing and understanding your own emotions and noticing how they affect your thoughts and actions. It helps you respond to situations more thoughtfully instead of reacting immediately.",
+      tamil:
+        "Emotional awareness என்பது உங்கள் emotions-ஐ recognize செய்து, அவை உங்கள் thoughts மற்றும் actions-ஐ எப்படி affect செய்கின்றன என்பதை புரிந்துகொள்வது. இது situations-க்கு உடனடியாக react செய்வதை விட thoughtfully respond செய்ய உதவுகிறது."
+    },
+    seeTheSituation: {
+      english:
+        "Imagine a student receiving unexpected criticism about their work. They initially feel angry and defensive. Instead of immediately arguing, they recognize the emotion, take a moment, and then respond calmly after understanding the feedback.",
+      tamil:
+        "ஒரு student தனது work பற்றி unexpected criticism பெறுகிறார் என்று நினைத்துக்கொள்ளுங்கள். முதலில் அவருக்கு angry மற்றும் defensive-ஆக feel ஆகிறது. உடனே argue செய்வதற்கு பதிலாக, அந்த emotion-ஐ recognize செய்து, சிறிது நேரம் எடுத்துக்கொண்டு feedback-ஐ புரிந்த பிறகு calmly respond செய்கிறார்."
+    },
+    commonMistake: {
+      english:
+        "A common mistake is ignoring emotions completely or allowing a strong emotion to control your immediate response. Another mistake is assuming that every emotion automatically represents the truth of a situation.",
+      tamil:
+        "Emotions-ஐ completely ignore செய்வது அல்லது strong emotion உங்கள் immediate response-ஐ control செய்ய விடுவது ஒரு common mistake. ஒவ்வொரு emotion-ம் situation-ன் முழு உண்மையை automatically represent செய்கிறது என்று நினைப்பதும் தவறு."
+    },
+    betterApproach: {
+      english:
+        "Pause and identify what you are feeling before responding. Ask yourself why you may be feeling that way and whether your reaction matches the situation. Then choose a response that is respectful and useful.",
+      tamil:
+        "Respond செய்வதற்கு முன் pause செய்து நீங்கள் என்ன feel செய்கிறீர்கள் என்பதை identify செய்யுங்கள். ஏன் அந்த emotion வருகிறது என்றும், உங்கள் reaction situation-க்கு appropriate-ஆக இருக்கிறதா என்றும் உங்களிடம் கேளுங்கள். பிறகு respectful மற்றும் useful response-ஐ choose செய்யுங்கள்."
+    },
+    usefulExpressions: [
+      {
+        english: "I need a moment to think before I respond.",
+        tamil: "Respond செய்வதற்கு முன் கொஞ்சம் யோசிக்க எனக்கு ஒரு moment தேவை."
+      },
+      {
+        english: "I understand that I am feeling frustrated.",
+        tamil: "நான் frustrated-ஆக feel செய்கிறேன் என்பதை புரிந்துகொள்கிறேன்."
+      },
+      {
+        english: "Let me understand the situation before reacting.",
+        tamil: "React செய்வதற்கு முன் situation-ஐ புரிந்துகொள்கிறேன்."
+      },
+      {
+        english: "I want to respond calmly.",
+        tamil: "நான் calmly respond செய்ய விரும்புகிறேன்."
+      }
+    ],
+    tryYourself: {
+      english:
+        "Think about a recent situation where you had a strong emotional reaction. Identify what you felt, what caused it, how you responded, and what you could do differently next time.",
+      tamil:
+        "சமீபத்தில் நீங்கள் strong emotional reaction கொடுத்த ஒரு situation பற்றி யோசிக்கவும். என்ன feel செய்தீர்கள், அதற்கு என்ன காரணம், எப்படி respond செய்தீர்கள், next time என்ன differently செய்யலாம் என்பதை எழுதுங்கள்."
+    }
+  },
+
+  {
+    conceptId: 14,
+    title: "Empathy",
+    understand: {
+      english:
+        "Empathy means trying to understand another person's feelings, thoughts, or situation from their perspective. It does not require you to agree with everything they say. It helps you respond with understanding and respect.",
+      tamil:
+        "Empathy என்பது மற்றொருவரின் feelings, thoughts அல்லது situation-ஐ அவர்களின் perspective-ல் இருந்து புரிந்துகொள்ள முயற்சிப்பது. அவர்கள் சொல்வது எல்லாவற்றுடனும் நீங்கள் agree செய்ய வேண்டும் என்று அர்த்தமில்லை. Understanding மற்றும் respect-உடன் respond செய்ய இது உதவுகிறது."
+    },
+    seeTheSituation: {
+      english:
+        "Imagine a teammate making a mistake during an important project. Instead of immediately blaming them, you ask what happened and understand that they were dealing with a difficulty they had not communicated earlier. You then focus on solving the problem together.",
+      tamil:
+        "ஒரு important project-ல் teammate ஒருவர் mistake செய்கிறார் என்று நினைத்துக்கொள்ளுங்கள். உடனே blame செய்வதற்கு பதிலாக, என்ன நடந்தது என்று கேட்டு, அவர் முன்பே communicate செய்யாத ஒரு difficulty-ஐ handle செய்து கொண்டிருந்தார் என்பதை புரிந்துகொள்கிறீர்கள். பிறகு இருவரும் சேர்ந்து problem-ஐ solve செய்வதில் focus செய்கிறீர்கள்."
+    },
+    commonMistake: {
+      english:
+        "A common mistake is assuming that you already know what another person is thinking or feeling. Another mistake is confusing empathy with always agreeing with the other person.",
+      tamil:
+        "மற்றவர் என்ன நினைக்கிறார் அல்லது feel செய்கிறார் என்பதை already தெரியும் என்று assume செய்வது ஒரு common mistake. Empathy என்றால் மற்றவர் சொல்வது எல்லாவற்றுடனும் agree செய்வது என்று நினைப்பதும் தவறு."
+    },
+    betterApproach: {
+      english:
+        "Listen carefully, ask respectful questions, and try to understand the situation before judging. Acknowledge the other person's experience even when you have a different opinion.",
+      tamil:
+        "கவனமாக listen செய்து, respectful questions கேட்டு, judge செய்வதற்கு முன் situation-ஐ புரிந்துகொள்ள முயற்சி செய்யுங்கள். உங்களுக்கு different opinion இருந்தாலும், மற்றவரின் experience-ஐ acknowledge செய்யுங்கள்."
+    },
+    usefulExpressions: [
+      {
+        english: "I understand why you might feel that way.",
+        tamil: "நீங்கள் ஏன் அப்படி feel செய்கிறீர்கள் என்பதை புரிந்துகொள்கிறேன்."
+      },
+      {
+        english: "Can you help me understand what happened?",
+        tamil: "என்ன நடந்தது என்பதை புரிந்துகொள்ள எனக்கு help செய்ய முடியுமா?"
+      },
+      {
+        english: "I may have a different opinion, but I understand your point.",
+        tamil: "எனக்கு different opinion இருக்கலாம், ஆனால் உங்கள் point-ஐ புரிந்துகொள்கிறேன்."
+      },
+      {
+        english: "Let us find a solution together.",
+        tamil: "நாம் சேர்ந்து ஒரு solution கண்டுபிடிப்போம்."
+      }
+    ],
+    tryYourself: {
+      english:
+        "Think about someone whose opinion or behavior you recently found difficult to understand. Write down two possible reasons for their perspective before making a judgment.",
+      tamil:
+        "சமீபத்தில் உங்களுக்கு புரிந்துகொள்ள difficult-ஆக இருந்த ஒருவரின் opinion அல்லது behavior பற்றி யோசிக்கவும். Judge செய்வதற்கு முன் அவர்களின் perspective-க்கு இரண்டு possible reasons-ஐ எழுதுங்கள்."
+    }
+  },
+
+  {
+    conceptId: 15,
+    title: "Respecting Different Perspectives",
+    understand: {
+      english:
+        "People can have different opinions, experiences, priorities, and ways of solving problems. Respecting different perspectives means listening to those differences without immediately dismissing or attacking the other person.",
+      tamil:
+        "ஒவ்வொருவருக்கும் different opinions, experiences, priorities மற்றும் problem-solving methods இருக்கலாம். Different perspectives-ஐ respect செய்வது அந்த differences-ஐ listen செய்து, உடனடியாக மற்றவரின் opinion-ஐ dismiss அல்லது attack செய்யாமல் இருப்பதாகும்."
+    },
+    seeTheSituation: {
+      english:
+        "Imagine two teammates disagreeing about how to complete a project. Instead of arguing about who is right, they explain their reasoning, listen to each other, compare the advantages of both approaches, and choose the option that best fits the project.",
+      tamil:
+        "ஒரு project-ஐ எப்படி complete செய்வது என்பதில் இரண்டு teammates disagree செய்கிறார்கள் என்று நினைத்துக்கொள்ளுங்கள். யார் right என்று argue செய்வதற்கு பதிலாக, இருவரும் தங்கள் reasoning-ஐ explain செய்து, ஒருவரை ஒருவர் listen செய்து, இரண்டு approaches-ன் advantages-ஐ compare செய்து, project-க்கு best fit ஆகும் option-ஐ choose செய்கிறார்கள்."
+    },
+    commonMistake: {
+      english:
+        "A common mistake is assuming that a different opinion is automatically a bad opinion. Another mistake is interrupting, mocking, or becoming personally aggressive when someone disagrees with you.",
+      tamil:
+        "Different opinion என்றால் அது automatically bad opinion என்று assume செய்வது ஒரு common mistake. ஒருவர் disagree செய்யும்போது interrupt செய்வது, mock செய்வது அல்லது personally aggressive ஆக மாறுவதும் தவறு."
+    },
+    betterApproach: {
+      english:
+        "Listen fully before responding. Ask questions to understand the reasoning behind a different view. Compare ideas based on facts, goals, and practical outcomes rather than attacking the person.",
+      tamil:
+        "Respond செய்வதற்கு முன் முழுமையாக listen செய்யுங்கள். Different view-க்கு பின்னால் இருக்கும் reasoning-ஐ புரிந்துகொள்ள questions கேளுங்கள். Person-ஐ attack செய்வதை விட facts, goals மற்றும் practical outcomes அடிப்படையில் ideas-ஐ compare செய்யுங்கள்."
+    },
+    usefulExpressions: [
+      {
+        english: "I understand your perspective.",
+        tamil: "உங்கள் perspective-ஐ புரிந்துகொள்கிறேன்."
+      },
+      {
+        english: "I see it differently, but I respect your opinion.",
+        tamil: "நான் இதை different-ஆக பார்க்கிறேன், ஆனால் உங்கள் opinion-ஐ respect செய்கிறேன்."
+      },
+      {
+        english: "Can you explain why you prefer this approach?",
+        tamil: "இந்த approach-ஐ ஏன் prefer செய்கிறீர்கள் என்று explain செய்ய முடியுமா?"
+      },
+      {
+        english: "Let us compare both options before deciding.",
+        tamil: "Decide செய்வதற்கு முன் இரண்டு options-ஐயும் compare செய்வோம்."
+      }
+    ],
+    tryYourself: {
+      english:
+        "Think about a topic where you disagree with someone. Write down their perspective as fairly as possible before writing your own opinion.",
+      tamil:
+        "நீங்கள் ஒருவருடன் disagree செய்யும் ஒரு topic பற்றி யோசிக்கவும். உங்கள் opinion-ஐ எழுதுவதற்கு முன், அவர்களின் perspective-ஐ முடிந்தவரை fair-ஆக எழுதுங்கள்."
+    }
+  },
+
+  {
+    conceptId: 16,
+    title: "Taking Initiative",
+    understand: {
+      english:
+        "Taking initiative means acting on a useful task or opportunity without always waiting for someone else to tell you what to do. It involves noticing what needs to be done, taking reasonable action, and being willing to learn along the way.",
+      tamil:
+        "Taking initiative என்பது ஒவ்வொரு task-க்கும் யாராவது சொல்லும் வரை wait செய்யாமல், செய்ய வேண்டிய useful task அல்லது opportunity-ஐ identify செய்து action எடுப்பது. என்ன செய்ய வேண்டும் என்பதை notice செய்து, reasonable action எடுத்து, process-ல் learn செய்ய தயாராக இருப்பது initiative."
+    },
+    seeTheSituation: {
+      english:
+        "Imagine a student working on a college project who notices that the documentation is incomplete. Instead of waiting for someone to assign the task, they organize the missing information and discuss it with the team.",
+      tamil:
+        "ஒரு college project-ல் வேலை செய்யும் student documentation incomplete-ஆக இருப்பதை notice செய்கிறார் என்று நினைத்துக்கொள்ளுங்கள். யாராவது task assign செய்யும் வரை wait செய்வதற்கு பதிலாக, missing information-ஐ organize செய்து team-உடன் discuss செய்கிறார்."
+    },
+    commonMistake: {
+      english:
+        "A common mistake is waiting for perfect instructions before doing anything. Another mistake is taking action without understanding the situation, responsibilities, or possible consequences.",
+      tamil:
+        "Perfect instructions கிடைக்கும் வரை எதுவும் செய்யாமல் wait செய்வது ஒரு common mistake. Situation, responsibilities அல்லது possible consequences-ஐ புரிந்துகொள்ளாமல் action எடுப்பதும் தவறு."
+    },
+    betterApproach: {
+      english:
+        "Notice useful opportunities, understand the situation, and take reasonable action within your responsibility. When something is unclear or important, communicate with the relevant person before proceeding.",
+      tamil:
+        "Useful opportunities-ஐ notice செய்து, situation-ஐ understand செய்து, உங்கள் responsibility-க்குள் reasonable action எடுங்கள். ஏதாவது unclear அல்லது important ஆக இருந்தால் proceed செய்வதற்கு முன் relevant person-உடன் communicate செய்யுங்கள்."
+    },
+    usefulExpressions: [
+      {
+        english: "I noticed that this task still needs to be completed.",
+        tamil: "இந்த task இன்னும் complete செய்யப்படவில்லை என்பதை notice செய்தேன்."
+      },
+      {
+        english: "I can take care of this part.",
+        tamil: "இந்த part-ஐ நான் take care செய்து கொள்ளலாம்."
+      },
+      {
+        english: "Would it be okay if I take the initiative on this?",
+        tamil: "இதில் நான் initiative எடுக்கலாமா?"
+      },
+      {
+        english: "I will check with you before making an important change.",
+        tamil: "Important change செய்வதற்கு முன் உங்களிடம் check செய்வேன்."
+      }
+    ],
+    tryYourself: {
+      english:
+        "Look at your college, project, or personal responsibilities. Identify one useful task that needs attention and take a reasonable first step without waiting to be reminded.",
+      tamil:
+        "உங்கள் college, project அல்லது personal responsibilities-ஐ பாருங்கள். Attention தேவைப்படும் ஒரு useful task-ஐ identify செய்து, reminder வரும் வரை wait செய்யாமல் ஒரு reasonable first step எடுங்கள்."
+    }
+  },
+
+  {
+    conceptId: 17,
+    title: "Making Better Decisions",
+    understand: {
+      english:
+        "Decision-making means choosing between different options after considering the situation, available information, possible outcomes, and your priorities. Good decisions do not always guarantee perfect results, but they are based on thoughtful reasoning.",
+      tamil:
+        "Decision-making என்பது situation, available information, possible outcomes மற்றும் priorities ஆகியவற்றை consider செய்து different options-ல் இருந்து ஒன்றை choose செய்வது. Good decision எப்போதும் perfect result-ஐ guarantee செய்யாது, ஆனால் thoughtful reasoning அடிப்படையில் எடுக்கப்படும்."
+    },
+    seeTheSituation: {
+      english:
+        "Imagine a student deciding whether to spend their free time on a new activity or complete an important project task. They consider the deadline, importance of the task, available time, and consequences before deciding.",
+      tamil:
+        "ஒரு student free time-ஐ ஒரு new activity-க்கு பயன்படுத்தலாமா அல்லது important project task-ஐ complete செய்யலாமா என்று decide செய்ய வேண்டும் என்று நினைத்துக்கொள்ளுங்கள். Decide செய்வதற்கு முன் deadline, task-ன் importance, available time மற்றும் consequences ஆகியவற்றை consider செய்கிறார்."
+    },
+    commonMistake: {
+      english:
+        "Common mistakes include making important decisions only based on emotions, choosing the easiest option without considering long-term effects, or making decisions without enough relevant information.",
+      tamil:
+        "Important decisions-ஐ emotions அடிப்படையில் மட்டும் எடுப்பது, long-term effects-ஐ consider செய்யாமல் easiest option-ஐ choose செய்வது அல்லது relevant information இல்லாமல் decision எடுப்பது common mistakes."
+    },
+    betterApproach: {
+      english:
+        "Clearly define the decision, identify realistic options, gather relevant information, consider short-term and long-term consequences, and then choose the option that best fits your priorities.",
+      tamil:
+        "என்ன decision எடுக்க வேண்டும் என்பதை clearly define செய்து, realistic options-ஐ identify செய்து, relevant information-ஐ gather செய்து, short-term மற்றும் long-term consequences-ஐ consider செய்து, உங்கள் priorities-க்கு best fit ஆகும் option-ஐ choose செய்யுங்கள்."
+    },
+    usefulExpressions: [
+      {
+        english: "I need to consider my options before deciding.",
+        tamil: "Decide செய்வதற்கு முன் என்னுடைய options-ஐ consider செய்ய வேண்டும்."
+      },
+      {
+        english: "What are the possible consequences?",
+        tamil: "Possible consequences என்ன?"
+      },
+      {
+        english: "I need more information before making this decision.",
+        tamil: "இந்த decision எடுப்பதற்கு முன் எனக்கு இன்னும் information தேவை."
+      },
+      {
+        english: "This option fits my current priorities better.",
+        tamil: "இந்த option என்னுடைய current priorities-க்கு better-ஆக fit ஆகிறது."
+      }
+    ],
+    tryYourself: {
+      english:
+        "Think about one decision you need to make soon. Write down at least two options, one benefit and one possible drawback for each, and the option that currently seems most suitable.",
+      tamil:
+        "விரைவில் நீங்கள் எடுக்க வேண்டிய ஒரு decision பற்றி யோசிக்கவும். குறைந்தது இரண்டு options, ஒவ்வொரு option-க்கும் ஒரு benefit மற்றும் ஒரு possible drawback, தற்போது மிகவும் suitable என்று தோன்றும் option ஆகியவற்றை எழுதுங்கள்."
+    }
   }
 ];
+
+
 export default concepts;
