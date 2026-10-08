@@ -190,7 +190,7 @@ function DeepLearn() {
               key={category.id}
               className="deep-learn-category-card"
               onClick={() =>
-                navigate(`/deep-learn/${category.id}`)
+                navigate(`/deep-speak/${category.id}`)
               }
             >
 
