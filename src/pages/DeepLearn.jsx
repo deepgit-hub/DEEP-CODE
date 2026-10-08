@@ -45,43 +45,78 @@ function DeepLearn() {
   return (
     <div className="deep-learn-page">
 
-      <div className="deep-learn-header">
+      {/* ================= HERO ================= */}
 
-        <div className="deep-learn-logo">
-          DEEPEX
+      <section className="deep-learn-hero">
+
+        <div className="deep-learn-hero-content">
+
+          <div className="deep-learn-badge">
+            🎓 DEEPEX
+          </div>
+
+          <h1 className="deep-learn-title">
+            DEEP LEARN
+          </h1>
+
+          <p className="deep-learn-description">
+            Build the communication, professional, workplace, interview,
+            and personal skills you need for your future.
+          </p>
+
         </div>
 
-        <h1>🎓 DEEP LEARN</h1>
+      </section>
 
-        <p>
-          Build the skills you need for your professional journey.
-        </p>
+      {/* ================= CATEGORIES ================= */}
 
-      </div>
+      <section className="deep-learn-categories-section">
 
-      <div className="deep-learn-categories">
+        <div className="deep-learn-section-header">
 
-        {categories.map((category) => (
-          <button
-            key={category.id}
-            className="deep-learn-category-card"
-            onClick={() =>
-              navigate(`/deep-learn/${category.id}`)
-            }
-          >
+          <h2>
+            Start Learning
+          </h2>
 
-            <div className="deep-learn-category-icon">
-              {category.icon}
-            </div>
+          <p>
+            Choose a skill area and start improving yourself step by step.
+          </p>
 
-            <h2>{category.title}</h2>
+        </div>
 
-            <p>{category.description}</p>
+        <div className="deep-learn-categories">
 
-          </button>
-        ))}
+          {categories.map((category) => (
+            <button
+              key={category.id}
+              className="deep-learn-category-card"
+              onClick={() =>
+                navigate(`/deep-learn/${category.id}`)
+              }
+            >
 
-      </div>
+              <div className="deep-learn-category-icon">
+                {category.icon}
+              </div>
+
+              <div className="deep-learn-category-content">
+
+                <h3>
+                  {category.title}
+                </h3>
+
+                <p>
+                  {category.description}
+                </p>
+
+              </div>
+
+            </button>
+          ))}
+
+        </div>
+
+      </section>
 
     </div>
   );
