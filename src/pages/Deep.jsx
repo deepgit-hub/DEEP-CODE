@@ -30,19 +30,7 @@ function Deep() {
 
           <div className="deep-hero-actions">
 
-            <button
-              className="deep-primary-btn"
-              onClick={() => navigate("/choose-language")}
-            >
-              💻 Explore DEEP CODE
-            </button>
-
-            <button
-              className="deep-secondary-btn"
-              onClick={() => navigate("/deep-learn")}
-            >
-              🎓 Explore DEEP LEARN
-            </button>
+            
 
           </div>
 
