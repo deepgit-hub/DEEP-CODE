@@ -1057,7 +1057,4 @@ const concepts = [
   }
 ];
 
-
-
-
 export default concepts;
