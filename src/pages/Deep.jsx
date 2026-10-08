@@ -80,9 +80,7 @@ function Deep() {
             </h3>
 
             <p>
-              Learn programming concepts step by step,
-              understand how they work, and improve your
-              coding skills through practice.
+              Programming concepts-ஐ step by step-ஆ கத்துக்கோங்க, அவை எப்படி work ஆகுது என்பதை புரிஞ்சுக்கோங்க, practice பண்ணி உங்க coding skills-ஐ improve பண்ணிக்கோங்க.
             </p>
 
             <div className="deep-product-features">
@@ -120,9 +118,7 @@ function Deep() {
             </h3>
 
             <p>
-              Build communication, interview, workplace,
-              professional, and personal skills that help
-              you become more confident and prepared.
+              Communication, interview, workplace, professional, personal skills-ஐ step by step-ஆ develop பண்ணிக்கோங்க. Confident-ஆ பேசவும், real-world situations-ஐ handle பண்ணவும், உங்க career-க்கு better-ஆ prepare ஆகவும் இந்த skills உங்களுக்கு help பண்ணும்.
             </p>
 
             <div className="deep-product-features">
