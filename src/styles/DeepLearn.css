@@ -272,6 +272,10 @@
 
         font-size: 3rem;
     }
+    .deep-learn-back-btn {
+    font-size: 15px;
+    padding: 11px 18px;
+}
 
     .deep-learn-description {
 
@@ -418,7 +422,7 @@
     font-size: 16px;
 
     font-weight: 600;
-    
+
     cursor: pointer;
 
     transition: 0.3s;
