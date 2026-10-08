@@ -18,8 +18,8 @@ function Deep() {
           </div>
 
           <h1>
-            Learn. Build.
-            <span> Grow.</span>
+            
+            <span> கற்றுக்கொள். உருவாக்கு. வளரு.</span>
           </h1>
 
           <p>
