@@ -791,4 +791,270 @@ const concepts = [
         "உங்களைப் பற்றி ஒரு short professional introduction எழுதுங்கள். உங்கள் field of interest, இரண்டு important skills, ஒரு project அல்லது experience மற்றும் நீங்கள் explore செய்ய விரும்பும் career direction ஆகியவற்றை include செய்யுங்கள்."
     }
   },
-]
+    {
+    conceptId: 16,
+    title: "Resume Basics",
+    understand: {
+      english:
+        "A resume is a short professional document that presents your education, skills, projects, experience, and relevant achievements. Its purpose is to help an employer quickly understand what you can offer and decide whether to consider you for an opportunity.",
+      tamil:
+        "Resume என்பது உங்கள் education, skills, projects, experience மற்றும் relevant achievements ஆகியவற்றை சுருக்கமாக காட்டும் professional document. Employer உங்களிடம் என்ன skills மற்றும் experience இருக்கிறது என்பதை quickly புரிந்துகொண்டு opportunity-க்கு consider செய்ய உதவுவதே இதன் purpose."
+    },
+    seeTheSituation: {
+      english:
+        "Imagine a fresher applying for a software developer position. Their resume includes their degree, relevant programming skills, two practical projects, and a few relevant achievements. The information is organized clearly so the recruiter can understand their background quickly.",
+      tamil:
+        "ஒரு fresher software developer position-க்கு apply செய்கிறார் என்று நினைத்துக்கொள்ளுங்கள். அவருடைய resume-ல் degree, relevant programming skills, இரண்டு practical projects மற்றும் சில relevant achievements இருக்கின்றன. Information clear-ஆக organized செய்யப்பட்டுள்ளதால் recruiter அவருடைய background-ஐ quickly understand செய்ய முடியும்."
+    },
+    commonMistake: {
+      english:
+        "Common mistakes include adding false information, making the resume unnecessarily long, listing skills without evidence, including irrelevant personal details, or submitting the same poorly targeted resume for every job.",
+      tamil:
+        "False information சேர்ப்பது, resume-ஐ தேவையில்லாமல் மிகவும் நீளமாக்குவது, evidence இல்லாமல் skills list செய்வது, irrelevant personal details சேர்ப்பது அல்லது எல்லா jobs-க்கும் ஒரே poorly targeted resume-ஐ பயன்படுத்துவது common mistakes."
+    },
+    betterApproach: {
+      english:
+        "Keep your resume clear, honest, and relevant to the opportunity. Highlight your strongest and most relevant skills, projects, and experience. Review the job description and make sure your resume clearly shows relevant qualifications.",
+      tamil:
+        "Resume-ஐ clear, honest மற்றும் opportunity-க்கு relevant-ஆக வைத்துக்கொள்ளுங்கள். உங்கள் strongest மற்றும் relevant skills, projects மற்றும் experience-ஐ highlight செய்யுங்கள். Job description-ஐ review செய்து relevant qualifications தெளிவாக தெரிகிறதா என்பதை உறுதி செய்யுங்கள்."
+    },
+    usefulExpressions: [
+      {
+        english: "I have included my relevant projects and skills in my resume.",
+        tamil: "என்னுடைய relevant projects மற்றும் skills-ஐ resume-ல் include செய்துள்ளேன்."
+      },
+      {
+        english: "This project helped me develop practical experience.",
+        tamil: "இந்த project எனக்கு practical experience develop செய்ய உதவியது."
+      },
+      {
+        english: "I have highlighted the skills relevant to this role.",
+        tamil: "இந்த role-க்கு relevant-ஆக இருக்கும் skills-ஐ highlight செய்துள்ளேன்."
+      },
+      {
+        english: "I have kept the information accurate and up to date.",
+        tamil: "Information-ஐ accurate மற்றும் up to date-ஆக வைத்துள்ளேன்."
+      }
+    ],
+    tryYourself: {
+      english:
+        "Review your current resume. Check whether your education, skills, projects, and achievements are clearly presented and relevant to the type of job you want.",
+      tamil:
+        "உங்கள் current resume-ஐ review செய்யுங்கள். Education, skills, projects மற்றும் achievements clear-ஆகவும் நீங்கள் விரும்பும் job-க்கு relevant-ஆகவும் இருக்கிறதா என்று check செய்யுங்கள்."
+    }
+  },
+
+  {
+    conceptId: 17,
+    title: "LinkedIn and Online Professional Presence",
+    understand: {
+      english:
+        "Your online professional presence is the way you present yourself on professional platforms and other publicly visible online spaces. A clear profile can help recruiters, professionals, and potential connections understand your skills, interests, projects, and career direction.",
+      tamil:
+        "Online professional presence என்பது professional platforms மற்றும் publicly visible online spaces-ல் நீங்கள் உங்களை எப்படி present செய்கிறீர்கள் என்பதாகும். Clear profile மூலம் recruiters, professionals மற்றும் potential connections உங்கள் skills, interests, projects மற்றும் career direction-ஐ புரிந்துகொள்ள முடியும்."
+    },
+    seeTheSituation: {
+      english:
+        "Imagine a recruiter sees your professional profile after receiving your resume. Your profile clearly mentions your field, skills, projects, education, and interests. Your information is consistent and professional, making it easier for the recruiter to understand your background.",
+      tamil:
+        "Recruiter உங்கள் resume-ஐ பார்த்த பிறகு உங்கள் professional profile-ஐ பார்க்கிறார் என்று நினைத்துக்கொள்ளுங்கள். Profile-ல் உங்கள் field, skills, projects, education மற்றும் interests clear-ஆக mention செய்யப்பட்டுள்ளன. Information consistent மற்றும் professional-ஆக இருப்பதால் recruiter உங்கள் background-ஐ எளிதாக புரிந்துகொள்ள முடியும்."
+    },
+    commonMistake: {
+      english:
+        "Common mistakes include leaving a professional profile incomplete, using unclear information, exaggerating skills, posting inappropriate public content, or having information that conflicts with your resume.",
+      tamil:
+        "Professional profile-ஐ incomplete-ஆக விடுவது, unclear information பயன்படுத்துவது, skills-ஐ exaggerate செய்வது, inappropriate public content post செய்வது அல்லது resume-க்கு conflict ஆகும் information வைத்திருப்பது common mistakes."
+    },
+    betterApproach: {
+      english:
+        "Keep your professional profile accurate and updated. Use a clear professional description, mention relevant skills and projects, and make sure the information matches what you communicate in your resume and interviews.",
+      tamil:
+        "Professional profile-ஐ accurate மற்றும் updated-ஆக வைத்துக்கொள்ளுங்கள். Clear professional description பயன்படுத்தி, relevant skills மற்றும் projects-ஐ mention செய்யுங்கள். Resume மற்றும் interviews-ல் நீங்கள் சொல்லும் information-உடன் profile consistent-ஆக இருப்பதை உறுதி செய்யுங்கள்."
+    },
+    usefulExpressions: [
+      {
+        english: "I am currently building my professional profile.",
+        tamil: "என்னுடைய professional profile-ஐ தற்போது build செய்து வருகிறேன்."
+      },
+      {
+        english: "I have added my relevant projects and skills.",
+        tamil: "என்னுடைய relevant projects மற்றும் skills-ஐ add செய்துள்ளேன்."
+      },
+      {
+        english: "I am interested in connecting with professionals in this field.",
+        tamil: "இந்த field-ல் இருக்கும் professionals-உடன் connect செய்ய எனக்கு interest உள்ளது."
+      },
+      {
+        english: "I am continuing to improve my professional presence online.",
+        tamil: "என்னுடைய online professional presence-ஐ தொடர்ந்து improve செய்து வருகிறேன்."
+      }
+    ],
+    tryYourself: {
+      english:
+        "Review your professional online profile. Check your headline, description, education, skills, projects, and public information. Identify three things you can improve.",
+      tamil:
+        "உங்கள் professional online profile-ஐ review செய்யுங்கள். Headline, description, education, skills, projects மற்றும் public information ஆகியவற்றை check செய்யுங்கள். Improve செய்யக்கூடிய மூன்று விஷயங்களை identify செய்யுங்கள்."
+    }
+  },
+
+  {
+    conceptId: 18,
+    title: "Personal Branding",
+    understand: {
+      english:
+        "Personal branding is the way you consistently present your skills, interests, values, and professional strengths to others. It is not about pretending to be someone else or constantly promoting yourself. It is about making your professional identity clear and authentic.",
+      tamil:
+        "Personal branding என்பது உங்கள் skills, interests, values மற்றும் professional strengths ஆகியவற்றை மற்றவர்களுக்கு consistently எப்படி present செய்கிறீர்கள் என்பதாகும். இது வேறு ஒருவராக நடிப்பது அல்லது தொடர்ந்து உங்களை promote செய்வது அல்ல. உங்கள் professional identity-ஐ clear மற்றும் authentic-ஆக காட்டுவதே personal branding."
+    },
+    seeTheSituation: {
+      english:
+        "Imagine a student who is interested in cybersecurity. They regularly build small security-related projects, learn relevant concepts, share useful technical work, and clearly communicate their interest when meeting professionals. Over time, people begin to associate them with that area.",
+      tamil:
+        "Cybersecurity-ல் interest உள்ள ஒரு student பற்றி நினைத்துக்கொள்ளுங்கள். அவர் regularly security-related small projects build செய்து, relevant concepts learn செய்து, useful technical work share செய்து, professionals-ஐ சந்திக்கும்போது தனது interest-ஐ clearly communicate செய்கிறார். காலப்போக்கில் people அவரை அந்த area-உடன் associate செய்ய ஆரம்பிப்பார்கள்."
+    },
+    commonMistake: {
+      english:
+        "A common mistake is trying to create a professional image without actually developing the skills behind it. Another mistake is copying someone else's style instead of building an identity that genuinely represents you.",
+      tamil:
+        "Skills-ஐ உண்மையில் develop செய்யாமல் professional image ஒன்றை மட்டும் create செய்ய முயற்சிப்பது ஒரு common mistake. மற்றொருவரின் style-ஐ copy செய்வதும், உங்களை genuinely represent செய்யும் identity-ஐ build செய்யாமல் இருப்பதும் தவறு."
+    },
+    betterApproach: {
+      english:
+        "Choose areas that genuinely interest you and build real skills and experiences in them. Share your work honestly, communicate clearly, and let your reputation grow from consistent actions rather than trying to force an image.",
+      tamil:
+        "உங்களுக்கு உண்மையாக interest உள்ள areas-ஐ choose செய்து, அதில் real skills மற்றும் experiences-ஐ build செய்யுங்கள். உங்கள் work-ஐ honestly share செய்து, clearly communicate செய்து, image-ஐ force செய்வதை விட consistent actions மூலம் reputation-ஐ build செய்யுங்கள்."
+    },
+    usefulExpressions: [
+      {
+        english: "I am developing my skills in this area.",
+        tamil: "இந்த area-ல் என்னுடைய skills-ஐ develop செய்து வருகிறேன்."
+      },
+      {
+        english: "This is an area I am genuinely interested in.",
+        tamil: "இது எனக்கு உண்மையாகவே interest உள்ள ஒரு area."
+      },
+      {
+        english: "I enjoy working on practical projects in this field.",
+        tamil: "இந்த field-ல் practical projects-ல் work செய்வது எனக்கு பிடிக்கும்."
+      },
+      {
+        english: "I want my work to reflect my skills and interests.",
+        tamil: "என்னுடைய work என் skills மற்றும் interests-ஐ reflect செய்ய வேண்டும் என்று விரும்புகிறேன்."
+      }
+    ],
+    tryYourself: {
+      english:
+        "Choose one professional area you want to become known for. Write three skills you need to develop and three practical actions you can take to build your professional identity in that area.",
+      tamil:
+        "நீங்கள் professional-ஆக ஒரு particular area-ல் known ஆக விரும்புகிறீர்கள் என்று நினைத்துக்கொள்ளுங்கள். Develop செய்ய வேண்டிய மூன்று skills மற்றும் professional identity-ஐ build செய்யக்கூடிய மூன்று practical actions-ஐ எழுதுங்கள்."
+    }
+  },
+
+  {
+    conceptId: 19,
+    title: "Career Planning",
+    understand: {
+      english:
+        "Career planning means thinking about the kind of professional direction you want to explore and identifying the skills, experiences, and steps that can help you move toward it. Career plans can change as you learn more about yourself and the industry.",
+      tamil:
+        "Career planning என்பது நீங்கள் explore செய்ய விரும்பும் professional direction பற்றி யோசித்து, அதை நோக்கி செல்ல தேவையான skills, experiences மற்றும் steps-ஐ identify செய்வது. நீங்கள் உங்களைப் பற்றியும் industry பற்றியும் அதிகமாக learn செய்யும்போது career plans change ஆகலாம்."
+    },
+    seeTheSituation: {
+      english:
+        "Imagine a final-year student who is interested in software development. They identify the technologies commonly used in their target roles, improve those skills, build practical projects, prepare a resume, and apply for suitable opportunities.",
+      tamil:
+        "Software development-ல் interest உள்ள final-year student பற்றி நினைத்துக்கொள்ளுங்கள். Target roles-ல் commonly பயன்படுத்தப்படும் technologies-ஐ identify செய்து, அந்த skills-ஐ improve செய்து, practical projects build செய்து, resume prepare செய்து, suitable opportunities-க்கு apply செய்கிறார்."
+    },
+    commonMistake: {
+      english:
+        "A common mistake is choosing a career only because it is popular or because someone else expects it. Another mistake is making a long-term plan without taking any practical steps toward it.",
+      tamil:
+        "ஒரு career popular-ஆக இருக்கிறது என்பதற்காக மட்டும் அல்லது வேறு ஒருவர் expect செய்கிறார் என்பதற்காக மட்டும் choose செய்வது ஒரு common mistake. Long-term plan ஒன்றை வைத்துக்கொண்டு அதற்காக எந்த practical steps-ம் எடுக்காமல் இருப்பதும் தவறு."
+    },
+    betterApproach: {
+      english:
+        "Explore different career options, understand what each role requires, assess your current skills, identify gaps, and create short-term steps toward your longer-term direction. Review the plan as you gain experience.",
+      tamil:
+        "Different career options-ஐ explore செய்து, ஒவ்வொரு role-க்கும் என்ன தேவை என்பதை புரிந்துகொண்டு, உங்கள் current skills-ஐ assess செய்து, skill gaps-ஐ identify செய்து, long-term direction-க்கு செல்ல short-term steps உருவாக்குங்கள். Experience கிடைக்கும்போது plan-ஐ review செய்யுங்கள்."
+    },
+    usefulExpressions: [
+      {
+        english: "I am exploring this career path.",
+        tamil: "இந்த career path-ஐ நான் explore செய்து வருகிறேன்."
+      },
+      {
+        english: "I have identified the skills I need to develop.",
+        tamil: "நான் develop செய்ய வேண்டிய skills-ஐ identify செய்துள்ளேன்."
+      },
+      {
+        english: "This is my current career direction.",
+        tamil: "இது என்னுடைய current career direction."
+      },
+      {
+        english: "I am open to adjusting my plan as I learn more.",
+        tamil: "மேலும் learn செய்யும்போது என்னுடைய plan-ஐ adjust செய்ய நான் open-ஆக இருக்கிறேன்."
+      }
+    ],
+    tryYourself: {
+      english:
+        "Choose a career path you are interested in. Write down the role you want to explore, three skills it requires, one experience you need, and three steps you can take during the next six months.",
+      tamil:
+        "உங்களுக்கு interest உள்ள ஒரு career path-ஐ choose செய்யுங்கள். நீங்கள் explore செய்ய விரும்பும் role, அதற்கு தேவையான மூன்று skills, தேவைப்படும் ஒரு experience மற்றும் அடுத்த ஆறு மாதங்களில் எடுக்கக்கூடிய மூன்று steps-ஐ எழுதுங்கள்."
+    }
+  },
+
+  {
+    conceptId: 20,
+    title: "Workplace Growth Mindset",
+    understand: {
+      english:
+        "A growth mindset means believing that your abilities can improve through learning, practice, feedback, and experience. In a professional environment, it helps you see challenges as opportunities to develop instead of assuming that your current ability is fixed.",
+      tamil:
+        "Growth mindset என்பது learning, practice, feedback மற்றும் experience மூலம் உங்கள் abilities improve ஆக முடியும் என்று நம்புவது. Professional environment-ல் இது challenges-ஐ development opportunities-ஆக பார்க்க உதவும். உங்கள் current ability எப்போதும் fixed என்று நினைக்காமல் improve செய்ய முடியும் என்று பார்க்க வேண்டும்."
+    },
+    seeTheSituation: {
+      english:
+        "Imagine you receive feedback that your technical knowledge is not yet strong enough for a particular responsibility. Instead of thinking, \"I am not good at this,\" you identify the missing knowledge, create a learning plan, practice, and gradually improve.",
+      tamil:
+        "ஒரு particular responsibility-க்கு உங்கள் technical knowledge இன்னும் strong இல்லை என்று feedback கிடைக்கிறது என்று நினைத்துக்கொள்ளுங்கள். \"I am not good at this\" என்று நினைப்பதற்கு பதிலாக, missing knowledge-ஐ identify செய்து, learning plan உருவாக்கி, practice செய்து, gradually improve செய்யலாம்."
+    },
+    commonMistake: {
+      english:
+        "A common mistake is treating criticism or failure as proof that you cannot improve. Another mistake is comparing your current level with someone who has much more experience and using that comparison to discourage yourself.",
+      tamil:
+        "Criticism அல்லது failure என்பது உங்களால் improve செய்ய முடியாது என்பதற்கான proof என்று நினைப்பது ஒரு common mistake. உங்களை விட அதிக experience உள்ள ஒருவரின் current level-உடன் உங்கள் current level-ஐ compare செய்து உங்களை discourage செய்வதும் தவறு."
+    },
+    betterApproach: {
+      english:
+        "Focus on progress rather than perfection. Ask what you can learn, practice deliberately, use feedback, and measure improvement over time. Accept that becoming good at something takes repeated effort.",
+      tamil:
+        "Perfection-ஐ விட progress-ல் focus செய்யுங்கள். என்ன learn செய்யலாம் என்று கேட்டு, deliberate practice செய்து, feedback-ஐ use செய்து, காலப்போக்கில் improvement-ஐ measure செய்யுங்கள். ஒரு skill-ல் நல்லவராக ஆக repeated effort தேவைப்படும் என்பதை accept செய்யுங்கள்."
+    },
+    usefulExpressions: [
+      {
+        english: "I can improve with practice.",
+        tamil: "Practice மூலம் நான் improve செய்ய முடியும்."
+      },
+      {
+        english: "I see this as a learning opportunity.",
+        tamil: "இதை ஒரு learning opportunity-ஆக பார்க்கிறேன்."
+      },
+      {
+        english: "I will work on the areas that need improvement.",
+        tamil: "Improve செய்ய வேண்டிய areas-ல் நான் work செய்வேன்."
+      },
+      {
+        english: "I am not there yet, but I am learning.",
+        tamil: "நான் இன்னும் அந்த level-ல் இல்லை, ஆனால் learn செய்து வருகிறேன்."
+      }
+    ],
+    tryYourself: {
+      english:
+        "Think about one professional skill that currently feels difficult. Write down what you can do this week to improve it instead of saying that you are simply not good at it.",
+      tamil:
+        "தற்போது difficult-ஆக இருக்கும் ஒரு professional skill பற்றி யோசிக்கவும். \"எனக்கு இது வராது\" என்று சொல்வதற்கு பதிலாக, இந்த வாரம் அதை improve செய்ய நீங்கள் செய்யக்கூடிய practical actions-ஐ எழுதுங்கள்."
+    }
+  }
+];
+
+export default concepts;
