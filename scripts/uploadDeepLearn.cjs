@@ -1,7 +1,9 @@
-const admin = require("firebase-admin");
 const fs = require("fs");
 const path = require("path");
 const vm = require("vm");
+
+const { initializeApp, cert } = require("firebase-admin/app");
+const { getFirestore } = require("firebase-admin/firestore");
 
 // --------------------------------------------------
 // Firebase Admin initialization
@@ -9,26 +11,20 @@ const vm = require("vm");
 
 const serviceAccount = require("../firebase-service-account.json");
 
-admin.initializeApp({
-  credential: admin.credential.cert(serviceAccount),
+initializeApp({
+  credential: cert(serviceAccount),
 });
 
-const db = admin.firestore();
+const db = getFirestore();
 
 // --------------------------------------------------
-// Load ES module data files
+// Load concept files
 // --------------------------------------------------
 
 function loadConceptFile(filePath) {
   const absolutePath = path.resolve(filePath);
 
   let code = fs.readFileSync(absolutePath, "utf8");
-
-  // Convert:
-  // export default concepts;
-  //
-  // into:
-  // module.exports = concepts;
 
   code = code.replace(
     /export\s+default\s+concepts\s*;?/,
@@ -52,13 +48,13 @@ function loadConceptFile(filePath) {
 const categories = {
   communication: "../src/data/deepLearn/communication.js",
   interview: "../src/data/deepLearn/interview.js",
-  workplace: "../src/data/deepLearn/workplace.js",
+  workspace: "../src/data/deepLearn/workspace.js",
   professional: "../src/data/deepLearn/professional.js",
   personal: "../src/data/deepLearn/personal.js",
 };
 
 // --------------------------------------------------
-// Upload function
+// Upload one category
 // --------------------------------------------------
 
 async function uploadCategory(categoryId, filePath) {
@@ -84,24 +80,34 @@ async function uploadCategory(categoryId, filePath) {
 
   await batch.commit();
 
-  console.log(`✅ ${categoryId}: ${concepts.length} concepts uploaded`);
+  console.log(
+    `✅ ${categoryId}: ${concepts.length} concepts uploaded`
+  );
 }
 
 // --------------------------------------------------
-// Main
+// Upload everything
 // --------------------------------------------------
 
 async function uploadAll() {
   console.log("🚀 Starting DEEP LEARN upload...\n");
 
+  let total = 0;
+
   for (const [categoryId, filePath] of Object.entries(categories)) {
     await uploadCategory(categoryId, filePath);
+
+    const concepts = loadConceptFile(
+      path.join(__dirname, filePath)
+    );
+
+    total += concepts.length;
   }
 
   console.log("\n====================================");
   console.log("🎉 DEEP LEARN UPLOAD COMPLETE");
   console.log("====================================");
-  console.log("Total concepts uploaded: 100");
+  console.log(`Total concepts uploaded: ${total}`);
   console.log("");
   console.log("Firestore structure:");
   console.log("deepLearn/");
@@ -111,6 +117,10 @@ async function uploadAll() {
   console.log("  ├── professional/concepts/");
   console.log("  └── personal/concepts/");
 }
+
+// --------------------------------------------------
+// Run
+// --------------------------------------------------
 
 uploadAll()
   .then(() => {

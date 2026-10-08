@@ -3,57 +3,67 @@ import { useNavigate } from "react-router-dom";
 function DeepLearn() {
   const navigate = useNavigate();
 
+  const categories = [
+    {
+      id: "communication",
+      icon: "🗣️",
+      title: "Communication Skills",
+      description:
+        "Learn how to communicate clearly, confidently, and professionally.",
+    },
+    {
+      id: "interview",
+      icon: "🎤",
+      title: "Interview Skills",
+      description:
+        "Prepare yourself to communicate confidently during interviews.",
+    },
+    {
+      id: "workplace",
+      icon: "💼",
+      title: "Workplace Skills",
+      description:
+        "Learn the practical skills needed to work effectively with others.",
+    },
+    {
+      id: "professional",
+      icon: "💻",
+      title: "Professional Skills",
+      description:
+        "Build the habits and skills that help you grow professionally.",
+    },
+    {
+      id: "personal",
+      icon: "🧠",
+      title: "Personal Skills",
+      description:
+        "Develop yourself, manage challenges, and prepare for your future.",
+    },
+  ];
+
   return (
     <div>
       <h1>🎓 DEEP LEARN</h1>
 
       <p>
-        Build the skills you need for your
-        professional journey.
+        Build the skills you need for your professional journey.
       </p>
 
       <div>
+        {categories.map((category) => (
+          <button
+            key={category.id}
+            onClick={() =>
+              navigate(`/deep-learn/${category.id}`)
+            }
+          >
+            <span>{category.icon}</span>
 
-        <button
-          onClick={() =>
-            navigate("/deep-learn/communication")
-          }
-        >
-          🗣️ Communication Skills
-        </button>
+            <h2>{category.title}</h2>
 
-        <button
-          onClick={() =>
-            navigate("/deep-learn/interview")
-          }
-        >
-          🎤 Interview Skills
-        </button>
-
-        <button
-          onClick={() =>
-            navigate("/deep-learn/workplace")
-          }
-        >
-          💼 Workplace Skills
-        </button>
-
-        <button
-          onClick={() =>
-            navigate("/deep-learn/professional")
-          }
-        >
-          💻 Professional Skills
-        </button>
-
-        <button
-          onClick={() =>
-            navigate("/deep-learn/personal")
-          }
-        >
-          🧠 Personal Skills
-        </button>
-
+            <p>{category.description}</p>
+          </button>
+        ))}
       </div>
     </div>
   );
