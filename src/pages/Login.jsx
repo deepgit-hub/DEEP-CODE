@@ -56,7 +56,7 @@ navigate("/deep");
         <h1>「 ✦ DEEPEX ✦ 」</h1>
 
       <p>
-   Grow , help them to Grow
+   Grow , help your juniors to Grow
   <br />
   
   
