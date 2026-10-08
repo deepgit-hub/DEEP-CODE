@@ -1,50 +1,67 @@
 import { Routes, Route } from "react-router-dom";
 
+// ================================
+// AUTHENTICATION / ENTRY
+// ================================
+
+import Login from "./pages/Login";
+import Welcome from "./pages/Welcome";
+import ChooseLanguage from "./pages/ChooseLanguage";
+
+// ================================
+// DEEPEX
+// ================================
+
+import Deep from "./pages/Deep";
+
+// ================================
+// DEEP SPEAK
+// ================================
+
+import DeepLearn from "./pages/DeepLearn";
+import DeepLearnCategory from "./pages/DeepLearnCategory";
+import DeepLearnConcept from "./pages/DeepLearnConcept";
+
+// ================================
 // DEEP CODE
+// ================================
+
 import Languages from "./pages/Languages";
 import Home from "./pages/Home";
 import Topic from "./pages/Topic";
 import Question from "./pages/Question";
 import QuestionDetails from "./pages/QuestionDetails";
 
-// Authentication / Entry
-import Login from "./pages/Login";
-import Welcome from "./pages/Welcome";
-import ChooseLanguage from "./pages/ChooseLanguage";
-
-// DEEPEX
-import Deep from "./pages/Deep";
-
-// DEEP LEARN
-import DeepLearn from "./pages/DeepLearn";
-import DeepLearnCategory from "./pages/DeepLearnCategory";
-import DeepLearnConcept from "./pages/DeepLearnConcept";
 
 function App() {
+
   return (
+
     <Routes>
 
-      {/* =========================
-          Authentication
-      ========================= */}
+      {/* ==========================================
+          AUTHENTICATION
+      ========================================== */}
 
       <Route
         path="/"
         element={<Login />}
       />
 
-      {/* =========================
-          DEEPEX
-      ========================= */}
+
+      {/* ==========================================
+          DEEPEX MAIN PAGE
+      ========================================== */}
 
       <Route
         path="/deep"
         element={<Deep />}
       />
 
-      {/* =========================
-          DEEP LEARN
-      ========================= */}
+
+      {/* ==========================================
+          DEEP SPEAK
+      ========================================== */}
 
       <Route
         path="/deep-speak"
@@ -61,9 +78,10 @@ function App() {
         element={<DeepLearnConcept />}
       />
 
-      {/* =========================
-          DEEP CODE - Entry
-      ========================= */}
+
+      {/* ==========================================
+          DEEP CODE - ENTRY
+      ========================================== */}
 
       <Route
         path="/choose-language"
@@ -80,9 +98,10 @@ function App() {
         element={<Languages />}
       />
 
-      {/* =========================
-          DEEP CODE - Learning
-      ========================= */}
+
+      {/* ==========================================
+          DEEP CODE - LEARNING
+      ========================================== */}
 
       <Route
         path="/home/:languageId"
@@ -105,6 +124,7 @@ function App() {
       />
 
     </Routes>
+
   );
 }
 
