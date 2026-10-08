@@ -52,91 +52,229 @@ function DeepLearnConcept() {
   }
 
   return (
-    <div>
-      <h1>🎓 DEEP LEARN</h1>
+  <div className="deep-concept-page">
 
-      <h2>{concept.title}</h2>
+    <div className="deep-concept-header">
+
+      <div className="deep-concept-brand">
+        DEEPEX · DEEP LEARN
+      </div>
+
+      <h1>{concept.title}</h1>
+
+      <p>
+        Learn → Understand → Apply
+      </p>
+
+    </div>
+
+    <div className="deep-concept-content">
 
       {/* Understand */}
-      <section>
+
+      <section className="deep-learning-section">
+
         <h2>🧠 Understand</h2>
 
-        <h3>🇬🇧 English</h3>
-        <p>{concept.understand?.english}</p>
+        <div className="deep-language-block">
 
-        <h3>🇮🇳 தமிழ்</h3>
-        <p>{concept.understand?.tamil}</p>
+          <div className="deep-language-label">
+            🇬🇧 English
+          </div>
+
+          <p>
+            {concept.understand?.english}
+          </p>
+
+        </div>
+
+        <div className="deep-language-block">
+
+          <div className="deep-language-label">
+            🇮🇳 தமிழ்
+          </div>
+
+          <p>
+            {concept.understand?.tamil}
+          </p>
+
+        </div>
+
       </section>
+
 
       {/* See the Situation */}
-      <section>
+
+      <section className="deep-learning-section">
+
         <h2>🌍 See the Situation</h2>
 
-        <h3>🇬🇧 English</h3>
-        <p>{concept.seeTheSituation?.english}</p>
+        <div className="deep-language-block">
 
-        <h3>🇮🇳 தமிழ்</h3>
-        <p>{concept.seeTheSituation?.tamil}</p>
+          <div className="deep-language-label">
+            🇬🇧 English
+          </div>
+
+          <p>
+            {concept.seeTheSituation?.english}
+          </p>
+
+        </div>
+
+        <div className="deep-language-block">
+
+          <div className="deep-language-label">
+            🇮🇳 தமிழ்
+          </div>
+
+          <p>
+            {concept.seeTheSituation?.tamil}
+          </p>
+
+        </div>
+
       </section>
+
 
       {/* Common Mistake */}
-      <section>
+
+      <section className="deep-learning-section">
+
         <h2>❌ Common Mistake</h2>
 
-        <h3>🇬🇧 English</h3>
-        <p>{concept.commonMistake?.english}</p>
+        <div className="deep-language-block">
 
-        <h3>🇮🇳 தமிழ்</h3>
-        <p>{concept.commonMistake?.tamil}</p>
+          <div className="deep-language-label">
+            🇬🇧 English
+          </div>
+
+          <p>
+            {concept.commonMistake?.english}
+          </p>
+
+        </div>
+
+        <div className="deep-language-block">
+
+          <div className="deep-language-label">
+            🇮🇳 தமிழ்
+          </div>
+
+          <p>
+            {concept.commonMistake?.tamil}
+          </p>
+
+        </div>
+
       </section>
+
 
       {/* Better Approach */}
-      <section>
+
+      <section className="deep-learning-section">
+
         <h2>✅ Better Approach</h2>
 
-        <h3>🇬🇧 English</h3>
-        <p>{concept.betterApproach?.english}</p>
+        <div className="deep-language-block">
 
-        <h3>🇮🇳 தமிழ்</h3>
-        <p>{concept.betterApproach?.tamil}</p>
+          <div className="deep-language-label">
+            🇬🇧 English
+          </div>
+
+          <p>
+            {concept.betterApproach?.english}
+          </p>
+
+        </div>
+
+        <div className="deep-language-block">
+
+          <div className="deep-language-label">
+            🇮🇳 தமிழ்
+          </div>
+
+          <p>
+            {concept.betterApproach?.tamil}
+          </p>
+
+        </div>
+
       </section>
 
+
       {/* Useful Expressions */}
-      <section>
+
+      <section className="deep-learning-section">
+
         <h2>💬 Useful Expressions</h2>
 
         {concept.usefulExpressions?.map(
           (expression, index) => (
-            <div key={index}>
-              <p>
-                🇬🇧 <strong>{expression.english}</strong>
+
+            <div
+              className="deep-expression"
+              key={index}
+            >
+
+              <p className="deep-expression-english">
+                🇬🇧 <strong>
+                  {expression.english}
+                </strong>
               </p>
 
-              <p>
+              <p className="deep-expression-tamil">
                 🇮🇳 {expression.tamil}
               </p>
+
             </div>
+
           )
         )}
+
       </section>
+
 
       {/* Try Yourself */}
-      <section>
+
+      <section className="deep-learning-section">
+
         <h2>🎯 Try Yourself</h2>
 
-        <h3>🇬🇧 English</h3>
-        <p>{concept.tryYourself?.english}</p>
+        <div className="deep-language-block">
 
-        <h3>🇮🇳 தமிழ்</h3>
-        <p>{concept.tryYourself?.tamil}</p>
+          <div className="deep-language-label">
+            🇬🇧 English
+          </div>
+
+          <p>
+            {concept.tryYourself?.english}
+          </p>
+
+        </div>
+
+        <div className="deep-language-block">
+
+          <div className="deep-language-label">
+            🇮🇳 தமிழ்
+          </div>
+
+          <p>
+            {concept.tryYourself?.tamil}
+          </p>
+
+        </div>
+
       </section>
 
-      {/* Temporary */}
-      <button>
+
+      <button className="deep-learned-button">
         ☑️ Mark as Learned
       </button>
+
     </div>
-  );
+
+  </div>
+);
 }
 
 export default DeepLearnConcept;
