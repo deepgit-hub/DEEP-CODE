@@ -89,9 +89,9 @@ function Deep() {
 
             <div className="deep-product-features">
 
-              <span>✓ Programming Concepts</span>
-              <span>✓ Practice Questions</span>
-              <span>✓ English & Tamil</span>
+              <span>Programming Concepts</span>
+              <span>Practice Questions</span>
+              <span>English & Tamil</span>
 
             </div>
 
@@ -129,9 +129,9 @@ function Deep() {
 
             <div className="deep-product-features">
 
-              <span>✓ Communication Skills</span>
-              <span>✓ Interview Skills</span>
-              <span>✓ Professional Growth</span>
+              <span>Communication Skills</span>
+              <span>Interview Skills</span>
+              <span>Professional Growth</span>
 
             </div>
 
@@ -139,7 +139,7 @@ function Deep() {
               onClick={() => navigate("/deep-learn")}
               className="deep-product-btn"
             >
-              Start Learning →
+              Start Speaking →
             </button>
 
           </div>
