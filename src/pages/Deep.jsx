@@ -19,7 +19,7 @@ function Deep() {
 
           <h1>
             முயற்சி. நம்பிக்கை.
-            <span>  வளரு.</span>
+            <span> வீறுபெறு .</span>
           </h1>
 <br></br>
           <p>
