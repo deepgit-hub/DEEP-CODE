@@ -14,7 +14,7 @@ function MentorSupport() {
       className="mentor-btn"
       onClick={handleClick}
     >
-      💬 Mentor
+      💬 Mentor Support
     </button>
 
   );
