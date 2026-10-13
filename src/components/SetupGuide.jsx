@@ -93,7 +93,7 @@ javac -version`}
             <h2>🐍 Python Setup</h2>
 
             <ul>
-              <li>✅ Install Python 3</li>
+              <li>✅ Install Python 3 or the </li>
               <li>✅ Install VS Code</li>
               <li>✅ Install Python Extension</li>
               <li>✅ Verify installation:</li>
